@@ -10,8 +10,38 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+// NavBar Styles
 .navbar .navbar-menu
   box-shadow:none !important
+
+.navbar-brand 
+  flex: 0 1 auto
+  height: 100px
+  position: absolute             
+  left: 50%
+  transform: translateX(-50%)
+
+.navbar-menu
+  flex: 0 1 auto
+  justify-content: flex-end
+  width: 100px
+  height: 100px
+  margin-right: auto  
+
+.navbar-links-container 
+  display: flex
+
+/* Nav Bar Fixes */
+.navbar-burger 
+  height: 100px !important
+
+@media screen and (max-width: 1023px)
+  .navbar-menu.is-active
+    margin: auto
+    text-align: center
+  .navbar-links-container
+    display: block
+    width: 100%
 
 .content .taglist
   list-style: none
