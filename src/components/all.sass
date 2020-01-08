@@ -17,31 +17,25 @@ $relevel-pink: #C55B87
 $relevel-mint: #5DC4B3
 $relevel-green: #66FFD1
 
-body
-  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  p 
-    font-size: 19px
-h1 
-  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 80px !important
-  line-height: 82px
-  letter-spacing: -1%
-  font-weight: normal
-
-h3
-  line-height: 34px
-  font-size: 19px
 
 // NavBar Styles
 .navbar .navbar-menu
+  margin-top: 60px
   box-shadow:none !important
 
 .navbar-brand 
   flex: 0 1 auto
-  height: 100px
+  height: 200px
   position: absolute             
   left: 50%
+  margin-top: 4px
   transform: translateX(-50%)
+  a
+    &:hover
+      border-bottom: 0
+      margin-bottom: 2px
+  @media screen and (max-width: 1024px)
+    height: 90px
 
 .navbar-menu
   flex: 0 1 auto
@@ -49,9 +43,40 @@ h3
   width: 100px
   height: 100px
   margin-right: auto  
+  @media screen and (max-width: 1024px)
+   width: 100%
 
 .navbar-links-container 
   display: flex
+  align-items: center
+  height: 100%
+  font-size: 16px
+  a
+   display: block
+   height: fit-content
+   box-sizing: border-box
+   padding: 0
+   color: $relevel-purple-light
+   margin-right: 20px
+   &::last-of-type
+     margin-right: 0
+
+@media screen and (max-width: 1024px)
+ .navbar-links-container
+   display: flex
+   flex-direction: column
+   justify-content: center
+   align-items: center
+   background-color: #f9f9f9
+   a
+    margin-right: 0
+    padding: 20px 0 0
+    &:last-of-type
+      padding: 20px 0 20px 0
+    &:hover
+      margin-bottom: 2px
+      border-bottom: 0px
+    
 
 /* Nav Bar Fixes */
 .navbar-burger 
@@ -64,12 +89,15 @@ h3
   .navbar-links-container
     display: block
     width: 100%
+  #navMenu
+    height: 100%
+    margin-top: -8px
 
 /* Hero Section Fixes */
 .hero-modified
   display: flex
   flex-direction: row-reverse
-  margin-top: 100px
+  margin-top: 60px
 
 .hero-container
   display: flex
@@ -239,6 +267,32 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+body
+  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  p 
+    font-size: 19px
+h1 
+  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 80px !important
+  line-height: 82px
+  letter-spacing: -1%
+  font-weight: normal
+
+h3
+  line-height: 34px
+  font-size: 19px
+
+a 
+  margin-bottom: 2px
+  &:hover
+    margin-bottom: 0
+    color: $relevel-purple-light !important
+    box-sizing: border-box
+    border-bottom: 2px dotted $relevel-purple-light
+  &:active
+    color: $relevel-purple-light
+    box-sizing: border-box
+    border-bottom: 2px dotted $relevel-purple-light
 
 // responsiveness
 +tablet-only
