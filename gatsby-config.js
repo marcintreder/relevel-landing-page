@@ -23,6 +23,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-copy-files",
+      options: {
+          source: `${__dirname}/static/fonts/`,
+          destination: '/'
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/img`,

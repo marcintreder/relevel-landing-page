@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Thrive despite all the sitting.
+image: /img/main-image.png
+heading: Thrive despite all the sitting.
+subheading: Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
 mainpitch:
   title: Why Kaldi
   description: >

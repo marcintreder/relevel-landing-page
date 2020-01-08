@@ -10,6 +10,28 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+// Relevel Branding
+$relevel-purple-light: #5252A5
+$relevel-purple-dark: #302D5B
+$relevel-pink: #C55B87
+$relevel-mint: #5DC4B3
+$relevel-green: #66FFD1
+
+body
+  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  p 
+    font-size: 19px
+h1 
+  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 80px !important
+  line-height: 82px
+  letter-spacing: -1%
+  font-weight: normal
+
+h3
+  line-height: 34px
+  font-size: 19px
+
 // NavBar Styles
 .navbar .navbar-menu
   box-shadow:none !important
@@ -42,6 +64,60 @@ $black: #2b2523
   .navbar-links-container
     display: block
     width: 100%
+
+/* Hero Section Fixes */
+.hero-modified
+  display: flex
+  flex-direction: row-reverse
+  margin-top: 100px
+
+.hero-container
+  display: flex
+  flex-direction: row-reverse
+
+.hero-image
+  width: 500px
+  height: 500px
+  background-repeat: no-repeat
+  background-size: contain;
+
+.hero-h1
+  color: $relevel-purple-light
+  max-width: 600px
+  &::before
+    position: absolute
+    z-index: -20
+    right: 0
+    left: -1px
+    top: 1px
+    height: 57px
+    width: 66px
+    content: ''
+    background: url("/img/mint-dots-small.svg")
+
+.hero-h3
+  max-width: 555px
+  margin: 30px 0 40px 0
+  color: $relevel-purple-dark
+
+.hero-form
+  display: flex
+  input
+    margin-right: 17px
+
+/* Form Elements */
+
+.input-signup
+  height: 57px
+  width: 352px
+  box-sizing: border-box
+  padding: 4px 24px 0px 24px
+  border: 1px solid $relevel-purple-light
+  border-radius: 3px
+  &::placeholder
+    font-size: 19px
+    color: $relevel-purple-light
+
 
 .content .taglist
   list-style: none
@@ -83,20 +159,28 @@ $black: #2b2523
 
 .btn
     display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
+    padding: 12px 24px 12px
+    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    font-size: 19px
+    line-height: 1.8
+    background: linear-gradient(75.65deg, #5252A5 4.74%, #C55B87 131.15%)
+    border-width: 0
     border-radius: .25rem
     text-decoration: none
-    font-weight: 700
-    color: #CC3700
+    color: #ffffff
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    z-index: 20
     -webkit-transition: all .15s ease
     transition: all .15s ease
+    &::before
+      position: absolute
+      right: 0
+      left: 520px
+      top: -150px
+      height: 57px
+      width: 66px
+      content: ''
+      background: url("/img/pink-dots-small.svg")
 
 .margin-top-0
   margin-top: 0 !important
