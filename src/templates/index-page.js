@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   prosection,
+  comingsoon,
   description,
   intro
 }) => (
@@ -28,46 +29,73 @@ export const IndexPageTemplate = ({
             })`
           }}
         ></div>
-        <div
-          className="column hero-text"
-        >
-          <h1 className="hero-h1">
-            {title}
-          </h1>
-          <h3 className="hero-h3">
-            {subheading}
-          </h3>
+        <div className="column hero-text">
+          <h1 className="hero-h1">{title}</h1>
+          <h3 className="hero-h3">{subheading}</h3>
           <form className="hero-form">
-            <input className="input-signup" type="text" placeholder="Your email address"/>
+            <input
+              className="input-signup"
+              type="text"
+              placeholder="Your email address"
+            />
             <input className="btn" type="submit" value="Get early access" />
           </form>
         </div>
       </div>
     </div>
     <section className="section">
-        <div className="container prosection-container">
+      <div className="container prosection-container">
         <div
           className="prosection-image"
           style={{
             backgroundImage: `url(${
-              !!prosection.image.childImageSharp ? prosection.image.childImageSharp.fluid.src : prosection.image
+              !!prosection.image.childImageSharp
+                ? prosection.image.childImageSharp.fluid.src
+                : prosection.image
             })`,
             backgroundSize: "contain",
-            backgroundRepeat: "no-repeat" 
-          }
-        }
+            backgroundRepeat: "no-repeat"
+          }}
         ></div>
-          <h2 className="prosection-header"> 
-          {prosection.title + ' '} 
-            <TextLoop 
-              interval={6000}
-              delay={2000}
-              mask
-              > 
-              {prosection.painAddition.map((item, i) => <span className="prosection-paindadd" key={`pain` + i}>{item.pain}.</span>)}
-            </TextLoop>
-          </h2>
+        <h2 className="prosection-header">
+          {prosection.title + " "}
+          <TextLoop interval={6000} delay={2000} mask>
+            {prosection.painAddition.map((item, i) => (
+              <span className="prosection-paindadd" key={`pain` + i}>
+                {item.pain}.
+              </span>
+            ))}
+          </TextLoop>
+        </h2>
+      </div>
+    </section>
+    <section className="section">
+      <div className="container comingsoon-container">
+        <div className="comingsoon-text-container">
+          <h2 className="comingsoon-header">{comingsoon.title}</h2>
+          <div className="comingsoon-description">
+            {comingsoon.description}
+          </div>
+          <form className="hero-form">
+            <input
+              className="input-signup"
+              type="text"
+              placeholder="Your email address"
+            />
+            <input className="btn" type="submit" value="Get early access" />
+          </form>
         </div>
+        <div
+          className="comingsoon-image"
+          style={{
+            backgroundImage: `url(${
+              !!comingsoon.image.childImageSharp ? comingsoon.image.childImageSharp.fluid.src : comingsoon.image
+            })`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat"
+          }}
+        ></div>
+      </div>
     </section>
     <section className="section section--gradient">
       <div className="container">
@@ -126,6 +154,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   prosection: PropTypes.object,
+  comingsoon: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
@@ -134,7 +163,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter)
+  console.log(frontmatter);
   return (
     <Layout>
       <IndexPageTemplate
@@ -144,6 +173,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         prosection={frontmatter.prosection}
+        comingsoon={frontmatter.comingsoon}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -178,6 +208,17 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+        }
+        comingsoon {
+          title
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         prosection {
           title

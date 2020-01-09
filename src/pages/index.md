@@ -4,6 +4,10 @@ title: Thrive despite all the sitting.
 image: /img/main-image.png
 heading: Thrive despite all the sitting.
 subheading: Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
+comingsoon:
+  image: /img/relevel-app-image.png
+  title: Coming soon to iOS & Android
+  description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
 prosection:
   image: /img/professional-training.png
   title: Professional daily training programs will help you eliminate
