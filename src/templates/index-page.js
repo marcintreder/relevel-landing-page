@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import TextLoop from "react-text-loop";
 
 export const IndexPageTemplate = ({
   image,
@@ -12,6 +13,7 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   mainpitch,
+  prosection,
   description,
   intro
 }) => (
@@ -42,6 +44,31 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
+    <section className="section">
+        <div className="container prosection-container">
+        <div
+          className="prosection-image"
+          style={{
+            backgroundImage: `url(${
+              !!prosection.image.childImageSharp ? prosection.image.childImageSharp.fluid.src : prosection.image
+            })`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat" 
+          }
+        }
+        ></div>
+          <h2 className="prosection-header"> 
+          {prosection.title + ' '} 
+            <TextLoop 
+              interval={6000}
+              delay={2000}
+              mask
+              > 
+              {prosection.painAddition.map((item, i) => <span className="prosection-paindadd" key={`pain` + i}>{item.pain}.</span>)}
+            </TextLoop>
+          </h2>
+        </div>
+    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -98,6 +125,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
+  prosection: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
@@ -106,7 +134,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-
+  console.log(frontmatter)
   return (
     <Layout>
       <IndexPageTemplate
@@ -115,6 +143,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
+        prosection={frontmatter.prosection}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -149,6 +178,19 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+        }
+        prosection {
+          title
+          painAddition {
+            pain
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         description
         intro {
