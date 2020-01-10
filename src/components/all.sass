@@ -330,6 +330,13 @@ $relevel-green: #66FFD1
     height: 500px
     width: 350px
 
+@media screen and (max-width: 1215px)
+  .comingsoon-text-container
+    .hero-form
+      &::before
+        display: none
+
+
 @media screen and (max-width: 990px)
   .comingsoon-container
     width: 80% !important
@@ -358,6 +365,124 @@ $relevel-green: #66FFD1
     display: none
   .comingsoon-text-container
     width: 100%
+
+/* Everything You Need Component */
+
+.everything-container 
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.everything-header
+  margin-bottom: 60px
+  color: $relevel-purple-dark
+  text-align: center
+  &::before
+    position: absolute
+    left: 282px
+    top: -10px
+    height: 57px
+    width: 66px
+    content: ''
+    background: url("/img/pink-dots-small.svg")
+    z-index: -20
+
+.everything-list
+  display: flex
+  flex-direction: column
+  justify-content: center
+  margin: 0 auto;
+  width: fit-content
+
+.everything-list-item
+  display: flex
+  position: relative
+  flex-direction: row
+  width: fit-content 
+  &:nth-child(1)  
+    margin-bottom: -15px
+    .everything-list-image
+      width: 360px
+      height: 360px
+      margin-left: -15px
+  &:nth-child(even)
+    left: 20%
+
+.everything-list-image
+  display: block
+  position: relative
+  width: 345px
+  height: 345px
+
+.everything-header-3
+  position: absolute
+  top: 43%
+  left: 0
+  right: 0
+  margin: auto
+  max-width: 280px
+  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  font-size: 33px
+  color: white
+  text-align: center
+  line-height: 36px 
+
+.everything-list-description
+  max-width: 360px
+  margin: 20px 0 0 20px
+  color: $relevel-purple-dark
+  line-height: 30px
+
+/* Everything You Need Component Responsive Fixes */
+
+@media screen and (max-width: 1408px)
+  .everything-header
+    &::before
+      left: 235px
+      top: -10px
+
+@media screen and (max-width: 1281px)
+  .everything-header
+    &::before
+      left: 295px
+      top: -11px
+
+@media screen and (max-width: 1215px)
+  .everything-header
+    &::before
+      display: none
+
+@media screen and (max-width: 1100px)
+  .everything-list-item
+    &:nth-child(even)
+      left: 0
+
+@media screen and (max-width: 990px)
+  .everything-list
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 100%
+  .everything-list-item
+    flex-direction: column
+    justify-content: space-between
+    margin: 0 auto 60px auto
+    &:nth-child(1)  
+      margin-bottom: auto
+      .everything-list-image
+        margin-left: 0px
+        left: -15px
+      .everything-list-description
+        margin-top: 5px
+
+  .everything-list-description
+    margin-left: 0
+
+@media screen and (max-width: 768px)
+  .everything-list-item
+    margin-bottom: 60px
+    &:nth-child(1)  
+      margin-bottom: 60px
 
 
 /* Form Elements */

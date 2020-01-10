@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   prosection,
   comingsoon,
+  everything,
   description,
   intro
 }) => (
@@ -73,9 +74,7 @@ export const IndexPageTemplate = ({
       <div className="container comingsoon-container">
         <div className="comingsoon-text-container">
           <h2 className="comingsoon-header">{comingsoon.title}</h2>
-          <div className="comingsoon-description">
-            {comingsoon.description}
-          </div>
+          <div className="comingsoon-description">{comingsoon.description}</div>
           <form className="hero-form">
             <input
               className="input-signup"
@@ -89,12 +88,36 @@ export const IndexPageTemplate = ({
           className="comingsoon-image"
           style={{
             backgroundImage: `url(${
-              !!comingsoon.image.childImageSharp ? comingsoon.image.childImageSharp.fluid.src : comingsoon.image
+              !!comingsoon.image.childImageSharp
+                ? comingsoon.image.childImageSharp.fluid.src
+                : comingsoon.image
             })`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat"
           }}
         ></div>
+      </div>
+    </section>
+    <section className="section">
+      <div className="container everything-container">
+        <h2 className="everything-header">{everything.title}</h2>
+        <ul className="everything-list">
+        {everything.list.map((item,i) => <li className="everything-list-item" key={"item" + i}>
+            <div className="everything-list-image" key={"image" + i} id={"image" + i} style={{
+            backgroundImage: `url(${
+              !!item.feature.image.childImageSharp
+                ? item.feature.image.childImageSharp.fluid.src
+                : item.feature.image
+            })`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat"
+          }}>
+            <h3 className="everything-header-3" key={"header" + i}>{item.feature.title}</h3>
+          </div>
+            <div className="everything-list-description" key={"desc" + i}>{item.feature.description}</div>
+          </li>)}
+          
+        </ul>
       </div>
     </section>
     <section className="section section--gradient">
@@ -155,6 +178,7 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   prosection: PropTypes.object,
   comingsoon: PropTypes.object,
+  everything: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
@@ -174,6 +198,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         prosection={frontmatter.prosection}
         comingsoon={frontmatter.comingsoon}
+        everything={frontmatter.everything}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -216,6 +241,22 @@ export const pageQuery = graphql`
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
                 ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        everything {
+          title
+          list {
+            feature {
+              title
+              description
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
               }
             }
           }

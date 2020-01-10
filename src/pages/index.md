@@ -11,13 +11,28 @@ comingsoon:
 prosection:
   image: /img/professional-training.png
   title: Professional daily training programs will help you eliminate
-  painAddition: 
+  painAddition:
     - pain: neck pain
     - pain: back pain
     - pain: hip pain
     - pain: wrist pain
     - pain: shoulder pain
     - pain: butt pain
+everything:
+  title: Everything You Need.
+  list:
+    - feature:
+        title: Personalized Trainings
+        description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
+        image: /img/personalized-trainings.png
+    - feature:
+        title: Dedicated Programs
+        description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
+        image: /img/dedicated-programs.png
+    - feature:
+        title: Behind the Desk Exercises
+        description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
+        image: /img/behind-the-desk.png
 mainpitch:
   title: Why Kaldi
   description: >
