@@ -5,9 +5,10 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
-import TextLoop from "react-text-loop";
 import Hero from "../components/Hero/Hero";
 import PromoLooper from "../components/PromoLooper/PromoLooper";
+import ComingSoon from "../components/ComingSoon/ComingSoon";
+
 
 export const IndexPageTemplate = ({
   image,
@@ -24,34 +25,7 @@ export const IndexPageTemplate = ({
   <div>
     <Hero image={image} title={title} subheading={subheading} />
     <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
-    <section className="section">
-      <div className="container comingsoon-container">
-        <div className="comingsoon-text-container">
-          <h2 className="comingsoon-header">{comingsoon.title}</h2>
-          <div className="comingsoon-description">{comingsoon.description}</div>
-          <form className="hero-form">
-            <input
-              className="input-signup"
-              type="text"
-              placeholder="Your email address"
-            />
-            <input className="btn" type="submit" value="Get early access" />
-          </form>
-        </div>
-        <div
-          className="comingsoon-image"
-          style={{
-            backgroundImage: `url(${
-              !!comingsoon.image.childImageSharp
-                ? comingsoon.image.childImageSharp.fluid.src
-                : comingsoon.image
-            })`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat"
-          }}
-        ></div>
-      </div>
-    </section>
+    <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
     <section className="section">
       <div className="container everything-container">
         <h2 className="everything-header">{everything.title}</h2>

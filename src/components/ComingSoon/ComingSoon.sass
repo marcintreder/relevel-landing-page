@@ -1,0 +1,79 @@
+/* ComingSoon Component Styles */
+
+.comingsoon-container
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  margin-top: 120px !important
+
+.comingsoon-text-container
+  display: flex
+  flex-direction: column
+  width: 50% 
+  .hero-form
+    &::before
+      top: 324px
+
+.comingsoon-header
+  font-size: 80px !important
+  line-height: 82px
+  color: $relevel-purple-dark
+  letter-spacing: -1%
+
+.comingsoon-description
+  width: 90%
+  margin: 30px 0
+  color: $relevel-purple-dark
+  font-size: 16px
+  line-height: 28px
+
+.comingsoon-image
+  display: block
+  height: 600px
+  width: 450px
+
+/* ComingSoon Component Responsive Fixes */
+
+@media screen and (max-width: 1280px)
+  .comingsoon-header 
+    font-size: 70px !important
+    line-height: 72px
+  .comingsoon-image
+    height: 500px
+    width: 350px
+
+@media screen and (max-width: 1215px)
+  .comingsoon-text-container
+    .hero-form
+      &::before
+        display: none
+
+
+@media screen and (max-width: 990px)
+  .comingsoon-container
+    width: 80% !important
+    margin-top: -40px !important
+    .hero-form
+      display: flex
+      flex-direction: column
+      width: 90%
+      .input-signup
+        width: 100%
+        margin-bottom: 10px
+        margin-right: 0
+      .btn
+        margin-right: 0
+  .comingsoon-header 
+    font-size: 50px !important
+    line-height: 52px
+
+@media screen and (max-width: 830px)
+  .comingsoon-container
+    width: 80% !important
+    margin-top: -80px !important
+  .comingsoon-header
+    width: 90%
+  .comingsoon-image
+    display: none
+  .comingsoon-text-container
+    width: 100%
