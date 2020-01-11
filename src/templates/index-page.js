@@ -8,6 +8,7 @@ import BlogRoll from "../components/BlogRoll";
 import Hero from "../components/Hero/Hero";
 import PromoLooper from "../components/PromoLooper/PromoLooper";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
+import PromoSteps from "../components/PromoSteps/PromoSteps";
 
 
 export const IndexPageTemplate = ({
@@ -26,28 +27,7 @@ export const IndexPageTemplate = ({
     <Hero image={image} title={title} subheading={subheading} />
     <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
     <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
-    <section className="section">
-      <div className="container everything-container">
-        <h2 className="everything-header">{everything.title}</h2>
-        <ul className="everything-list">
-        {everything.list.map((item,i) => <li className="everything-list-item" key={"item" + i}>
-            <div className="everything-list-image" key={"image" + i} id={"image" + i} style={{
-            backgroundImage: `url(${
-              !!item.feature.image.childImageSharp
-                ? item.feature.image.childImageSharp.fluid.src
-                : item.feature.image
-            })`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat"
-          }}>
-            <h3 className="everything-header-3" key={"header" + i}>{item.feature.title}</h3>
-          </div>
-            <div className="everything-list-description" key={"desc" + i}>{item.feature.description}</div>
-          </li>)}
-          
-        </ul>
-      </div>
-    </section>
+    <PromoSteps list={everything.list} title={everything.title} />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
