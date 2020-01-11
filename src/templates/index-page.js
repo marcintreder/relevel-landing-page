@@ -10,6 +10,7 @@ import PromoLooper from "../components/PromoLooper/PromoLooper";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
 import PromoSteps from "../components/PromoSteps/PromoSteps";
 import PromoHorizontal from "../components/PromoHorizontal/PromoHorizontal";
+import CardGrid from "../components/CardGrid/CardGrid";
 
 export const IndexPageTemplate = ({
   image,
@@ -21,6 +22,7 @@ export const IndexPageTemplate = ({
   comingsoon,
   everything,
   createdBy,
+  newLifeGrid,
   description,
   intro
 }) => (
@@ -30,6 +32,7 @@ export const IndexPageTemplate = ({
     <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
     <PromoSteps list={everything.list} title={everything.title} />
     <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image}/>
+    <CardGrid title={newLifeGrid.title} description={newLifeGrid.description} items={newLifeGrid.list} />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -90,6 +93,7 @@ IndexPageTemplate.propTypes = {
   comingsoon: PropTypes.object,
   everything: PropTypes.object,
   createdBy: PropTypes.object,
+  newLifeGrid: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
@@ -111,6 +115,7 @@ const IndexPage = ({ data }) => {
         comingsoon={frontmatter.comingsoon}
         everything={frontmatter.everything}
         createdBy={frontmatter.createdBy}
+        newLifeGrid={frontmatter.newLifeGrid}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -193,6 +198,23 @@ export const pageQuery = graphql`
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
                 ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        newLifeGrid {
+          title
+          description
+          list {
+            item {
+              title
+              description
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
               }
             }
           }
