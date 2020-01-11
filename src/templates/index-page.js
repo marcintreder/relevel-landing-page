@@ -7,6 +7,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import TextLoop from "react-text-loop";
 import Hero from "../components/Hero/Hero";
+import PromoLooper from "../components/PromoLooper/PromoLooper";
 
 export const IndexPageTemplate = ({
   image,
@@ -22,32 +23,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Hero image={image} title={title} subheading={subheading} />
-    <section className="section">
-      <div className="container prosection-container">
-        <div
-          className="prosection-image"
-          style={{
-            backgroundImage: `url(${
-              !!prosection.image.childImageSharp
-                ? prosection.image.childImageSharp.fluid.src
-                : prosection.image
-            })`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat"
-          }}
-        ></div>
-        <h2 className="prosection-header">
-          {prosection.title + " "}
-          <TextLoop interval={6000} delay={2000} mask>
-            {prosection.painAddition.map((item, i) => (
-              <span className="prosection-paindadd" key={`pain` + i}>
-                {item.pain}.
-              </span>
-            ))}
-          </TextLoop>
-        </h2>
-      </div>
-    </section>
+    <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
     <section className="section">
       <div className="container comingsoon-container">
         <div className="comingsoon-text-container">
