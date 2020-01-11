@@ -1,0 +1,50 @@
+.promohorizontal-container
+    display: flex
+    flex-direction: row
+
+.promohorizontal-text-container
+    display: flex
+    flex-direction: column
+    width: 50%
+
+.promohorizontal-header
+    margin-bottom: 20px
+    color: $relevel-purple-light
+    font-size: 80px
+    line-height: 78px
+
+.promohorizontal-text
+    display: block
+    color: $relevel-purple-dark
+    line-height: 32px
+
+.promohorizontal-image
+  display: block
+  height: 360px
+  width: 720px
+  margin-right: 40px
+  margin-left: -140px
+
+/* PromoHorizontal Responsive Fices */
+
+@media screen and (max-width: 1280px)
+    .promohorizontal-header
+        line-height: 62px
+    .promohorizontal-image
+        margin-left: -200px
+
+@media screen and (max-width: 990px)
+     .promohorizontal-header
+        line-height: 46px
+
+@media screen and (max-width: 760px)
+    .promohorizontal-image
+        margin-left: -240px
+
+@media screen and (max-width: 580px)
+    .promohorizontal-image
+        display: none
+    .promohorizontal-text-container
+        width: 345px
+        margin-left: auto
+        margin-right: auto

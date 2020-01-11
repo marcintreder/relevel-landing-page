@@ -9,7 +9,7 @@ import Hero from "../components/Hero/Hero";
 import PromoLooper from "../components/PromoLooper/PromoLooper";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
 import PromoSteps from "../components/PromoSteps/PromoSteps";
-
+import PromoHorizontal from "../components/PromoHorizontal/PromoHorizontal";
 
 export const IndexPageTemplate = ({
   image,
@@ -20,6 +20,7 @@ export const IndexPageTemplate = ({
   prosection,
   comingsoon,
   everything,
+  createdBy,
   description,
   intro
 }) => (
@@ -28,6 +29,7 @@ export const IndexPageTemplate = ({
     <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
     <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
     <PromoSteps list={everything.list} title={everything.title} />
+    <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image}/>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -87,6 +89,7 @@ IndexPageTemplate.propTypes = {
   prosection: PropTypes.object,
   comingsoon: PropTypes.object,
   everything: PropTypes.object,
+  createdBy: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
@@ -107,6 +110,7 @@ const IndexPage = ({ data }) => {
         prosection={frontmatter.prosection}
         comingsoon={frontmatter.comingsoon}
         everything={frontmatter.everything}
+        createdBy={frontmatter.createdBy}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -174,6 +178,17 @@ export const pageQuery = graphql`
           painAddition {
             pain
           }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        createdBy {
+          title
+          description
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {

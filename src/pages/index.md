@@ -33,6 +33,10 @@ everything:
         title: Behind the Desk Exercises
         description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
         image: /img/behind-the-desk.png
+createdBy:
+  title: Created by Professionals
+  description: Emilia Wysocka-Treder, founder and CEO at Relevel, is a certified Pilates instructor with nearly a decade of experience. She works as a personal trainer with executives from the most successful companies in the world.
+  image: /img/professional-emilia.png
 mainpitch:
   title: Why Kaldi
   description: >
