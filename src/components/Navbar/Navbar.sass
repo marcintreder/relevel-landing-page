@@ -1,0 +1,74 @@
+// NavBar Styles
+.navbar .navbar-menu
+  margin-top: 60px
+  box-shadow:none !important
+
+.navbar-brand 
+  flex: 0 1 auto
+  height: 200px
+  position: absolute             
+  left: 50%
+  margin-top: 4px
+  transform: translateX(-50%)
+  a
+    &:hover
+      border-bottom: 0
+      margin-bottom: 2px
+  @media screen and (max-width: 1023px)
+    height: 90px
+
+.navbar-menu
+  flex: 0 1 auto
+  justify-content: flex-end
+  width: 100px
+  height: 100px
+  margin-right: auto  
+  @media screen and (max-width: 1023px)
+   width: 100%
+
+.navbar-links-container 
+  display: flex
+  align-items: center
+  height: 100%
+  font-size: 16px
+  a
+   display: block
+   height: fit-content
+   box-sizing: border-box
+   padding: 0
+   color: $relevel-purple-light
+   margin-right: 20px
+   &::last-of-type
+     margin-right: 0
+
+@media screen and (max-width: 1023px)
+ .navbar-links-container
+   display: flex
+   flex-direction: column
+   justify-content: center
+   align-items: center
+   background-color: #f9f9f9
+   a
+    margin-right: 0
+    padding: 20px 0 0
+    &:last-of-type
+      padding: 20px 0 20px 0
+    &:hover
+      margin-bottom: 2px
+      border-bottom: 0px
+    
+
+/* Nav Bar Fixes */
+.navbar-burger 
+  height: 100px !important
+
+@media screen and (max-width: 1023px)
+  .navbar-menu.is-active
+    margin: auto
+    text-align: center
+  .navbar-links-container
+    display: block
+    width: 100%
+  #navMenu
+    height: 100%
+    margin-top: -8px
