@@ -61,6 +61,23 @@ newLifeGrid:
         title: Sciatica
         description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
         image: /img/sciatica.png
+footer:
+  latest:
+    - article: 
+      title: What's causing Sciatica and how can you help yourself
+      url: https://getrelevel.com
+    - article: 
+      title: 4 stretches to prevent and ease the pain caused by carpal tunnel 
+      url: https://getrelevel.com
+    - article: 
+      title: 5 Easy stretches to Help Relieve Sciatica and Lower Back Pain In 15 Minutes
+      url: https://getrelevel.com
+    - article: 
+      title: How to use a tennis ball for lower back pain relief
+      url: https://getrelevel.com
+    - article: 
+      title: Keep your disc in place. 15 minute exercise routine for herniated disc
+      url: https://getrelevel.com
 mainpitch:
   title: Why Kaldi
   description: >
