@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import TextLoop from "react-text-loop";
+import Hero from "../components/Hero/Hero";
 
 export const IndexPageTemplate = ({
   image,
@@ -20,30 +21,7 @@ export const IndexPageTemplate = ({
   intro
 }) => (
   <div>
-    <div className="hero-modified">
-      <div className="container hero-container">
-        <div
-          className="hero-image"
-          style={{
-            backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`
-          }}
-        ></div>
-        <div className="column hero-text">
-          <h1 className="hero-h1">{title}</h1>
-          <h3 className="hero-h3">{subheading}</h3>
-          <form className="hero-form">
-            <input
-              className="input-signup"
-              type="text"
-              placeholder="Your email address"
-            />
-            <input className="btn" type="submit" value="Get early access" />
-          </form>
-        </div>
-      </div>
-    </div>
+    <Hero image={image} title={title} subheading={subheading} />
     <section className="section">
       <div className="container prosection-container">
         <div

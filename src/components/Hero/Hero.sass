@@ -1,0 +1,158 @@
+/* Hero Section Fixes */
+.hero-modified
+  display: flex
+  flex-direction: row-reverse
+  margin-top: 60px
+
+.hero-text
+  padding-left: 0 !important
+
+.hero-container
+  display: flex
+  flex-direction: row-reverse
+
+.hero-image
+  width: 450px
+  height: 450px
+  margin-top: 20px
+  background-repeat: no-repeat
+  background-size: contain;
+
+.hero-h1
+  color: $relevel-purple-light
+  max-width: 600px
+  &::before
+    position: absolute
+    z-index: -20
+    right: 0
+    left: -17px
+    top: 1px
+    height: 57px
+    width: 66px
+    content: ''
+    background: url("/img/mint-dots-small.svg")
+
+.hero-h3
+  max-width: 555px
+  margin: 30px 0
+  color: $relevel-purple-dark
+
+.hero-form
+  display: flex
+  &::before
+    position: absolute
+    right: 0
+    left: 488px
+    top: 360px
+    height: 57px
+    width: 66px
+    content: ''
+    background: url("/img/pink-dots-small.svg")
+  input
+    margin-right: 20px
+    
+/* Hero Responsive Fixes */
+
+@media screen and (max-width: 1280px)
+  .hero-image
+    width: 390px
+    height: 390px
+    margin-top: 20px
+  .hero-h1
+    max-width: 540px
+  .hero-h3
+    max-width: 500px
+  .hero-form
+    &::before
+      position: absolute
+      right: 0
+      left: 490px
+      top: 344px
+      height: 57px
+      width: 66px
+      content: ''
+      background: url("/img/pink-dots-small.svg")
+
+@media screen and (max-width: 1023px)
+  .hero-container
+    padding: 0 80px
+  .hero-image
+    width: 345px
+    height: 345px
+    margin-top: 20px
+  .hero-h1
+    max-width: 100%
+    &::before
+      left: 64px
+  .hero-h3
+    max-width: 100%
+  .hero-text
+    padding-right: 40px !important
+  .hero-container
+    .input-signup
+      width: 260px
+      padding-top: 0
+      font-size: 16px
+      &::placeholder
+        font-size: 16px
+  .hero-form
+    &::before
+      position: absolute
+      right: 0
+      left: 475px
+      top: 344px
+      height: 57px
+      width: 66px
+      content: ''
+      background: url("/img/pink-dots-small.svg")
+
+@media screen and (max-width: 990px)
+  .hero-modified
+    margin-top: 10px
+  .hero-container
+    padding: 0 80px
+  .hero-text
+    display: flex !important
+    flex-direction: column
+    align-items: center
+    padding-right: 0 !important
+  .hero-h1
+    &::before
+      content: ''
+      background: none
+  .hero-h3
+    width: 600px
+  .hero-image
+    display: none
+  .hero-container
+    .input-signup
+      width: 260px
+      padding-top: 0
+      font-size: 16px
+      &::placeholder
+        font-size: 16px
+  .hero-form
+    &::before
+      content: ''
+      background: none
+
+@media screen and (max-width: 770px)
+  .hero-container
+    padding-right: 0
+    padding-left: 0
+  .hero-h1
+    width: 70%
+  .hero-h3
+    width: 70%
+
+@media screen and (max-width: 640px)
+  .hero-form
+    flex-direction: column
+    width: 70%
+    .btn
+      margin-right: 0
+      width: 100%
+    .input-signup
+      width: 100%
+      margin-bottom: 10px
+      margin-right: 0
