@@ -1,0 +1,24 @@
+.input-transparent 
+    background: none
+    border-radius: 3px
+    border: 1px solid
+    outline: none
+    box-shadow: none
+    padding: 14px 20px
+    font-size: 16px
+    &::placeholder
+        font-size: 16px
+    &:focus::placeholder
+        opacity: 0
+
+.input-transparent__white
+    border-color: white
+    color: white
+    &::placeholder
+        color: white
+
+.input-transparent__purple
+    color: $relevel-purple-light
+    border-color: $relevel-purple-light
+    &::placeholder
+        color: $relevel-purple-light
