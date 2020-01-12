@@ -10,8 +10,6 @@ const PromoHorizontal = ({ image, title, text }) => (
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat"
         }}
       ></div>
       <div className="promohorizontal-text-container">
