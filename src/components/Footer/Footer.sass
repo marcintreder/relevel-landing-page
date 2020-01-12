@@ -14,7 +14,7 @@ footer.footer
   flex: 2
 
 .footer-what-container
-  flex: 1
+  flex: 1.1
 
 .footer-header
   margin-bottom: 30px !important
@@ -59,13 +59,14 @@ footer.footer
   &::before
     position: absolute
     right: -16px
-    top: 220px
+    top: 195px
     height: 57px
     width: 66px
     background: url("/img/pink-dots-small.svg") 
     content: ''
   input
     margin-right: 20px
+    width: 253px
 
 @media screen and (max-width: 1408px)
   .footer-latest-container
@@ -83,7 +84,7 @@ footer.footer
     flex: 1.2
   .footer-form
     &::before
-      right: 71px
+      right: 45px
       top: 196px
 
 @media screen and (max-width: 1024px)
@@ -106,6 +107,8 @@ footer.footer
   .footer-form
     flex-direction: column
     input
+      width: 100%
+      min-width: 100%
       margin-right: 0
       margin-bottom: 20px
   .footer-what-description
