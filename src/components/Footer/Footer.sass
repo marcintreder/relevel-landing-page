@@ -32,6 +32,8 @@ footer.footer
 .footer-latest-item_link
   color: white !important
   font-size: 16px
+  &:hover
+    text-decoration: underline
   &::visited
     color: white !important
   &::active
@@ -50,3 +52,63 @@ footer.footer
   display: block
   margin: 15px auto 10px
   color: white
+
+.footer-form
+  display: flex
+  justify-content: space-between
+  &::before
+    position: absolute
+    right: -16px
+    top: 220px
+    height: 57px
+    width: 66px
+    background: url("/img/pink-dots-small.svg") 
+    content: ''
+  input
+    margin-right: 20px
+
+@media screen and (max-width: 1408px)
+  .footer-latest-container
+    flex: 1
+  .footer-form
+    justify-content: flex-start
+    &::before
+      right: 143px
+      top: 172px
+
+@media screen and (max-width: 1215px)
+  .footer-latest-container
+    margin-right: 40px
+  .footer-what-container
+    flex: 1.2
+  .footer-form
+    &::before
+      right: 71px
+      top: 196px
+
+@media screen and (max-width: 1024px)
+  .footer-container
+    max-width: 90% !important
+  .footer-form
+    &::before
+      display: none
+
+@media screen and (max-width: 1024px)
+  .footer-container
+    flex-direction: column
+    max-width: 70% !important
+    margin: 0 auto
+  .footer-latest-container
+    margin-bottom: 80px
+    margin-right: 0
+  
+@media screen and (max-width: 595px)
+  .footer-form
+    flex-direction: column
+    input
+      margin-right: 0
+      margin-bottom: 20px
+  .footer-what-description
+    margin-bottom: 20px
+  .footer-latest-container
+    margin-bottom: 40px

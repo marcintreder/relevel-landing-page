@@ -1,0 +1,30 @@
+.button-primary
+    display: inline-block
+    padding: 14px 24px 12px
+    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    font-size: 16px
+    border-width: 0
+    border-radius: .25rem
+    text-decoration: none
+    color: #ffffff
+    text-align: center
+    z-index: 20
+
+.button-primary__purple
+    background: linear-gradient(75.65deg, #5252A5 4.74%, #C55B87 131.15%)
+
+.button-primary__white
+    background: white
+    color: black
+    &:hover
+        background: $relevel-green
+
+.button-primary__dots
+    &::before
+        position: relative
+        left: 50px
+        top: 20px
+        height: 57px
+        width: 66px
+        content: url("/img/pink-dots-small.svg") 
+        background: url("/img/pink-dots-small.svg")   

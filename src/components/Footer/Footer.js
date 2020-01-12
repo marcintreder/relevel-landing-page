@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import Input from "../Input/Input"
+import Button from "../Button/Button"
 import logo from "../../img/logo_white.svg";
 
 const Footer = class extends React.Component {
@@ -41,9 +42,9 @@ const Footer = class extends React.Component {
                 easy daily routines and fun exercises, will take the away the
                 aches caused by sitting in front of the computer too much.
               </div>
-              <form>
+              <form className="footer-form">
                 <Input type="text" placeholder="Your email address" kind="white" />
-                <input type="submit" value="Get early access" />
+                <Button label="Get early access" kind="white" dots />
               </form>
             </div>
           </div>
