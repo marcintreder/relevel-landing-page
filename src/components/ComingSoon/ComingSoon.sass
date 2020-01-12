@@ -4,7 +4,7 @@
   display: flex
   flex-direction: row
   justify-content: space-between
-  margin-top: 60px !important
+  margin-top: 20px !important
 
 .comingsoon-text-container
   display: flex
@@ -32,48 +32,102 @@
   height: 600px
   width: 450px
 
+.comingsoon-form
+  display: flex
+  &::before
+    position: absolute
+    right: 0
+    left: 436px
+    top: 315px
+    height: 57px
+    width: 66px
+    content: ''
+    background: url("/img/pink-dots-small.svg")
+  input
+    min-width: 300px
+    margin-right: 20px
+
 /* ComingSoon Component Responsive Fixes */
 
+@media screen and (max-width: 1408px)
+  .comingsoon-form
+    &::before
+      top: 422px
+
 @media screen and (max-width: 1280px)
+  .comingsoon-container
+    justify-content: center
   .comingsoon-header 
     font-size: 70px !important
     line-height: 72px
   .comingsoon-image
     height: 500px
     width: 350px
+  .comingsoon-form
+    &::before
+      top: 322px
+      left: 550px
 
 @media screen and (max-width: 1215px)
+  .comingsoon-container
+    justify-content: space-between
   .comingsoon-text-container
-    .hero-form
-      &::before
-        display: none
+    width: 70%
+  .comingsoon-form
+    &:before
+      display: none
+  .comingsoon-image
+     margin-right: -20px
 
 
 @media screen and (max-width: 990px)
   .comingsoon-container
     width: 80% !important
     margin-top: -40px !important
-    .hero-form
+    margin-bottom: -40px !important
+    .comingsoon-form
       display: flex
       flex-direction: column
       width: 90%
-      .input-signup
+      input
         width: 100%
         margin-bottom: 10px
         margin-right: 0
-      .btn
+      button
         margin-right: 0
   .comingsoon-header 
     font-size: 50px !important
     line-height: 52px
+  .comingsoon-image
+     margin-right: -40px
 
 @media screen and (max-width: 830px)
   .comingsoon-container
     width: 80% !important
     margin-top: -80px !important
-  .comingsoon-header
+
+@media screen and (max-width: 770px)
+  .comingsoon-form
+    input
+      min-width: 100%
+  .comingsoon-image
+    margin-top: 50px
+
+@media screen and (max-width: 650px)
+  .comingsoon-text-container
     width: 90%
   .comingsoon-image
-    display: none
+    margin-top: 10px
+    margin-right: -260px
+
+@media screen and (max-width: 550px)
+  .comingsoon-container
+    flex-direction: column-reverse
+  .comingsoon-image
+    margin: 20px auto 50px auto
+    background-position-x: -30px;
   .comingsoon-text-container
     width: 100%
+    align-items: center
+  .comingsoon-header 
+    width: 90%

@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Button from "../Button/Button"
+import Input from "../Input/Input"
 
 const ComingSoon = ({ image, title, description }) => (
   <section className="section">
@@ -7,13 +9,13 @@ const ComingSoon = ({ image, title, description }) => (
       <div className="comingsoon-text-container">
         <h2 className="comingsoon-header">{title}</h2>
         <div className="comingsoon-description">{description}</div>
-        <form className="hero-form">
-          <input
-            className="input-signup"
+        <form className="comingsoon-form">
+          <Input
             type="text"
             placeholder="Your email address"
+            kind="purple"
           />
-          <input className="btn" type="submit" value="Get early access" />
+          <Button kind="purple" label="Get early access" />
         </form>
       </div>
       <div
