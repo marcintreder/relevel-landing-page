@@ -13,8 +13,6 @@ const PromoLooper = ({ image, title, add }) => (
               ? image.childImageSharp.fluid.src
               : image
           })`,
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat"
         }}
       ></div>
       <h2 className="prosection-header">

@@ -17,6 +17,15 @@
   width: 720px
   margin-right: 40px
   margin-left: -140px
+  background-size: contain
+  background-repeat: no-repeat
+
+@media screen and (min-width: 1524px)
+  .prosection-image
+    background-size: cover
+    background-position-x: -100px
+    width: 50%    
+    margin-left: 0
 
 @media screen and (max-width: 1280px)
   .prosection-image
@@ -31,3 +40,17 @@
   .prosection-header
     width: 70%
     margin-top: -80px
+
+@media screen and (max-width: 550px)
+  .prosection-image
+    display: none
+  .prosection-container
+    background: $relevel-purple-light
+    margin: 10px auto 40px auto !important
+    padding: 2rem 3.5rem 
+  .prosection-header
+    color: white
+    width: 100%
+    margin: 0 auto
+    font-size: 50px !important
+    line-height: 52px
