@@ -42,13 +42,14 @@
   &::before
     position: absolute
     right: 0
-    left: 488px
-    top: 360px
+    left: 438px
+    top: 352px
     height: 57px
     width: 66px
     content: ''
     background: url("/img/pink-dots-small.svg")
   input
+    min-width: 300px
     margin-right: 20px
     
 /* Hero Responsive Fixes */
@@ -66,8 +67,8 @@
     &::before
       position: absolute
       right: 0
-      left: 490px
-      top: 344px
+      left: 440px
+      top: 335px
       height: 57px
       width: 66px
       content: ''
@@ -149,10 +150,8 @@
   .hero-form
     flex-direction: column
     width: 70%
-    .btn
-      margin-right: 0
+    input
       width: 100%
-    .input-signup
-      width: 100%
+      min-width: 100%
       margin-bottom: 10px
       margin-right: 0
