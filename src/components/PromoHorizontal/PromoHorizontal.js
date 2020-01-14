@@ -22,7 +22,7 @@ const PromoHorizontal = ({ image, title, text }) => (
 
 PromoHorizontal.propTypes = {
   image: PropTypes.object,
-  title: PropTypes.string,
+  title: PropTypes.string, 
   text: PropTypes.string
 };
 
