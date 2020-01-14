@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import BlogRoll from "../components/BlogRoll/BlogRoll";
 import Hero from "../components/Hero/Hero";
 import PromoLooper from "../components/PromoLooper/PromoLooper";
 import ComingSoon from "../components/ComingSoon/ComingSoon";

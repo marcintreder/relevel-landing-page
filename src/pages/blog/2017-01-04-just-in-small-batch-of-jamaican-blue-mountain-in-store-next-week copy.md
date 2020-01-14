@@ -1,10 +1,10 @@
 ---
 templateKey: 'blog-post'
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
-date: 2017-01-04T15:04:10.000Z
-featuredpost: true
-promoimage: /img/four_stretches.png
-featuredimage: /img/four_stretches.png
+title: 'What's causing Sciatica and how can you help yourself'
+date: 2017-01-05T15:04:10.000Z
+featuredpost: false
+promoimage: /img/three_stretches.png
+featuredimage: /img/three_stretches.png
 author: Emilia Wysocka-Treder
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
