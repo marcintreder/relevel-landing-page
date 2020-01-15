@@ -7,8 +7,9 @@ description: >-
   tasters, has been revised for the first time this year.
 author: Emilia Wysocka-Treder
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
-promoimage: /img/lower-back-pain.png
+featuredimage: /img/five_stretches.png
+promoimage: /img/five_stretches.png
+cardimage: /img/five_stretches.png
 tags:
   - lower back pain
 ---

@@ -1,17 +1,18 @@
 ---
 templateKey: 'blog-post'
-title: 'What's causing Sciatica and how can you help yourself'
-date: 2017-01-05T15:04:10.000Z
+title: 'What’s causing Sciatica and how can you help yourself'
+date: 2017-02-04T15:04:10.000Z
 featuredpost: false
-promoimage: /img/three_stretches.png
-featuredimage: /img/three_stretches.png
+promoimage: /img/lower-back-pain.png
+featuredimage: /img/lower-back-pain.png
+cardimage: /img/shoulder_pain.png
 author: Emilia Wysocka-Treder
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
 tags:
   - stretches
-  - carpal tunnel
+  - sciatica
 ---
 
 We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.

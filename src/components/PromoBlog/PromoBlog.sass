@@ -1,0 +1,54 @@
+$promoblog-side-margin: 60px
+    
+.promoblog-container
+    background-size: cover
+    background-repeat: no-repeat
+    background-origin: border-box;
+    width: 100%
+    padding: 60px 0
+    &::before
+        position: absolute
+        right: 0
+        left: -23px
+        top: 43px
+        height: 57px
+        width: 66px
+        content: ''
+        background: url("/img/pink-dots-small.svg")
+        z-index: -20
+    
+.promoblog-header
+    width: 50%
+    margin: 0 $promoblog-side-margin
+    color: white !important
+    letter-spacing: -1px
+    font-size: 80px
+
+.promoblog-description
+    width: 50%
+    margin: 20px $promoblog-side-margin 0 $promoblog-side-margin
+    color: white
+    line-height: 28px
+
+.promoblog-link
+    display: block
+    margin-left: $promoblog-side-margin
+    margin-top: 20px
+    color: white
+    &:hover
+        color: white
+        text-decoration: underline
+
+@media screen and (max-width: 1024px)
+    .promoblog-container
+        &::before
+            background: none
+
+@media screen and (max-width: 750px)
+    .promoblog-header, .promoblog-description
+        width: 70%
+
+@media screen and (max-width: 550px)
+    .promoblog-header, .promoblog-description
+        width: 75%
+
