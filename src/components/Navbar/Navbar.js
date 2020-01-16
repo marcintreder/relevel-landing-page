@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../../img/logo.svg";
+import { graphql, StaticQuery } from "gatsby";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -32,6 +33,9 @@ const Navbar = class extends React.Component {
   };
 
   render() {
+    const currentPageURL = window.location.href
+    const isBlog = currentPageURL.indexOf("blog") > 0 ? true : false
+    const isAbout = currentPageURL.indexOf("about") > 0 ? true : false
     return (
       <nav
         className="navbar is-transparent"
@@ -60,10 +64,10 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-links-container">
-              <Link className="navbar-item" to="/about">
+              <Link className={`navbar-item ${isAbout ? `navbar-item-active` : ``}`} to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className={`navbar-item ${isBlog ? `navbar-item-active` : ``}`} to="/blog">
                 Blog
               </Link>
             </div>
@@ -74,4 +78,15 @@ const Navbar = class extends React.Component {
   }
 };
 
-export default Navbar;
+export default () => (
+  <StaticQuery
+    query={graphql`
+    query SITE_METADATA_NAV {
+      sitePage {
+        path
+      }
+    }
+  `}
+    render={data => <Navbar data={data} />}
+  />
+);
