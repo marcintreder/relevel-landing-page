@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll/BlogRoll";
 import PromoBlog from "../../components/PromoBlog/PromoBlog";
 import CategoryList from "../../components/CategoryList/CategoryList";
+import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
 
 class BlogIndexPage extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class BlogIndexPage extends React.Component {
     });
 
     let tagList = [];
-    console.log(promoPost);
+
     posts.map(item => {
       if (item.node.frontmatter.tags.length === 1) {
         tagList.push(item.node.frontmatter.tags[0]);
@@ -40,17 +41,11 @@ class BlogIndexPage extends React.Component {
           link={promoPost.node.fields.slug}
         />
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <h3>New Articles</h3>
-              <BlogRoll posts={filteredPosts} />
-            </div>
-            <CategoryList
-              taglist={tagList}
-              title="Find Out More"
-              className="blogroll-categories"
-            />
-          </div>
+          <BlogIndexContent
+            tags={tagList}
+            posts={filteredPosts}
+            titleCat={"Find Out More"}
+          />
         </section>
       </Layout>
     );

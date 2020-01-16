@@ -1,0 +1,86 @@
+.blogcontent-wrapper
+    .comingsoon-form
+        &::before
+           top: 398px 
+
+.blogcontent-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    width: 100%
+    margin-bottom: 58px !important
+
+.blogcontent-posts
+    width: 100%
+
+.blogcontent-header
+    margin-bottom: 30px
+    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: $relevel-purple-dark !important
+    font-size: 32px !important
+
+.blogcontent-comingsoon
+    margin-top: 80px
+
+@media screen and (max-width: 1280px)
+    .blogcontent-wrapper
+        .comingsoon-container
+            justify-content: space-between 
+        .comingsoon-text-container
+            width: 80%
+        .comingsoon-form
+            &::before
+                display: none
+
+@media screen and (max-width: 991px)
+    .blogcontent-wrapper
+        .comingsoon-container
+            width: 100% !important
+        .comingsoon-form
+            flex-direction: row
+            input
+                width: 250px
+                margin-right: 20px
+                margin-bottom: 0
+        .comingsoon-image
+            margin-right: -10%
+
+@media screen and (max-width: 880px)
+    .blogcontent-wrapper
+        .comingsoon-image
+            margin-right: -20%
+
+@media screen and (max-width: 821px)
+    .blogcontent-wrapper
+        .section
+            padding-left: 0
+            padding-right: 0
+        .comingsoon-container
+            flex-direction: column
+            margin-top: 0px !important
+        .comingsoon-text-container
+            width: 100%
+        .comingsoon-image
+            display: none
+
+@media screen and (max-width: 771px)
+    .blogcontent-wrapper
+        .comingsoon-form
+            flex-direction: column
+            input
+                margin-bottom: 10px
+
+
+@media screen and (max-width: 665px)
+    .blogcontent-container
+        flex-direction: column
+        margin-right: 0
+        margin-bottom: -20px !important
+    .blogcontent-wrapper
+        .comingsoon-form
+            width: 100%
+        .comingsoon-description
+            width: 100%
+        .comingsoon-header
+            width: 100%
+

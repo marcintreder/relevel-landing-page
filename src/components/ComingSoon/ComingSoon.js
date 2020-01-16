@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Button from "../Button/Button"
 import Input from "../Input/Input"
 
-const ComingSoon = ({ image, title, description }) => (
+const ComingSoon = ({ image, title, description, ...props }) => (
   <section className="section">
     <div className="container comingsoon-container">
       <div className="comingsoon-text-container">
