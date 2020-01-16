@@ -31,6 +31,33 @@ $relevel-green: #66FFD1
 @import "./CategoryList/CategoryList.sass"
 @import "./PromoBlog/PromoBlog.sass"
 @import "./BlogIndexContent/BlogIndexContent.sass"
+@import "./Breadcrumb/Breadcrumb.sass"
+
+/* Tags Page Styles */
+
+.tags-header
+  margin-bottom: 20px
+  margin-top: -20px
+  color: $relevel-purple-dark
+  font-size: 80px
+  text-transform: capitalize
+  overflow: hidden
+
+.tags-articles-header
+  font-size: 32px !important
+  color: $relevel-purple-dark
+  margin-bottom: 10px
+
+.tags-container
+  .blogroll-container
+    margin-right: 0
+  .blogroll-posts
+    grid-gap: 50px
+
+@media screen and (max-width: 798px)
+  .tags-container
+    .blogroll-posts
+      grid-gap: 20px
 
 /* Form Elements */
 
