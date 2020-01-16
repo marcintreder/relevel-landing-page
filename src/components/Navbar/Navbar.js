@@ -33,9 +33,9 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    const currentPageURL = window.location.href
-    const isBlog = currentPageURL.indexOf("blog") > 0 ? true : false
-    const isAbout = currentPageURL.indexOf("about") > 0 ? true : false
+    const currentPageURL = window.location.href;
+    const isBlog = currentPageURL.indexOf("blog") > 0 ? true : false;
+    const isAbout = currentPageURL.indexOf("about") > 0 ? true : false;
     return (
       <nav
         className="navbar is-transparent"
@@ -64,11 +64,17 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-links-container">
-              <Link className={`navbar-item ${isAbout ? `navbar-item-active` : ``}`} to="/about">
-                About
-              </Link>
-              <Link className={`navbar-item ${isBlog ? `navbar-item-active` : ``}`} to="/blog">
+              <Link
+                className={`navbar-item ${isBlog ? `navbar-item-active` : ``}`}
+                to="/blog"
+              >
                 Blog
+              </Link>
+              <Link
+                className={`navbar-item ${isAbout ? `navbar-item-active` : ``}`}
+                to="/about"
+              >
+                About Us
               </Link>
             </div>
           </div>
@@ -81,12 +87,12 @@ const Navbar = class extends React.Component {
 export default () => (
   <StaticQuery
     query={graphql`
-    query SITE_METADATA_NAV {
-      sitePage {
-        path
+      query SITE_METADATA_NAV {
+        sitePage {
+          path
+        }
       }
-    }
-  `}
+    `}
     render={data => <Navbar data={data} />}
   />
 );

@@ -3,8 +3,11 @@ import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import { DiscussionEmbed } from 'disqus-react'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Breadcrumb from "../components/Breadcrumb/Breadcrumb"
 
 export const BlogPostTemplate = ({
   content,
@@ -15,21 +18,26 @@ export const BlogPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+  let disqusConfig = {
+    url: `http://localhost:8000/`,
+    identifier: 'relevel-disqus-1311',
+    title: "heee",
+    shortname: 'relevel-disqus'
+  }
 
   return (
     <section className="section">
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+      <div className="container content blogpost-container">
+            <h1 className="blogpost-header">
               {title}
             </h1>
+            <Breadcrumb secondPage="blog" currentPage={title} />
             <p>{description}</p>
-            <PostContent content={content} />
+            <PostContent content={content} className="blogpost-content" />
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+              <div className="blogpost-tags">
+                <h2>Read More</h2>
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
@@ -39,8 +47,9 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-          </div>
-        </div>
+      </div>
+      <div className="container">
+        <DiscussionEmbed config={disqusConfig} />
       </div>
     </section>
   )
