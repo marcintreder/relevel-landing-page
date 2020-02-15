@@ -33,12 +33,11 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    const currentPageURL = window.location.href;
-
     let isBlog = false;
     let isAbout = false;
 
     if (typeof window !== 'undefined') {
+      const currentPageURL = window.location.href;
       isBlog = currentPageURL.indexOf("blog") > 0 ? true : false;
       isAbout = currentPageURL.indexOf("about") > 0 ? true : false;
     }
