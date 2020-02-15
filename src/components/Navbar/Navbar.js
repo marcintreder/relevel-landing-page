@@ -34,8 +34,15 @@ const Navbar = class extends React.Component {
 
   render() {
     const currentPageURL = window.location.href;
-    const isBlog = currentPageURL.indexOf("blog") > 0 ? true : false;
-    const isAbout = currentPageURL.indexOf("about") > 0 ? true : false;
+
+    let isBlog = false;
+    let isAbout = false;
+
+    if (typeof window !== 'undefined') {
+      isBlog = currentPageURL.indexOf("blog") > 0 ? true : false;
+      isAbout = currentPageURL.indexOf("about") > 0 ? true : false;
+    }
+    
     return (
       <nav
         className="navbar is-transparent"
