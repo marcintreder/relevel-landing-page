@@ -1,0 +1,80 @@
+.editorial-content-header
+    margin-top: 60px
+    margin-bottom: 30px
+    font-size: 32px !important
+    color: $relevel-purple-dark
+
+.editorial-content-image
+    width: 467px
+    height: 398px
+    background-size: cover
+
+.editorial-content-container
+    display: flex
+    justify-content: space-between
+    &:last-of-type
+        margin-bottom: 60px
+
+.editorial-content-left
+    flex-direction: row
+    .editorial-content-image
+        margin-right: 40px
+
+.editorial-content-right
+    flex-direction: row-reverse
+    .editorial-content-image
+        margin-left: 40px
+
+.editorial-content-text
+    display: flex
+    flex-direction: column
+    width: 646px
+    margin-top: -5px
+
+.editorial-content-text__paragraph
+    display: block
+    margin-bottom: 35px
+    color: $relevel-purple-dark
+    font-size: 16px
+    line-height: 28px
+    &:last-of-type
+        margin-bottom: 0
+
+.editorial-content-quote
+    width: 440px
+    margin-top: -10px
+    margin-left: 40px
+    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    font-size: 32px
+    color: $relevel-purple-dark
+    
+/* Responsive Breakpoints */
+
+@media screen and (max-width: 1215px)
+    .editorial-content-image
+        width: 397px
+        height: 308px
+        background-size: cover
+
+    .editorial-content-text
+        width: 60%
+
+@media screen and (max-width: 930px)
+    .editorial-content-text
+        width: 50%
+
+@media screen and (max-width: 685px)
+    .editorial-content-left, .editorial-content-right
+        flex-direction: column
+        width: 100%
+        .editorial-content-image
+            width: 100%
+            height: 400px
+            margin: 0
+    .editorial-content-text
+        width: 100%
+        margin-top: 40px
+    .editorial-content-quote
+        width: 100%
+        margin: 0px 0 -10px 0
+        font-size: 16px

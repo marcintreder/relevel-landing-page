@@ -1,63 +1,166 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SimpleHero from "../components/SimpleHero/SimpleHero";
+import EditorialContent from "../components/EditorialContent/EditorialContent";
+import ComingSoon from "../components/ComingSoon/ComingSoon";
+import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
+export const AboutPageTemplate = ({
+  header1,
+  header2,
+  description,
+  image,
+  content,
+  contentComponent,
+  aboutEmilia,
+  familyBusiness,
+  mission,
+  comingsoon
+}) => {
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
+    <section className="section section--gradient about-container">
+      <SimpleHero
+        image={image}
+        title1={header1}
+        title2={header2}
+        description={description}
+      />
+      <EditorialContent
+        title={mission.title}
+        direction="right"
+        quote="To eliminate pain caused by 
+        the sedentary lifestyle."
+        description={[
+          mission.description1,
+          mission.description2,
+        ]}
+      />
+      <EditorialContent
+        title={aboutEmilia.title}
+        image={aboutEmilia.image}
+        direction="left"
+        description={[
+          aboutEmilia.description1,
+          aboutEmilia.description2,
+          aboutEmilia.description3
+        ]}
+      />
+      <EditorialContent
+        title={familyBusiness.title}
+        image={familyBusiness.image}
+        direction="right"
+        description={[
+          familyBusiness.description1,
+          familyBusiness.description2,
+        ]}
+      />
+      <ComingSoon 
+        image={comingsoon.image}
+        title={comingsoon.title}
+        description={comingsoon.description}
+      />
     </section>
-  )
-}
+  );
+};
 
 AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
+  header1: PropTypes.string.isRequired,
+  header2: PropTypes.string.isRequired,
+  description: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-}
+  image: PropTypes.object,
+  aboutEmilia: PropTypes.object,
+  familyBusiness: PropTypes.object,
+  comingsoon: PropTypes.object
+};
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
+  const { markdownRemark: post } = data;
   return (
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
+        header1={post.frontmatter.header1}
+        header2={post.frontmatter.header2}
+        description={post.frontmatter.description}
         content={post.html}
+        image={post.frontmatter.image}
+        aboutEmilia={post.frontmatter.aboutEmilia}
+        familyBusiness={post.frontmatter.familyBusiness}
+        mission={post.frontmatter.mission}
+        comingsoon={post.frontmatter.comingsoon}
       />
     </Layout>
-  )
-}
+  );
+};
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        header1
+        header2
+        description
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        mission {
+          title
+          missionStatement
+          description1
+          description2
+        }
+        aboutEmilia {
+          title
+          description1
+          description2
+          description3
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        familyBusiness {
+          title
+          description1
+          description2
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        comingsoon {
+          title
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
   }
-`
+`;

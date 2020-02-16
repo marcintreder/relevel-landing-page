@@ -32,6 +32,8 @@ $relevel-green: #66FFD1
 @import "./PromoBlog/PromoBlog.sass"
 @import "./BlogIndexContent/BlogIndexContent.sass"
 @import "./Breadcrumb/Breadcrumb.sass"
+@import "./SimpleHero/SimpleHero.sass"
+@import "./EditorialContent/EditorialContent.sass"
 
 /* Tags Page Styles */
 
@@ -75,6 +77,65 @@ $relevel-green: #66FFD1
 
 .blogpost-tags
   margin-top: 80px
+
+/* About Page Fixes */
+
+@media screen and (max-width: 1280px)
+    .about-container
+        .comingsoon-container
+            justify-content: space-between 
+        .comingsoon-text-container
+            width: 80%
+        .comingsoon-form
+            &::before
+                display: none
+        .section
+          padding-left: 0
+
+@media screen and (max-width: 991px)
+    .about-container
+        .comingsoon-container
+            width: 100% !important
+        .comingsoon-form
+            flex-direction: row
+            input
+                width: 250px
+                margin-right: 20px
+                margin-bottom: 0
+        .comingsoon-image
+            margin-right: 0
+
+@media screen and (max-width: 880px)
+    .about-container
+        .comingsoon-image
+            margin-right: -20%
+
+@media screen and (max-width: 821px)
+    .about-container
+        .section
+            padding-left: 0
+            padding-right: 0
+        .comingsoon-container
+            flex-direction: column
+            margin-top: 0px !important
+        .comingsoon-text-container
+            width: 100%
+        .comingsoon-image
+            display: none
+
+@media screen and (max-width: 771px)
+    .about-container
+        .comingsoon-form
+            flex-direction: column
+            input
+                margin-bottom: 10px
+
+@media screen and (max-width: 550px)
+    .about-container
+      .comingsoon-header, .comingsoon-description
+        width: 100%
+      
+
 
 /* Form Elements */
 

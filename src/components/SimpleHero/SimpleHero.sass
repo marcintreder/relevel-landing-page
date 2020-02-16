@@ -1,0 +1,47 @@
+$simple-hero-content-width: 714px
+    
+.simple-hero-header
+    width: $simple-hero-content-width
+    color: white
+    &::before
+        position: absolute
+        right: 0
+        left: -18px
+        top: -16px
+        height: 57px
+        width: 66px
+        content: ''
+        background: url("/img/pink-dots-small.svg")
+        z-index: -20
+
+.simple-hero-description
+    display: block
+    width: $simple-hero-content-width
+    margin-top: 20px
+    color: white
+    font-size: 19px
+    line-height: 28px
+
+.simple-hero-image
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 610px
+    background-size: cover
+    background-position: center
+
+/* Responsive Breakpoints */
+
+@media screen and (max-width: 990px)
+    .simple-hero-header, .simple-hero-description
+        width: 60%
+
+@media screen and (max-width: 792px)
+    .simple-hero-header, .simple-hero-description
+        width: 70%
+
+@media screen and (max-width: 686px)
+    .simple-hero-header, .simple-hero-description
+        width: 90%
