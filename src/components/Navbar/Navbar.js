@@ -51,7 +51,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item navbar-logo" title="Logo">
-              <img src={logo} alt="Relvel" style={{ width: "88px" }} />
+              <img src={logo} alt="Relevel" style={{ width: "88px" }} />
             </Link>
           </div>
           {/* Hamburger menu */}
@@ -82,6 +82,17 @@ const Navbar = class extends React.Component {
               >
                 About Us
               </Link>
+              <ul className="navbar-social">
+                <li>
+                  <a href="https://twitter.com/relevelapp" className="navbar-social--twitter"></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/relevelapp" className="navbar-social--instagram"></a>
+                </li>
+                <li>
+                  <a href="https://pinterest.com/relevelapp" className="navbar-social--pinterest"></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -1,9 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import twitter from "../../img/social/twitter.svg";
-import facebook from "../../img/social/facebook.svg";
-import instagram from "../../img/social/instagram.svg";
 
 const CategoryList = ({ title, taglist }) => (
   <aside className="categorylist-aside">
@@ -29,7 +26,7 @@ const CategoryList = ({ title, taglist }) => (
           </a>
         </li>
         <li className="categorylist-social--item">
-          <a href="#" className="categorylist-social--logo categorylist-social--logo_facebook">
+          <a href="#" className="categorylist-social--logo categorylist-social--logo_pinterest">
           </a>
         </li>
       </ul>

@@ -29,24 +29,25 @@
 .categorylist-social--item
     display: inline-block
     width: 24px
-    margin-right: 10px
+    margin-right: 30px
+    padding-bottom: 6px
+    border-bottom: 1px solid white
+    &:hover
+        border-bottom: 1px solid $relevel-purple-light
 
 .categorylist-social--logo
     display: block
     width: 24px
     height: 24px
-    background-color: $relevel-mint
-    &:hover
-       background-color: $relevel-purple-light 
 
 .categorylist-social--logo_twitter
-    mask: url("/img/twitter.svg")
+    background: url("/img/twitter.svg")
 
 .categorylist-social--logo_instagram
-    mask: url("/img/instagram.svg")
+    background: url("/img/instagram.svg")
 
-.categorylist-social--facebook
-    mask: url("/img/facebook.svg")
+.categorylist-social--logo_pinterest
+    background: url("/img/pinterest.svg")
 
 @media screen and (max-width: 665px)
     .categorylist-aside
