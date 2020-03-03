@@ -9,7 +9,7 @@ const CardGrid = ({ description, title, items }) => (
         <span className="cardgrid-description">{description}</span>
       </div>
       <ul className="cardgrid-list">
-        {items.map((x, i) => (
+        {items.length === 0 ? items.map((x, i) => (
           <li className="card-item">
             <div
               className="card-image"
@@ -27,7 +27,7 @@ const CardGrid = ({ description, title, items }) => (
             </div>
             <span className="card-description">{x.item.description}</span>
           </li>
-        ))}
+        )): ''}
         <li className="card-last-item"><div>& More</div></li>
       </ul>
     </div>
