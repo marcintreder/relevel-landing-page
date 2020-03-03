@@ -38,7 +38,6 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Subheading, name: subheading, widget: string}
-          - {label: Description, name: description, widget: string}
           - {label: Prosection, name: prosection, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image},{label: painAddiction, name: painAddiction, widget: list, fields:[{label: Pain, name: pain, widget: string}]}]}
           - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: string}]}
           - {label: Everything, name: everything, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: description, name: description, widget: text}]}
