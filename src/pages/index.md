@@ -2,7 +2,6 @@
 templateKey: index-page
 title: Thrive despite all the sitting.
 image: /img/main-image.png
-<<<<<<< HEAD
 subheading: Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
 comingsoon:
   image: /img/relevel-app-image.png
@@ -78,14 +77,6 @@ footer:
     - article: 
       title: Keep your disc in place. 15 minute exercise routine for herniated disc
       url: https://getrelevel.com
-=======
-heading: Thrive despite all the sitting.
-subheading: >-
-  Relevel is the mobile fitness app on the mission to eliminate pain caused by
-  the sedentary lifestyle. Professional training plans, easy daily routines and
-  fun exercises, will take the away the aches caused by sitting in front of the
-  computer too much.
->>>>>>> d4e3614c3ce76a197554eada00c76c1d62e499b6
 mainpitch:
   title: Why Kaldi
   description: >
