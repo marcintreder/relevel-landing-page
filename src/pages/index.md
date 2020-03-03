@@ -2,6 +2,7 @@
 templateKey: index-page
 title: Thrive despite all the sitting.
 image: /img/main-image.png
+<<<<<<< HEAD
 subheading: Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
 comingsoon:
   image: /img/relevel-app-image.png
@@ -77,6 +78,14 @@ footer:
     - article: 
       title: Keep your disc in place. 15 minute exercise routine for herniated disc
       url: https://getrelevel.com
+=======
+heading: Thrive despite all the sitting.
+subheading: >-
+  Relevel is the mobile fitness app on the mission to eliminate pain caused by
+  the sedentary lifestyle. Professional training plans, easy daily routines and
+  fun exercises, will take the away the aches caused by sitting in front of the
+  computer too much.
+>>>>>>> d4e3614c3ce76a197554eada00c76c1d62e499b6
 mainpitch:
   title: Why Kaldi
   description: >
@@ -89,6 +98,16 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
+prosection:
+  title: Professional daily training programs will help you eliminate
+  image: /img/professional-training.png
+  painAddition:
+    - 'Map { "pain": "neck pain" }'
+    - 'Map { "pain": "back pain" }'
+    - 'Map { "pain": "hip pain" }'
+    - 'Map { "pain": "wrist pain" }'
+    - 'Map { "pain": "shoulder pain" }'
+    - 'Map { "pain": "some pain" }'
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -141,3 +160,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
