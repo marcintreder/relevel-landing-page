@@ -9,6 +9,7 @@ const CardGrid = ({ description, title, items }) => (
         <span className="cardgrid-description">{description}</span>
       </div>
       <ul className="cardgrid-list">
+        {console.log(items)}
         {items.length === 0 ? items.map((x, i) => (
           <li className="card-item">
             <div
