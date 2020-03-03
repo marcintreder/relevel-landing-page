@@ -10,7 +10,7 @@ const CardGrid = ({ description, title, items }) => (
       </div>
       <ul className="cardgrid-list">
         {console.log(items)}
-        {items.length === 0 ? items.map((x, i) => (
+        {items.map((x, i) => (
           <li className="card-item">
             <div
               className="card-image"
@@ -28,7 +28,7 @@ const CardGrid = ({ description, title, items }) => (
             </div>
             <span className="card-description">{x.item.description}</span>
           </li>
-        )): ''}
+        ))}
         <li className="card-last-item"><div>& More</div></li>
       </ul>
     </div>
