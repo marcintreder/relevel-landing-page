@@ -37,12 +37,38 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Prosection, name: prosection, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image},{label: painAddiction, name: painAddiction, widget: list, fields:[{label: Pain, name: pain, widget: string}]}]}
-          - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: string}]}
-          - {label: Everything, name: everything, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: description, name: description, widget: text}]}
+          - {label: Subheading, name: subheading, widget: text}
+          - {label: Prosection, name: prosection, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: Image, name: image, widget: image},
+              {label: painAddition, name: painAddition, widget: list, fields:[
+                {label: Pain, name: pain, widget: string}
+                ]
+              }
+              ]}
+          - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: text}]}
+          - {label: Everything, name: everything, widget: object, fields: [
+              {label: List, name: list, widget: list, fields: [
+                {label: Feature, name: feature, widget: object, fields:[
+                  {label: Title, name: title, widget: string},
+                  {label: Image, name: image, widget: image}, 
+                  {label: description, name: description, widget: text}
+                ]}
+              ]}
+            ]}
           - {label: CreatedBy, name: createdBy, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: description, name: description, widget: text}]}
-          - {label: NewLifeGrid, name: newLifeGrid, widget: object, fields: [{label: Title, name: title, widget: string},{label: List, name: list, widget: list, field:[{label: Item, name: item, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Image, name: image, widget: image}]}, {label: description, name: description, widget: text}]}]}
+          - {label: NewLifeGrid, name: newLifeGrid, widget: object, fields: [
+            {label: Title, name: title, widget: string},
+            {label: List, name: list, widget: list, fields:[
+              {label: Item, name: item, widget: object, fields: [
+                {label: Title, name: title, widget: string},
+                {label: Description, name: description, widget: text}, 
+                {label: Image, name: image, widget: image}
+                ]
+              }, 
+              {label: description, name: description, widget: text}
+              ]} 
+            ]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
