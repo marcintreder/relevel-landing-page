@@ -12,8 +12,6 @@ export const AboutPageTemplate = ({
   header2,
   description,
   image,
-  content,
-  contentComponent,
   aboutEmilia,
   familyBusiness,
   mission,
@@ -30,8 +28,7 @@ export const AboutPageTemplate = ({
       <EditorialContent
         title={mission.title}
         direction="right"
-        quote="To eliminate pain caused by 
-        the sedentary lifestyle."
+        quote={mission.missionStatement}
         description={[
           mission.description1,
           mission.description2,
@@ -69,8 +66,7 @@ AboutPageTemplate.propTypes = {
   header1: PropTypes.string.isRequired,
   header2: PropTypes.string.isRequired,
   description: PropTypes.string,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  mission: PropTypes.object,
   image: PropTypes.object,
   aboutEmilia: PropTypes.object,
   familyBusiness: PropTypes.object,
@@ -79,14 +75,13 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
+  console.log(data)
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
         header1={post.frontmatter.header1}
         header2={post.frontmatter.header2}
         description={post.frontmatter.description}
-        content={post.html}
         image={post.frontmatter.image}
         aboutEmilia={post.frontmatter.aboutEmilia}
         familyBusiness={post.frontmatter.familyBusiness}

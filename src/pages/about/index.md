@@ -10,7 +10,7 @@ mission:
     title: Our Mission
     description1: Many of us spend majority of every day sitting. Our jobs require us to spend long hours at our desks or in conference rooms. Unfortunately, human body is not well adapted to this new reality. Sooner rather than later we’re starting to feel the consequences of the sedentary lifestyle. We feel the pain. Our backs, necks, shoulders... and other parts of the body are affected and our productive lives are quickly turning into an unproductive nightmare.
     description2: This is exactly why we’ve started Relevel. Relevel will give you your life back. Our training programs are custom built to counter the damage caused by desk jobs. We’re on the mission to eliminate pain caused by the sedentary lifestyle.
-    missionStatement: “To eliminate pain caused by the sedentary lifestyle”
+    missionStatement: To eliminate pain caused by the sedentary lifestyle
 aboutEmilia: 
     title: About Emilia
     description1: Emilia dedicated her life to helping people thrive. As a certified Pilates trainer she works with professionals of all walks of life affected by the severe pain in various areas of the body. 
@@ -27,17 +27,3 @@ comingsoon:
   title: Healthy Body in the Desk-Bound World
   description: Relevel is the fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines and fun exercises, will take the away the aches caused by sitting in front of the computer too much.
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
-
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.

@@ -74,8 +74,30 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Header1", name: "header1", widget: "string"}
+          - {label: "Header2", name: "header2", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Mission", name: "mission", widget: "object", fields: [
+            {label: "title", name: "title", widget: "string"},
+            {label: "missionStatement", name: "missionStatement", widget: "string" },
+            {label: "description1", name: "description1", widget: "text"},
+            {label: "description2", name: "description2", widget: "text"}
+          ]}
+          - {label: "aboutEmilia", name: "aboutEmilia", widget: "object", fields: [
+            {label: "image", name: "image", widget: "image"},
+            {label: "title", name: "title", widget: "string"},
+            {label: "description1", name: "description1", widget: "text"},
+            {label: "description2", name: "description2", widget: "text"},
+            {label: "description3", name: "description3", widget: "text"},
+          ]}
+          - {label: "familyBusiness", name: "familyBusiness", widget: "object", fields: [
+            {label: "image", name: "image", widget: "image"},
+            {label: "title", name: "title", widget: "string"},
+            {label: "description1", name: "description1", widget: "text"},
+            {label: "description2", name: "description2", widget: "text"},
+          ]}
+          - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: text}]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
