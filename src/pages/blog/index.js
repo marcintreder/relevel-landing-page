@@ -6,7 +6,7 @@ import PromoBlog from "../../components/PromoBlog/PromoBlog";
 import CategoryList from "../../components/CategoryList/CategoryList";
 import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
 
-class BlogIndexPage extends React.Component {
+export class BlogIndexPage extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
