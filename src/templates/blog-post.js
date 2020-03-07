@@ -19,10 +19,10 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
   let disqusConfig = {
-    url: `http://localhost:8000/`,
+    url: `https://relevel-1.disqus.com`,
     identifier: 'relevel-disqus-1311',
-    title: "heee",
-    shortname: 'relevel-disqus'
+    title: "Relevel Comments",
+    shortname: 'relevel-1'
   }
 
   return (
