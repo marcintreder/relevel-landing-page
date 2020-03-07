@@ -12,6 +12,8 @@ import CardGrid from "../components/CardGrid/CardGrid";
 
 export const IndexPageTemplate = ({
   image,
+  imageAlt,
+  imageTitle,
   title,
   subheading,
   prosection,
@@ -21,7 +23,7 @@ export const IndexPageTemplate = ({
   newLifeGrid,
 }) => (
   <div>
-    <Hero image={image} title={title} subheading={subheading} />
+    <Hero image={image} imageAlt={imageAlt} imageTitle={imageTitle} title={title} subheading={subheading} />
     <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
     <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
     <PromoSteps list={everything.list} title={everything.title} />
@@ -32,6 +34,8 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title: PropTypes.string,
   subheading: PropTypes.string,
   prosection: PropTypes.object,
@@ -43,11 +47,12 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter.newLifeGrid)
   return (
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        imageAlt={frontmatter.imageAlt}
+        imageTitle={frontmatter.imageTitle}
         title={frontmatter.title}
         subheading={frontmatter.subheading}
         prosection={frontmatter.prosection}
@@ -75,6 +80,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        imageAlt
+        imageTitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -86,6 +93,8 @@ export const pageQuery = graphql`
         comingsoon {
           title
           description
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -100,6 +109,8 @@ export const pageQuery = graphql`
             feature {
               title
               description
+              imageAlt
+              imageTitle
               image {
                 childImageSharp {
                   fluid(maxWidth: 2048, quality: 100) {
@@ -115,6 +126,8 @@ export const pageQuery = graphql`
           painAddition {
             pain
           }
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -126,6 +139,8 @@ export const pageQuery = graphql`
         createdBy {
           title
           description
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -141,6 +156,8 @@ export const pageQuery = graphql`
             item {
               title
               description
+              imageAlt
+              imageTitle
               image {
                 childImageSharp {
                   fluid(maxWidth: 2048, quality: 100) {

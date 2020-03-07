@@ -3,11 +3,14 @@ import PropTypes from "prop-types";
 import Input from "../Input/Input"
 import Button from "../Button/Button"
 
-const Hero = ({ image, title, subheading }) => (
+const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => (
   <div className="hero-modified">
     <div className="container hero-container">
       <div
           className="hero-image"
+          role="img"
+          aria-label={imageAlt}
+          title={imageTitle}
           style={{
             backgroundImage: `url(${
               !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -28,6 +31,8 @@ const Hero = ({ image, title, subheading }) => (
 
 Hero.propTypes = {
     image: PropTypes.object,
+    imageTitle: PropTypes.string,
+    imageAlt: PropTypes.string,
     title: PropTypes.string,
     subheading: PropTypes.string
 }
