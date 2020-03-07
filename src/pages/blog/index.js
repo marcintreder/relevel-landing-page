@@ -10,11 +10,12 @@ class BlogIndexPage extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-
     let promoPost = posts.find(obj => {
       return obj.node.frontmatter.featuredpost === true;
     });
 
+    promoPost = promoPost ? promoPost : posts[0];
+    
     let promoPostId = promoPost.node.id;
     let filteredPosts = posts.filter(obj => {
       return obj.node.id !== promoPostId;
