@@ -2,11 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import TextLoop from "react-text-loop";
 
-const PromoLooper = ({ image, title, add }) => (
+const PromoLooper = ({ image, imageTitle, imageAlt, title, add }) => (
   <section className="section">
     <div className="container prosection-container">
       <div
         className="prosection-image"
+        role="img"
+        aria-label={imageAlt}
+        title={imageTitle}
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp
@@ -17,9 +20,10 @@ const PromoLooper = ({ image, title, add }) => (
       ></div>
       <h2 className="prosection-header">
         {title + " "}
-        <TextLoop interval={6000} delay={2000} mask>
+        <span aria-label={add.map(item => item.pain).toString()}></span>
+        <TextLoop interval={6000} delay={2000} mask aria-hidden="true">
           {add.map((item, i) => (
-            <span className="prosection-paindadd" key={`pain` + i}>
+            <span className="prosection-paindadd" key={`pain` + i} aria-hidden="true">
               {item.pain}.
             </span>
           ))}
@@ -31,6 +35,8 @@ const PromoLooper = ({ image, title, add }) => (
 
 PromoLooper.propTypes = {
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title: PropTypes.string,
   add: PropTypes.array
 };

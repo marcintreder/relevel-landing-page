@@ -24,7 +24,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Hero image={image} imageAlt={imageAlt} imageTitle={imageTitle} title={title} subheading={subheading} />
-    <PromoLooper image={prosection.image} title={prosection.title} add={prosection.painAddition} />
+    <PromoLooper image={prosection.image} imageAlt={prosection.imageAlt} imageTitle={prosection.imageTitle} title={prosection.title} add={prosection.painAddition} />
     <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
     <PromoSteps list={everything.list} title={everything.title} />
     <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image}/>
