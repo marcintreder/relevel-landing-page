@@ -123,11 +123,11 @@ export const pageQuery = graphql`
         }
         prosection {
           title
+          imageAlt
+          imageTitle
           painAddition {
             pain
           }
-          imageAlt
-          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
