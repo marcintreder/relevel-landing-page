@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
+cardimage: /img/lower-back-pain.png
+author: Emilia Wysocka-Treder
+promoimage: /img/hero-lower-back.png
 title: 'Real post in: small batch of Jamaican Haa Mountain in store next week'
 date: 2017-01-04T15:04:10.000Z
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/hero-lower-back.png
-cardimage: /img/lower-back-pain.png
-promoimage: /img/hero-lower-back.png
-author: Emilia Wysocka-Treder
 tags:
   - stretches
   - carpal tunnel
