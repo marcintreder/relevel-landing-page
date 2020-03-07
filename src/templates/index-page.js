@@ -25,9 +25,9 @@ export const IndexPageTemplate = ({
   <div>
     <Hero image={image} imageAlt={imageAlt} imageTitle={imageTitle} title={title} subheading={subheading} />
     <PromoLooper image={prosection.image} imageAlt={prosection.imageAlt} imageTitle={prosection.imageTitle} title={prosection.title} add={prosection.painAddition} />
-    <ComingSoon image={comingsoon.image} title={comingsoon.title} description={comingsoon.description} />
+    <ComingSoon image={comingsoon.image} imageAlt={comingsoon.imageAlt} imageTitle={comingsoon.imageTitle} title={comingsoon.title} description={comingsoon.description} />
     <PromoSteps list={everything.list} title={everything.title} />
-    <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image}/>
+    <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image} imageAlt={createdBy.imageAlt} imageTitle={createdBy.imageTitle} />
     <CardGrid title={newLifeGrid.title} description={newLifeGrid.description} items={newLifeGrid.list} />
   </div>
 );

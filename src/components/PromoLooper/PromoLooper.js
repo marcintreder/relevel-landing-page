@@ -10,6 +10,7 @@ const PromoLooper = ({ image, imageTitle, imageAlt, title, add }) => (
         role="img"
         aria-label={imageAlt}
         title={imageTitle}
+        alt={imageAlt}
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp

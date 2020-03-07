@@ -10,6 +10,7 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => (
           className="hero-image"
           role="img"
           aria-label={imageAlt}
+          alt={imageAlt}
           title={imageTitle}
           style={{
             backgroundImage: `url(${

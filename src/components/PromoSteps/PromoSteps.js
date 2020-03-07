@@ -12,6 +12,10 @@ const PromoSteps = ({ title, list }) => (
               className="everything-list-image"
               key={"image" + i}
               id={"image" + i}
+              role="img"
+              aria-label={item.feature.imageAlt}
+              title={item.feature.imageTitle}
+              alt={item.feature.imageAlt}
               style={{
                 backgroundImage: `url(${
                   !!item.feature.image.childImageSharp

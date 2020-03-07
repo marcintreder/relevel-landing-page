@@ -1,11 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const PromoHorizontal = ({ image, title, text }) => (
+const PromoHorizontal = ({ image, title, text, imageAlt, imageTitle }) => (
   <section className="section">
     <div className="container promohorizontal-container">
       <div
         className="promohorizontal-image"
+        role="img"
+        aria-label={imageAlt}
+        alt={imageAlt}
+        title={imageTitle}
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -22,6 +26,8 @@ const PromoHorizontal = ({ image, title, text }) => (
 
 PromoHorizontal.propTypes = {
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title: PropTypes.string, 
   text: PropTypes.string
 };

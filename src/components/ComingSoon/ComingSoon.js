@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Button from "../Button/Button"
 import Input from "../Input/Input"
 
-const ComingSoon = ({ image, title, description, ...props }) => (
+const ComingSoon = ({ image, title, description, imageAlt, imageTitle, ...props }) => (
   <section className="section">
     <div className="container comingsoon-container">
       <div className="comingsoon-text-container">
@@ -20,6 +20,10 @@ const ComingSoon = ({ image, title, description, ...props }) => (
       </div>
       <div
         className="comingsoon-image"
+        role="img"
+        aria-label={imageAlt}
+        alt={imageAlt}
+        title={imageTitle}
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp
@@ -36,6 +40,8 @@ const ComingSoon = ({ image, title, description, ...props }) => (
 
 ComingSoon.propTypes = {
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string
 };
