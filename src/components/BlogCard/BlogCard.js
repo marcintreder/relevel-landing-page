@@ -12,7 +12,6 @@ const BlogCard = ({ promoimage, title, author, link, ...props }) => (
             })`
           }}
         >
-          {console.log(props)}
         <h3 className="blogcard-header">{title}</h3>
         <address className="blogcard-author">by {author}</address>
     </Link>

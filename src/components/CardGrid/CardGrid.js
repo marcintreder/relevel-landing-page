@@ -10,11 +10,14 @@ const CardGrid = ({ description, title, items }) => (
       </div>
       <ul className="cardgrid-list">
         {items.map((x, i) => (
-          <li className="card-item">
+          <li 
+            className="card-item"
+            key={`card${i}`}
+            >
             <div
               className="card-image"
               role="img"
-              aria-role={x.item.imageAlt}
+              aria-label={x.item.imageAlt}
               alt={x.item.imageAlt}
               title={x.item.imageTitle}
               style={{

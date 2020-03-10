@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes, { oneOf } from "prop-types";
+import PropTypes from "prop-types";
 import BlogCard from "../BlogCard/BlogCard";
 
 export default class BlogRoll extends React.Component {

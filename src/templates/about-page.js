@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import SimpleHero from "../components/SimpleHero/SimpleHero";
 import EditorialContent from "../components/EditorialContent/EditorialContent";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
-import Content, { HTMLContent } from "../components/Content";
 
 export const AboutPageTemplate = ({
   header1,
@@ -75,7 +74,6 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  console.log(data)
   return (
     <Layout>
       <AboutPageTemplate

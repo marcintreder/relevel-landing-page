@@ -1,13 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll/BlogRoll";
 import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
 
 class TagRoute extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges;
     const tag = this.props.pageContext.tag;
     const title = this.props.data.site.siteMetadata.title;
     

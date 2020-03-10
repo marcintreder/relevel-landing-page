@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 import Input from "../Input/Input"
 import Button from "../Button/Button"
 import logo from "../../img/logo_white.svg";
@@ -26,9 +26,9 @@ const Footer = class extends React.Component {
                 {articles.map((item, i) => {
                   return (
                     <li className="footer-latest-list_item" key={"latestitem" + i}>
-                      <Link to={item.url} className="footer-latest-item_link" key={"latestlink" + i}>
+                      <a href={item.url} className="footer-latest-item_link" key={"latestlink" + i}>
                         {item.title}
-                      </Link>
+                      </a>
                     </li>
                   );
                 })}

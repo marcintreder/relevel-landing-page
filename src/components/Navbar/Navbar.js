@@ -56,9 +56,12 @@ const Navbar = class extends React.Component {
           </div>
           {/* Hamburger menu */}
           <div
+            role="button"
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
             data-target="navMenu"
+            tabIndex="0"
             onClick={() => this.toggleHamburger()}
+            onKeyDown={() => this.toggleHamburger()}
           >
             <span />
             <span />
@@ -84,13 +87,22 @@ const Navbar = class extends React.Component {
               </Link>
               <ul className="navbar-social">
                 <li>
-                  <a href="https://twitter.com/relevelapp" className="navbar-social--twitter"></a>
+                  <a href="https://twitter.com/relevelapp">
+                    <i className="navbar-social--twitter" aria-hidden="true">
+                    </i>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/relevelapp" className="navbar-social--instagram"></a>
+                  <a href="https://instagram.com/relevelapp">
+                    <i className="navbar-social--instagram" aria-hidden="true">
+                    </i>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://pinterest.com/relevelapp" className="navbar-social--pinterest"></a>
+                  <a href="https://pinterest.com/relevelapp">
+                    <i className="navbar-social--pinterest" aria-hidden="true">
+                    </i>
+                  </a>
                 </li>
               </ul>
             </div>

@@ -1,9 +1,7 @@
 import React from "react";
-import { Link, graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll/BlogRoll";
 import PromoBlog from "../../components/PromoBlog/PromoBlog";
-import CategoryList from "../../components/CategoryList/CategoryList";
 import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
 
 export class BlogIndexPage extends React.Component {
@@ -25,11 +23,9 @@ export class BlogIndexPage extends React.Component {
 
     posts.map(item => {
       if (item.node.frontmatter.tags.length === 1) {
-        tagList.push(item.node.frontmatter.tags[0]);
+        return tagList.push(item.node.frontmatter.tags[0]);
       } else {
-        item.node.frontmatter.tags.map(x => {
-          tagList.push(x);
-        });
+        return item.node.frontmatter.tags.map(x => tagList.push(x));
       }
     });
 
