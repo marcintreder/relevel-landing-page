@@ -1,9 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const SimpleHero = ({ image, title1, title2, description }) => (
+const SimpleHero = ({ image, imageAlt, imageTitle, title1, title2, description }) => (
   <div className="container">
     <div
+      role="img"
+      aria-label={imageAlt}
+      alt={imageAlt}
+      title={imageTitle}
       className="simple-hero-image"
       style={{
         backgroundImage: `url(${
@@ -19,6 +23,8 @@ const SimpleHero = ({ image, title1, title2, description }) => (
 
 SimpleHero.propTypes = {
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title1: PropTypes.string,
   title2: PropTypes.string,
   description: PropTypes.string

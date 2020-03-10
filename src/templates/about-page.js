@@ -11,6 +11,8 @@ export const AboutPageTemplate = ({
   header2,
   description,
   image,
+  imageAlt,
+  imageTitle,
   aboutEmilia,
   familyBusiness,
   mission,
@@ -20,6 +22,8 @@ export const AboutPageTemplate = ({
     <section className="section section--gradient about-container">
       <SimpleHero
         image={image}
+        imageAlt={imageAlt}
+        imageTitle={imageTitle}
         title1={header1}
         title2={header2}
         description={description}
@@ -36,6 +40,8 @@ export const AboutPageTemplate = ({
       <EditorialContent
         title={aboutEmilia.title}
         image={aboutEmilia.image}
+        imageAlt={aboutEmilia.imageAlt}
+        imageTitle={aboutEmilia.imageTitle}
         direction="left"
         description={[
           aboutEmilia.description1,
@@ -46,6 +52,8 @@ export const AboutPageTemplate = ({
       <EditorialContent
         title={familyBusiness.title}
         image={familyBusiness.image}
+        imageAlt={familyBusiness.imageAlt}
+        imageTitle={familyBusiness.imageTitle}
         direction="right"
         description={[
           familyBusiness.description1,
@@ -54,6 +62,8 @@ export const AboutPageTemplate = ({
       />
       <ComingSoon 
         image={comingsoon.image}
+        imageAlt={comingsoon.imageAlt}
+        imageTitle={comingsoon.imageTitle}
         title={comingsoon.title}
         description={comingsoon.description}
       />
@@ -67,6 +77,8 @@ AboutPageTemplate.propTypes = {
   description: PropTypes.string,
   mission: PropTypes.object,
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   aboutEmilia: PropTypes.object,
   familyBusiness: PropTypes.object,
   comingsoon: PropTypes.object
@@ -81,6 +93,8 @@ const AboutPage = ({ data }) => {
         header2={post.frontmatter.header2}
         description={post.frontmatter.description}
         image={post.frontmatter.image}
+        imageAlt={post.frontmatter.imageAlt}
+        imageTitle={post.frontmatter.imageTitle}
         aboutEmilia={post.frontmatter.aboutEmilia}
         familyBusiness={post.frontmatter.familyBusiness}
         mission={post.frontmatter.mission}
@@ -111,6 +125,8 @@ export const aboutPageQuery = graphql`
             }
           }
         }
+        imageAlt
+        imageTitle
         mission {
           title
           missionStatement
@@ -122,6 +138,8 @@ export const aboutPageQuery = graphql`
           description1
           description2
           description3
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -134,6 +152,8 @@ export const aboutPageQuery = graphql`
           title
           description1
           description2
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -145,6 +165,8 @@ export const aboutPageQuery = graphql`
         comingsoon {
           title
           description
+          imageAlt
+          imageTitle
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {

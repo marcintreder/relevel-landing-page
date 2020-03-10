@@ -10,6 +10,8 @@ const AboutPagePreview = ({ entry }) => {
     header2={data.header2}
     description={data.description}
     image={data.image}
+    imageAlt={data.imageAlt}
+    imageTitle={data.imageTitle}
     aboutEmilia={data.aboutEmilia}
     familyBusiness={data.familyBusiness}
     mission={data.mission}

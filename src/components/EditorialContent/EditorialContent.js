@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const EditorialContent = ({ title, quote, description, image, direction }) => (
+const EditorialContent = ({ title, quote, description, image, imageAlt, imageTitle, direction }) => (
   <div className="container">
     <h2 className="editorial-content-header">{title}</h2>
     <div
@@ -18,6 +18,10 @@ const EditorialContent = ({ title, quote, description, image, direction }) => (
       )}
       {image ? (
         <div
+          role="img"
+          aria-label={imageAlt}
+          alt={imageAlt}
+          title={imageTitle}
           className="editorial-content-image"
           style={{
             backgroundImage: `url(${
@@ -41,6 +45,8 @@ const EditorialContent = ({ title, quote, description, image, direction }) => (
 
 EditorialContent.propTypes = {
   image: PropTypes.object,
+  imageAlt: PropTypes.string,
+  imageTitle: PropTypes.string,
   title: PropTypes.string,
   quote: PropTypes.string,
   description: PropTypes.arrayOf(PropTypes.string),

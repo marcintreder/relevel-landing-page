@@ -96,6 +96,8 @@ collections:
           - {label: "Header2", name: "header2", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Image", name: "image", widget: "image"}
+          - {label: "ImageAlt", name: "imageAlt", widget: "string"}
+          - {label: "ImageTitle", name: "imageTitle", widget: "string"}
           - {label: "Mission", name: "mission", widget: "object", fields: [
             {label: "title", name: "title", widget: "string"},
             {label: "missionStatement", name: "missionStatement", widget: "string" },
@@ -104,6 +106,8 @@ collections:
           ]}
           - {label: "aboutEmilia", name: "aboutEmilia", widget: "object", fields: [
             {label: "image", name: "image", widget: "image"},
+            {label: "ImageAlt", name: "imageAlt", widget: "string"},
+            {label: "ImageTitle", name: "imageTitle", widget: "string"},
             {label: "title", name: "title", widget: "string"},
             {label: "description1", name: "description1", widget: "text"},
             {label: "description2", name: "description2", widget: "text"},
@@ -111,8 +115,11 @@ collections:
           ]}
           - {label: "familyBusiness", name: "familyBusiness", widget: "object", fields: [
             {label: "image", name: "image", widget: "image"},
+            {label: "ImageAlt", name: "imageAlt", widget: "string"},
+            {label: "ImageTitle", name: "imageTitle", widget: "string"},
             {label: "title", name: "title", widget: "string"},
             {label: "description1", name: "description1", widget: "text"},
             {label: "description2", name: "description2", widget: "text"},
           ]}
-          - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: text}]}
+          - {label: Comingsoon, name: comingsoon, widget: object, fields: [{label: Title, name: title, widget: string},{label: Image, name: image, widget: image}, {label: "ImageAlt", name: "imageAlt", widget: "string"},
+            {label: "ImageTitle", name: "imageTitle", widget: "string"},{label: Description, name: description, widget: text}]}
