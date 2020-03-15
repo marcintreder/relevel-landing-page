@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
@@ -16,6 +16,17 @@ export default function HTML(props) {
           type="text/css"
           href="fonts/TrederDesignNeuePlak.css"
         />
+        <script id="mcjs">
+          !function(c,h,i,m,p)
+          {
+            ((m = c.createElement(h)),
+            (p = c.getElementsByTagName(h)[0]),
+            (m.async = 1),
+            (m.src = i),
+            p.parentNode.insertBefore(m, p))
+          }
+          (document,"script","https://chimpstatic.com/mcjs-connected/js/users/39ea52625cf994688b4ca9363/0c9399f51bd6178d4fbcd3677.js");
+        </script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -28,7 +39,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -37,5 +48,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-}
+  postBodyComponents: PropTypes.array
+};
