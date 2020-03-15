@@ -17,7 +17,7 @@ export default function HTML(props) {
           href="fonts/TrederDesignNeuePlak.css"
         />
         <script id="mcjs">
-          !function(c,h,i,m,p)
+          {!function(c,h,i,m,p)
           {
             ((m = c.createElement(h)),
             (p = c.getElementsByTagName(h)[0]),
@@ -25,7 +25,7 @@ export default function HTML(props) {
             (m.src = i),
             p.parentNode.insertBefore(m, p))
           }
-          (document,"script","https://chimpstatic.com/mcjs-connected/js/users/39ea52625cf994688b4ca9363/0c9399f51bd6178d4fbcd3677.js");
+          (document,"script","https://chimpstatic.com/mcjs-connected/js/users/39ea52625cf994688b4ca9363/0c9399f51bd6178d4fbcd3677.js")}
         </script>
         {props.headComponents}
       </head>
