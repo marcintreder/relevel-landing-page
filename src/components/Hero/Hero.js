@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 import Input from "../Input/Input"
 import Button from "../Button/Button"
 
-const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => (
+const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
+
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    addToMailchimp(email)
+      .then((data) => {
+        alert(data.result);
+      })
+      .catch((error) => {
+        // Errors in here are client side
+        // Mailchimp always returns a 200
+      });
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.currentTarget.value);
+  };
+
+
+  return (
   <div className="hero-modified">
     <div className="container hero-container">
       <div
@@ -21,14 +44,20 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => (
       <div className="column hero-text">
         <h1 className="hero-h1">{title}</h1>
         <h3 className="hero-h3">{subheading}</h3>
-        <form className="hero-form">
-          <Input type="text" kind="purple" placeholder="Your email address" />
-          <Button label="Get early Access" kind="purple" />
+        <form className="hero-form" onSubmit={handleSubmit}>
+          <Input 
+            type="text"
+            name="email" 
+            kind="purple" 
+            placeholder="Your email address"
+            onChange={handleEmailChange}
+            />
+          <Button label="Get early Access" kind="purple" type="submit" />
         </form>
       </div>
     </div>
-  </div>
-);
+  </div>)
+};
 
 Hero.propTypes = {
     image: PropTypes.object,

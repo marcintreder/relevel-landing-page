@@ -37,6 +37,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us19.list-manage.com/subscribe/post?u=39ea52625cf994688b4ca9363&amp;id=5613b19ac5',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-disqus',
       options: {
         shortname: 'relevel-disqus'
