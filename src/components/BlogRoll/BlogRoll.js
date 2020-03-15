@@ -12,7 +12,9 @@ export default class BlogRoll extends React.Component {
               <BlogCard
                 key={post.id} 
                 className="blogroll-cards"
-                promoimage={post.frontmatter.cardimage}
+                image={post.frontmatter.cardimage}
+                imageTitle={post.frontmatter.cardimageTitle}
+                imageAlt={post.frontmatter.cardimageAlt}
                 title={post.frontmatter.title}
                 author={post.frontmatter.author}
                 link={post.fields.slug}

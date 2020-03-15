@@ -4,8 +4,14 @@ title: A beginners’ guide to brewing with Chemex
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg
+featuredimageAlt: Relevel
+featuredimageTitle: Relevel
 promoimage: /img/shoulder-pain.png
+promoimageAlt: Relevel
+promoimageTitle: Relevel
 cardimage: /img/lower-back-pain.png
+cardimageAlt: Relevel
+cardimageTitle: Relevel
 author: Emilia Wysocka-Treder
 description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:

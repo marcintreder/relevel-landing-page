@@ -3,9 +3,15 @@ templateKey: 'blog-post'
 title: 'What’s causing Sciatica and how can you help yourself'
 date: 2017-02-04T15:04:10.000Z
 featuredpost: false
-promoimage: /img/lower-back-pain.png
 featuredimage: /img/lower-back-pain.png
+featuredimageAlt: Relevel
+featuredimageTitle: Relevel
+promoimage: /img/lower-back-pain.png
+promoimageAlt: Relevel
+promoimageTitle: Relevel
 cardimage: /img/shoulder_pain.png
+cardimageAlt: Relevel
+cardimageTitle: Relevel
 author: Emilia Wysocka-Treder
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue

@@ -1,8 +1,6 @@
 ---
 templateKey: blog-post
-cardimage: /img/four_stretches.png
 author: Emilia Wysocka-Treder
-promoimage: /img/shoulder_pain.png
 title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
 date: 2017-01-04T15:04:10.000Z
 description: >-
@@ -10,6 +8,14 @@ description: >-
   Mountain coffee beans in our store next week.
 featuredpost: false
 featuredimage: /img/four_stretches.png
+featuredimageAlt: Relevel
+featuredimageTitle: Relevel
+cardimage: /img/four_stretches.png
+cardimageAlt: Relevel
+cardimageTitle: Relevel
+promoimage: /img/shoulder_pain.png
+promoimageAlt: Relevel
+promoimageTitle: Relevel
 tags:
   - stretches
   - carpal tunnel

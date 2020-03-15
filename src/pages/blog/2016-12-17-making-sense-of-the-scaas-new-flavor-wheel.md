@@ -7,8 +7,14 @@ description: >-
   tasters, has been revised for the first time this year.
 featuredpost: false
 featuredimage: /img/five_stretches.png
+featuredimageAlt: Relevel
+featuredimageTitle: Relevel
 promoimage: /img/shoulder-pain.png
+promoimageAlt: Relevel
+promoimageTitle: Relevel
 cardimage: /img/lower-back-pain.png
+cardimageAlt: Relevel
+cardimageTitle: Relevel
 author: Emilia Wysocka-Treder
 tags:
   - lower back pain

@@ -1,8 +1,6 @@
 ---
 templateKey: blog-post
-cardimage: /img/lower-back-pain.png
 author: Emilia Wysocka-Treder
-promoimage: /img/hero-lower-back.png
 title: 'Real post in: small batch of Jamaican Haa Mountain in store next week'
 date: 2017-01-04T15:04:10.000Z
 description: >-
@@ -10,6 +8,14 @@ description: >-
   Mountain coffee beans in our store next week.
 featuredpost: true
 featuredimage: /img/hero-lower-back.png
+featuredimageAlt: Relevel
+featuredimageTitle: Relevel
+promoimage: /img/hero-lower-back.png
+promoimageAlt: Relevel
+promoimageTitle: Relevel
+cardimage: /img/lower-back-pain.png
+cardimageAlt: Relevel
+cardimageTitle: Relevel
 tags:
   - stretches
   - carpal tunnel

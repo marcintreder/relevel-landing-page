@@ -24,6 +24,14 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Featured Image Title", name: "featuredimageTitle", widget: string}
+      - {label: "Featured Image Alt", name: "featuredimageAlt", widget: string}
+      - {label: "Promo Image", name: "promoimage", widget: image}
+      - {label: "Promo Image Title", name: "promoimageTitle", widget: string}
+      - {label: "Promo Image Alt", name: "promoimageAlt", widget: string}
+      - {label: "Card Image", name: "cardimage", widget: image}
+      - {label: "Card Image Title", name: "cardimageTitle", widget: string}
+      - {label: "Card Image Alt", name: "cardimageAlt", widget: string}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 

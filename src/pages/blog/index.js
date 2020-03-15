@@ -35,6 +35,8 @@ export class BlogIndexPage extends React.Component {
           title={promoPost.node.frontmatter.title}
           description={promoPost.node.excerpt}
           image={promoPost.node.frontmatter.featuredimage}
+          imageAlt={promoPost.node.frontmatter.featuredimageAlt}
+          imageTitle={promoPost.node.frontmatter.featuredimageTitle}
           link={promoPost.node.fields.slug}
         />
         <section className="section">
@@ -78,6 +80,8 @@ export default () => (
                     }
                   }
                 }
+                featuredimageAlt
+                featuredimageTitle
                 promoimage {
                   childImageSharp {
                     fluid(maxWidth: 360, quality: 100) {
@@ -85,6 +89,10 @@ export default () => (
                     }
                   }
                 }
+                promoimageAlt
+                promoimageTitle
+                cardimageAlt
+                cardimageTitle
                 cardimage {
                   childImageSharp {
                     fluid(maxWidth: 360, quality: 100) {
