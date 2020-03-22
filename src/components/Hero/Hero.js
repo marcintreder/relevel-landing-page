@@ -3,32 +3,68 @@ import PropTypes from "prop-types";
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import Input from "../Input/Input"
 import Button from "../Button/Button"
+import FormMessage from "../FormMessage/FormMessage"
 
 const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
 
   const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const [showMsg, setShowMsg] = useState('');
 
-  console.log(email)
+  // Time set for visibility of validation messages
+  const msgTime = 8000;
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e)
     addToMailchimp(email)
       .then((data) => {
-        console.log(data)
-        alert(data.result);
+        if(data.result === "error") {
+          setError(data.msg)
+          setShowMsg(true)
+
+          // Message will disappear after a time set in msgTime
+          setTimeout(() => {
+            setShowMsg(false)
+          }, msgTime)
+        }
+        else if(data.result === "success") {
+          setSuccess(data.msg)
+          setShowMsg(true)
+
+          // Message will disappear after a time set in msgTime
+          setTimeout(() => {
+            setShowMsg(false)
+          }, msgTime)
+        }
       })
       .catch((error) => {
         // Errors in here are client side
         // Mailchimp always returns a 200
-        console.log(error)
+        setError(true)
       });
   };
 
   const handleEmailChange = (event) => {
-    console.log(event)
     setEmail(event.currentTarget.value);
   };
+
+  const setValidationMsg = () => {
+    if (error !== '' && showMsg) {
+      return (
+        <FormMessage kind="error" message={error} />
+      )
+    }
+    else if (success !== '' && showMsg) {
+      return (
+      <FormMessage kind="success" message={success} />
+      )
+    }
+    else {
+      return null
+    }
+
+  }
 
 
   return (
@@ -50,15 +86,16 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
         <h1 className="hero-h1">{title}</h1>
         <h3 className="hero-h3">{subheading}</h3>
         <form className="hero-form" onSubmit={handleSubmit}>
-          <input 
+          <Input 
             type="text"
             name="email" 
             className="input-transparent input-transparent__purple"
             placeholder="Your email address"
-            onChange={handleEmailChange}
-            />
+            onChangeFunction={handleEmailChange}
+          />
           <Button label="Get early Access" kind="purple" type="submit" />
         </form>
+        {setValidationMsg()}
       </div>
     </div>
   </div>)

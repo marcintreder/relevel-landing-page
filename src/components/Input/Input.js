@@ -6,7 +6,7 @@ const Input = ({ placeholder, kind, type, onChangeFunction, name }) => (
     type={type}
     placeholder={placeholder}
     className={`input-transparent ${kind === "white" ? "input-transparent__white" : "input-transparent__purple"}`}
-    onChange={onChangeFunction}
+    onChange={(e) => onChangeFunction(e)}
     name={name}
   />
 );
