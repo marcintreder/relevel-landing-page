@@ -15,11 +15,12 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  id
 }) => {
   const PostContent = contentComponent || Content
   let disqusConfig = {
     url: `http://relevelapp.com`,
-    identifier: 'relevel-1',
+    identifier: `relevel-1${id}`,
     title: 'Relevel Comments',
     shortname: 'relevel-1'
   }
@@ -82,6 +83,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        id={post.frontmatter.id}
       />
     </Layout>
   )
