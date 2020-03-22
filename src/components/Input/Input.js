@@ -8,6 +8,7 @@ const Input = ({ placeholder, kind, type, onChangeFunction, name }) => (
     className={`input-transparent ${kind === "white" ? "input-transparent__white" : "input-transparent__purple"}`}
     onChange={(e) => onChangeFunction(e)}
     name={name}
+    aria-label={placeholder}
   />
 );
 

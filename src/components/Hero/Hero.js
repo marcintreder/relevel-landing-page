@@ -89,7 +89,7 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
           <Input 
             type="text"
             name="email" 
-            className="input-transparent input-transparent__purple"
+            kind="purple"
             placeholder="Your email address"
             onChangeFunction={handleEmailChange}
           />

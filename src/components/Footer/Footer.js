@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import Input from "../Input/Input"
-import Button from "../Button/Button"
+import addToMailchimp from "gatsby-plugin-mailchimp";
+import Input from "../Input/Input";
+import Button from "../Button/Button";
 import logo from "../../img/logo_white.svg";
+import FormMessage from "../FormMessage/FormMessage";
 
-const Footer = class extends React.Component {
-  render() {
+const Footer = (props) => {
     const {
       data: {
         markdownRemark: {
@@ -14,8 +15,58 @@ const Footer = class extends React.Component {
           }
         }
       }
-    } = this.props;
+    } = props;
 
+    const [email, setEmail] = useState("");
+    const [error, setError] = useState("");
+    const [success, setSuccess] = useState("");
+    const [showMsg, setShowMsg] = useState("");
+
+    // Time set for visibility of validation messages
+    const msgTime = 8000;
+
+    const handleSubmit = e => {
+      e.preventDefault();
+      addToMailchimp(email)
+        .then(data => {
+          if (data.result === "error") {
+            setError(data.msg);
+            setShowMsg(true);
+
+            // Message will disappear after a time set in msgTime
+            setTimeout(() => {
+              setShowMsg(false);
+            }, msgTime);
+          } else if (data.result === "success") {
+            setSuccess(data.msg);
+            setShowMsg(true);
+
+            // Message will disappear after a time set in msgTime
+            setTimeout(() => {
+              setShowMsg(false);
+            }, msgTime);
+          }
+        })
+        .catch(error => {
+          // Errors in here are client side
+          // Mailchimp always returns a 200
+          console.log(error);
+        });
+    };
+
+    const handleEmailChange = event => {
+      setEmail(event.currentTarget.value);
+    };
+
+    const setValidationMsg = () => {
+      if (error !== "" && showMsg) {
+        return <FormMessage kind="error" message={error} />;
+      } else if (success !== "" && showMsg) {
+        return <FormMessage kind="success" message={success} />;
+      } else {
+        return null;
+      }
+    };
     return (
       <footer className="footer">
         <div className="content">
@@ -25,8 +76,15 @@ const Footer = class extends React.Component {
               <ul className="footer-latest-list">
                 {articles.map((item, i) => {
                   return (
-                    <li className="footer-latest-list_item" key={"latestitem" + i}>
-                      <a href={item.url} className="footer-latest-item_link" key={"latestlink" + i}>
+                    <li
+                      className="footer-latest-list_item"
+                      key={"latestitem" + i}
+                    >
+                      <a
+                        href={item.url}
+                        className="footer-latest-item_link"
+                        key={"latestlink" + i}
+                      >
                         {item.title}
                       </a>
                     </li>
@@ -42,10 +100,22 @@ const Footer = class extends React.Component {
                 easy daily routines and fun exercises, will take the away the
                 aches caused by sitting in front of the computer too much.
               </div>
-              <form className="footer-form">
-                <Input type="text" placeholder="Your email address" kind="white" />
-                <Button label="Get early access" kind="white" dots />
+              <form className="footer-form" onSubmit={handleSubmit}>
+                <Input
+                  type="text"
+                  name="email"
+                  placeholder="Your email address"
+                  kind="white"
+                  onChangeFunction={handleEmailChange}
+                />
+                <Button
+                  label="Get early access"
+                  kind="white"
+                  dots
+                  type="submit"
+                />
               </form>
+              {setValidationMsg()}
             </div>
           </div>
         </div>
@@ -61,8 +131,7 @@ const Footer = class extends React.Component {
         </div>
       </footer>
     );
-  }
-};
+  };
 
 export default () => (
   <StaticQuery
@@ -83,46 +152,3 @@ export default () => (
     render={data => <Footer data={data} />}
   />
 );
-
-// export default Footer;
-
-/*
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
-*/
-
-/*
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
-*/
