@@ -8,20 +8,25 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
 
   const [email, setEmail] = useState('');
 
+  console.log(email)
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    console.log(e)
     addToMailchimp(email)
       .then((data) => {
+        console.log(data)
         alert(data.result);
       })
       .catch((error) => {
         // Errors in here are client side
         // Mailchimp always returns a 200
+        console.log(error)
       });
   };
 
   const handleEmailChange = (event) => {
+    console.log(event)
     setEmail(event.currentTarget.value);
   };
 
@@ -45,10 +50,10 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
         <h1 className="hero-h1">{title}</h1>
         <h3 className="hero-h3">{subheading}</h3>
         <form className="hero-form" onSubmit={handleSubmit}>
-          <Input 
+          <input 
             type="text"
             name="email" 
-            kind="purple" 
+            className="input-transparent input-transparent__purple"
             placeholder="Your email address"
             onChange={handleEmailChange}
             />
