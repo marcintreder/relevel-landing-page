@@ -18,8 +18,8 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
   let disqusConfig = {
-    url: `https://affectionate-williams-d4867e.netlify.com`,
-    identifier: 'relevel-1313',
+    url: `http://relevelapp.com`,
+    identifier: 'relevel-1',
     title: 'Relevel Comments',
     shortname: 'relevel-1'
   }
