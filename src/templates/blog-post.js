@@ -7,6 +7,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Breadcrumb from "../components/Breadcrumb/Breadcrumb"
+import useSiteMetadata from '../hooks/siteMetedata';
 
 export const BlogPostTemplate = ({
   content,
@@ -15,14 +16,18 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
-  id
+  id,
+  location
 }) => {
   const PostContent = contentComponent || Content
+  
+  /* disqus integration */
+  const { siteURL } = useSiteMetadata();
+  const pageURL = `${siteURL}${location.pathname}`
   let disqusConfig = {
-    url: `http://relevelapp.com`,
+    url: pageURL,
     identifier: `relevel-1${id}`,
-    title: 'Relevel Comments',
-    shortname: 'relevel-1'
+    title: title,
   }
 
   return (
@@ -49,7 +54,7 @@ export const BlogPostTemplate = ({
             ) : null}
       </div>
       <div className="container">
-        <DiscussionEmbed config={disqusConfig} />
+        <DiscussionEmbed config={disqusConfig} shortname="relevel-1" />
       </div>
     </section>
   )
@@ -63,15 +68,15 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data
-
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        location={location}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -83,7 +88,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        id={post.frontmatter.id}
+        id={post.id}
       />
     </Layout>
   )
