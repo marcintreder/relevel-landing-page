@@ -4,9 +4,11 @@ title: 'Privacy Policy'
 description: >-
   Relevel Privacy Policy. Relevel treats privacy of users with absolute seriousness. This policy details the way Revelel collects and protects data of users.
 ---
-Relevel we values your privacy, so we are committed to transparently explain what information we may collect and how we protect your data when you use our Site or when you subscribe to our Service. This document intends to provide you with information on how we treat the personal data we may collect about you and therefore you should read this Privacy Policy in full prior to using the Site and to usage of the Service as the Privacy Policy shall always apply to any of such uses.
+Effective Date: March 28th, 2020
 
-You’re just six steps away from getting familiar with this Privacy Policy which covers:
+At Relevel we highly value your privacy! We believe that you should be fully informed whn it comes to the information and data we may collect and how we're protecting it when you use our Site or when you subscribe to our Service. This document provides information on how we treat your personal data. Please read this Privacy Policy prior to using the Site and the Service. Privacy Policy applies to both use cases.
+
+You’re just six steps away from getting familiar with this Privacy Policy:
 
 1. Overview of basic data protection principles,
 2. The information we collect,

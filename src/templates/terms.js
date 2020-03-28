@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Breadcrumb from "../components/Breadcrumb/Breadcrumb"
+import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
 
 export const TermsTemplate = ({
   content,
@@ -36,6 +36,7 @@ TermsTemplate.propTypes = {
 };
 
 const Terms = ({ data, location }) => {
+  console.log(data);
   const { markdownRemark: post } = data;
   return (
     <Layout>
@@ -67,8 +68,9 @@ Terms.propTypes = {
 export default Terms;
 
 export const pageQuery = graphql`
-  query TermsByID {
-    markdownRemark(frontmatter: { templateKey: { eq: "terms" } }) {
+  query TermsByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
       html
       frontmatter {
         title
