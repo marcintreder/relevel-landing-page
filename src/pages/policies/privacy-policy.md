@@ -6,27 +6,17 @@ description: >-
 ---
 Effective Date: March 28th, 2020
 
-At Relevel we highly value your privacy! We believe that you should be fully informed whn it comes to the information and data we may collect and how we're protecting it when you use our Site or when you subscribe to our Service. This document provides information on how we treat your personal data. Please read this Privacy Policy prior to using the Site and the Service. Privacy Policy applies to both use cases.
-
-You’re just six steps away from getting familiar with this Privacy Policy:
-
-1. Overview of basic data protection principles,
-2. The information we collect,
-3. The ways and purposes we use your data for and grounds for data processing,
-4. Situations when the information may be disclosed, 
-5. Your rights, data security, changes to the policy & other matters, 
-6. Recourse and arbitration,
-7. Cookie policy.
+At Relevel we highly value your right to privacy. We believe that you should be fully informed when it comes to the information and data we may collect and how we're protecting it when you use our Site, content, Mobile App (Site, content and mobile app are collectively referred as "the Services") or when you subscribe to our Mobile App subscription. This document provides information on how we treat your personal data. Please read this Privacy Policy prior to using the Site and the Services. Privacy Policy applies to both use cases.
 
 ## 1. Overview
 
-We would like to explain you the basic Privacy Policy principles as simply as possible and according to binding data protection laws. In our view, to meet the expectations of the Client, all the necessary information shall be presented at the beginning of a policy and in a plain manner. Therefore, prior to any further inquiries, below you shall please find all the vital information:
+We would like to explain you the basic Privacy Policy principles as clearly as possible and according to binding data protection laws.
 
 * Relevel is the controller of all the personal data you provide when you use the Relevel app (the “Service”) website located at https://www.relevelapp.com (the “Site”), Relevel means Relevel Inc., a Delaware corporation. You may contact us at hello@relevel.com;
 
-* Whenever you sign up to any functionalities of the Site, in particular to the trial period, newsletter, download e-books, enrol a webinar or e-course etc. we may collect in particular your e-mail address and other given data such as: first name, last name, job position, company name, phone number or other submitted data; you provide all of your personal data voluntarily but we may point some of them to be obligatory to supply you at least with basic functions of the Service or other functionalities accessible via the Site; Relevel minimizes the scope of gathered data so we don’t collect data we believe to be unnecessary to achieve purposes they are collected for;
+* Whenever you sign up to any functionalities of the Site, in particular to the mobile app subscription and/or trial period, newsletter, download e-books or any content, enrol into a webinar or e-course etc. we may collect in particular your e-mail address and other given data such as: first name, last name, job position, company name, phone number or other submitted data; you provide all of your personal data voluntarily but we may point some of them to be obligatory to supply you at least with basic functions of the Service or other functionalities accessible via the Site; Relevel minimizes the scope of gathered data so we don’t collect data we believe to be unnecessary to achieve purposes they are collected for;
 
-* We may also use the collected data for marketing purposes of our product. Your consent may be withdrawn any time; we won’t send you any other third party marketing messages; you may unsubscribe at any time or explicitly object to be addressed any marketing communication by contacting us;
+* We may also use the collected data for marketing purposes. Your consent may be withdrawn any time; we won’t send you any other third party marketing messages; you may unsubscribe at any time or explicitly object to be addressed any marketing communication by contacting us;
 
 * We encourage you to test and subscribe to the Relevel Service; if you do so, please mind that we may need to process further personal data (such as evidential numbers (tax identity number, registration number in relevant court, administrative or commercial registers – in case of corporate entities), billing address and credit card information) – we will use them to supply our services and to process payments i.e. to perform the contract in accordance with the Terms of Service;
 
@@ -42,15 +32,6 @@ We would like to explain you the basic Privacy Policy principles as simply as po
 
 * We may practice profiling to assess if you have already subscribed to our Service and target you with relevant advertisements of Relevel products or the Services features but we don’t make material decisions upon the profiling results; Shall you have any privacy related complaints or suggestions, you may contact us at hello@relevelapp.com; it’s best to contact Relevel as the first step; you also have the right to lodge a complaint with a supervisory authority relevant for your country (for EU individuals see this [link](https://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm);
 
-* Please be informed that Relevel does comply with the EU-U.S. and Swiss-U.S. Privacy Shield Framework as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information transferred from Individual Customers in the European Union member states or Switzerland to the United States, as stipulated in the “Relevel Privacy Shield Framework Policy”, accessible via Site at https://www.relevelapp.com/privacy-shield.
-
-* Relevel has certified that it adheres to the Privacy Shield Privacy Principles of Notice, Choice, Accountability for onward transfer, Security, Data Integrity and Purpose Limitation, Access, Recourse, Enforcement and Liability. Shall there be any conflict between the policies in this privacy policy and the Privacy Shield Privacy Principles, the Privacy Shield Privacy Principles shall prevail.
-To learn more about the Privacy Shield program, and to view our certification page, please visit https://www.privacyshield.gov.
-
-* You can also verify yourself our participation in the Privacy Shield program and validity of our entry by searching us on the Privacy Shield List that you can find [here](https://www.privacyshield.gov/list).
-
-* The Federal Trade Commission (FTC) has jurisdiction over Relevel’s compliance with the Privacy Shield and the Relevel shall be subjected to the investigatory and enforcement powers of the FTC.
-
 Each of the above principles may be further explained below. If you have any questions about this Privacy Policy – please be advised that you can also contact us any time at hello@relevelapp.com.
 
 ## 2. The information we collect
@@ -58,7 +39,7 @@ When You use the Relevel Site and Service we may collect various information nec
 
 **2.1 Submitted Information.** When registering for an account on Relevel, we will collect the following information: (i) your e-mail address and (ii) a unique password. We may also collect information regarding your name and surname or company name, your team size, your role in a team, and telephone number. You submit all the data voluntarily but some of them may be obligatory to use certain functionalities of the Site. 
 
-  When paying to use the Site, we may collect further information from you including: evidential numbers (tax identity number, registration number in relevant court, administrative or commercial registers – in case of corporate entities), billing address and credit card information. If you submit payment information, we do not store credit card numbers you may use to make payments on the Site. Payment information is passed on to, and may be stored by, our third-party payment processors (listed [here]( http://relevelapp.com/third-party-tools)).
+  When paying to use the Site or Mobile App, we may collect further information from you including: evidential numbers (tax identity number, registration number in relevant court, administrative or commercial registers – in case of corporate entities), billing address and credit card information. If you submit payment information, we do not store credit card numbers you may use to make payments on the Site. Payment information is passed on to, and may be stored by, our third-party payment processors (listed [here]( http://relevelapp.com/policies/third-party-tools)).
   
   It is your responsibility to give us current, complete, truthful and accurate information, and to keep such information up to date. Relevel will not be responsible for any problems or liability related to inaccurate or incomplete personal information, whether due to your failure to update such personal information or otherwise.
   
@@ -89,7 +70,7 @@ For more information about cookies – please see our Cookie Policy below.
 
 **3.6 Third-Party Web Analytics**. Relevel may use third-party analytics providers and products to obtain, compile and analyze Information about how users are using and interacting with Relevel and/or the Services and about devices used. These analytics providers may use a variety of established or new tracking technologies or tools (including, without limitation, cookies, pixels, web beacons, HTTP cache, local shared objects and persistent identifiers) to recognize your computer or device and/or to collect or compile this information. We may use these information to improve your experience of using the Relevel Service and to improve the overall quality of our Service, as well for our own marketing purposes and practices such as to measure or understand the effectiveness of advertising we serve to you and others, and to deliver relevant advertising to you. We may also use this data to make suggestions and recommendations to you about Relevel services of features of Service or Site that may interest you as well as for other purposes described in sec. 3.1.-3.5. above. Relevel has no control over the technologies, tools or practices of the third parties that providing analytics products and services to Relevel.
 
-  Third-party web analytics service providers we engage, may use cookies in order to provide analytics services for the Site to us. You can find them listed [here](http://relevelapp.com/third-party-tools).
+  Third-party web analytics service providers we engage, may use cookies in order to provide analytics services for the Site to us. You can find them listed [here](http://relevelapp.com/policies/third-party-tools).
 
 **3.7 Legal grounds for data processing** The legal grounds to process the information is mostly to provide you with the Services (fulfil the contract), enable you to use the Site and its features as well our legitimate commercial interests such as performing our legal and contractual duties (i.e. supplying you with Relevel services via the Site)and commercial interest to provide you with a good service and enable the marketing communication so that we can stay in touch. 
 
@@ -124,7 +105,7 @@ We share and disclose the information we collect about you as follows:
  
   * *Hosting and cloud computing services providers*.
 
-The actual list of Third-Party Service Providers and their Privacy Policies is available [here](http://relevelapp.com/third-party-tools).
+The actual list of Third-Party Service Providers and their Privacy Policies is available [here](http://relevelapp.com/policies/third-party-tools).
 
   **4.2 Business Arrangements.** We may disclose non-personally identifiable information to third-party partners in furtherance of our business arrangements with them, including without limitation to jointly offer a product or service to you or create interoperability between our products and services and the products and services of such partners.
 
