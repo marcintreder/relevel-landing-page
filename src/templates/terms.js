@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import useSiteMetadata from "../hooks/siteMetedata";
+import Breadcrumb from "../components/Breadcrumb/Breadcrumb"
 
 export const TermsTemplate = ({
   content,
@@ -20,6 +19,7 @@ export const TermsTemplate = ({
     <section className="section">
       {helmet || ""}
       <div className="container terms-container">
+        <Breadcrumb currentPage={title} />
         <h1>{title}</h1>
         <TermsContent content={content} className="terms-content" />
       </div>
