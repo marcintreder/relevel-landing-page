@@ -26,6 +26,11 @@ $spacing-m-desktop: 24px
 $spacing-s-desktop: 16px
 $spacing-xs-desktop: 8px
 
+// Type
+$relevel-hero-desktop: 80px
+$relevel-h2-desktop: 32px
+$relevel-p-desktop: 16px
+
 @import "./Navbar/Navbar.sass"
 @import "./Hero/Hero.sass"
 @import "./PromoLooper/PromoLooper.sass"
@@ -298,17 +303,30 @@ h3
   padding-top: $spacing-xxl-desktop
   padding-bottom: 0
 
-/*a 
-  margin-bottom: 2px
-  &:hover
-    margin-bottom: 0
-    color: $relevel-purple-light
-    box-sizing: border-box
-    border-bottom: 2px dotted $relevel-purple-light
-  &:active
-    color: $relevel-purple-light
-    box-sizing: border-box
-    border-bottom: 2px dotted $relevel-purple-light*/
+// Terms pages
+
+.terms-container
+  margin-top: -$spacing-xl-desktop
+  h1
+    margin-bottom: $spacing-xl-desktop !important
+    font-size: $relevel-hero-desktop !important
+    color: $relevel-purple-light !important
+  h2 
+    margin-top: $spacing-m-desktop !important
+    margin-bottom: $spacing-m-desktop !important
+    font-size: $relevel-h2-desktop !important
+    line-height: $relevel-h2-desktop * 1.2
+    color: $relevel-purple-light !important
+  p, ul, li
+    font-size: $relevel-p-desktop !important
+  p
+    display: block
+    margin-bottom: $spacing-l-desktop  
+  ul
+    li
+      list-style-type: disc
+      margin-left: $spacing-xl-desktop
+      margin-bottom: $spacing-s-desktop
 
 // responsiveness fixes
 
