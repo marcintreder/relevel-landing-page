@@ -1,25 +1,39 @@
 footer.footer
-  margin-top: 60px
-  padding: 3rem 0rem 0rem
+  margin-top: $spacing-xxl-desktop
+  padding: $spacing-xxl-desktop 0rem $spacing-xxl-desktop 0rem
   background-color: #000
   color: white
 
 .footer-container
-    display: flex
-    flex-direction: row
-    margin-bottom: 100px !important
-    margin-top: 40px !important
+    display: grid
+    max-width: 100%
+    align-items: center
+    overflow: hidden
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))
+    grid-column-gap: $spacing-l-desktop
+    grid-row-gap: $spacing-xxl-desktop
 
 .footer-latest-container
-  flex: 2
+  grid-column: span 2
+  max-width: 590px
+
+.footer-navigation-container
+  grid-column: span 2
+  justify-self: start 
+  max-width: 590px
 
 .footer-what-container
-  flex: 1.1
+  grid-column: span 2
+  max-width: 590px
+
+.footer-what-trademarks
+  max-width: 590px
+  grid-column: span 2
 
 .footer-header
-  margin-bottom: 30px !important
+  margin-bottom: $spacing-m-desktop !important
   color: white !important
-  font-size: 33px
+  font-size: $relevel-h2-desktop
 
 .footer-latest-list
   padding: 0
@@ -46,7 +60,7 @@ footer.footer
   margin-bottom: 40px
 
 .footer-logo
-  padding-bottom: 30px
+  margin-bottom: $spacing-s-desktop
 
 .footer-copyrights
   display: block
@@ -55,29 +69,44 @@ footer.footer
 
 .footer-form
   display: flex
-  justify-content: space-between
-  &::before
-    position: absolute
-    right: -16px
-    top: 195px
-    height: 57px
-    width: 66px
-    background: url("/img/pink-dots-small.svg") 
-    content: ''
   input
     margin-right: 20px
     width: 253px
 
-@media screen and (max-width: 1408px)
+@media screen and (max-width: 1216px)
+  .footer-navigation-container
+    grid-column: 3
+    grid-row: 1
+
+@media screen and (max-width: 1024px)
+  footer.footer
+    padding-right: $spacing-m-desktop
+    padding-left: $spacing-m-desktop
+
+@media screen and (max-width: 1024px)
+  .footer-navigation-container
+    grid-column: auto
+    grid-row: auto
+
+@media screen and (max-width: 488px)
+  .footer-form
+    display: flex
+    flex-direction: column
+    input
+      margin-bottom: $spacing-s-desktop
+      width: 100%
+
+
+/*  @media screen and (max-width: 1408px)
   .footer-latest-container
     flex: 1
   .footer-form
     justify-content: flex-start
     &::before
       right: 143px
-      top: 172px
+      top: 172px */
 
-@media screen and (max-width: 1215px)
+/* @media screen and (max-width: 1215px)
   .footer-latest-container
     margin-right: 40px
   .footer-what-container
@@ -85,25 +114,25 @@ footer.footer
   .footer-form
     &::before
       right: 45px
-      top: 196px
+      top: 196px */
 
-@media screen and (max-width: 1024px)
+/* @media screen and (max-width: 1024px)
   .footer-container
     max-width: 90% !important
   .footer-form
     &::before
       display: none
 
-@media screen and (max-width: 1024px)
+/* @media screen and (max-width: 1024px)
   .footer-container
     flex-direction: column
     max-width: 70% !important
     margin: 0 auto
   .footer-latest-container
     margin-bottom: 80px
-    margin-right: 0
+    margin-right: 0 */
   
-@media screen and (max-width: 595px)
+/* @media screen and (max-width: 595px)
   .footer-form
     flex-direction: column
     input
@@ -114,4 +143,4 @@ footer.footer
   .footer-what-description
     margin-bottom: 20px
   .footer-latest-container
-    margin-bottom: 40px
+    margin-bottom: 40px */
