@@ -4,6 +4,7 @@ import addToMailchimp from "gatsby-plugin-mailchimp";
 import Button from "../Button/Button";
 import Input from "../Input/Input";
 import FormMessage from "../FormMessage/FormMessage";
+import Terms from "../Terms/Terms";
 
 const ComingSoon = ({
   image,
@@ -80,6 +81,7 @@ const ComingSoon = ({
             />
             <Button kind="purple" label="Get early access" type="submit" />
           </form>
+          <Terms />
           {setValidationMsg()}
         </div>
         <div

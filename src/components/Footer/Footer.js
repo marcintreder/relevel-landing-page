@@ -5,6 +5,7 @@ import Input from "../Input/Input";
 import Button from "../Button/Button";
 import logo from "../../img/logo_white.svg";
 import FormMessage from "../FormMessage/FormMessage";
+import Terms from "../Terms/Terms";
 
 const Footer = props => {
   const {
@@ -115,6 +116,7 @@ const Footer = props => {
                 type="submit"
               />
             </form>
+            <Terms />
             {setValidationMsg()}
           </div>
           <div className="footer-navigation-container">
