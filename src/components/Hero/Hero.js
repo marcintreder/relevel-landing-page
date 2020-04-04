@@ -43,6 +43,12 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
         // Mailchimp always returns a 200
         setError(true);
       });
+
+    trackCustomEvent({
+      category: "CTA",
+      action: "Submit",
+      label: "Homepage Hero CTA",
+    })
   };
 
   const handleEmailChange = event => {
@@ -89,14 +95,6 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
               label="Get early Access" 
               kind="purple" 
               type="submit"
-              onClick={ e => {
-                e.preventDefault()
-                trackCustomEvent({
-                  category: "CTA",
-                  action: "Submit",
-                  label: "Homepage Hero CTA",
-                })
-              }} 
             />
           </form>
           <Terms className="hero-terms" />
