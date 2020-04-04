@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import CookieConsent from "react-cookie-consent";
 import logo from "../../img/logo.svg";
 import { graphql, StaticQuery } from "gatsby";
 
@@ -36,18 +37,28 @@ const Navbar = class extends React.Component {
     let isBlog = false;
     let isAbout = false;
 
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const currentPageURL = window.location.href;
       isBlog = currentPageURL.indexOf("blog") > 0 ? true : false;
       isAbout = currentPageURL.indexOf("about") > 0 ? true : false;
     }
-    
+
     return (
       <nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
+        <CookieConsent
+          disableStyles={true}
+          buttonClasses="button-primary button-primary__white cookies-button"
+          containerClasses="cookies-container"
+          contentClasses="cookies-content" 
+        >
+          We use cookies to improve performance and enhance your experience. By
+          using our website you agree to our use of cookies in accordance with
+          our <Link to="/policies/privacy-policy">privacy policy</Link>.
+        </CookieConsent>
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-logo" title="Logo">
@@ -88,20 +99,26 @@ const Navbar = class extends React.Component {
               <ul className="navbar-social">
                 <li>
                   <a href="https://twitter.com/relevelapp">
-                    <i className="navbar-social--twitter" aria-hidden="true">
-                    </i>
+                    <i
+                      className="navbar-social--twitter"
+                      aria-hidden="true"
+                    ></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://instagram.com/relevelapp">
-                    <i className="navbar-social--instagram" aria-hidden="true">
-                    </i>
+                    <i
+                      className="navbar-social--instagram"
+                      aria-hidden="true"
+                    ></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://pinterest.com/relevelapp">
-                    <i className="navbar-social--pinterest" aria-hidden="true">
-                    </i>
+                    <i
+                      className="navbar-social--pinterest"
+                      aria-hidden="true"
+                    ></i>
                   </a>
                 </li>
               </ul>

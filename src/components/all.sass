@@ -1,15 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
-
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
-
 // Relevel Branding
 $relevel-purple-light: #5252A5
 $relevel-purple-dark: #302D5B
@@ -17,9 +7,9 @@ $relevel-pink: #C55B87
 $relevel-mint: #5DC4B3
 $relevel-green: #66FFD1
 $relevel-gray: #888
+$relevel-dark-gray: #353535
 
 // Spacing
-
 $spacing-xxl-desktop: 64px
 $spacing-xl-desktop: 48px
 $spacing-l-desktop: 32px
@@ -32,7 +22,6 @@ $relevel-hero-desktop: 80px
 $relevel-h2-desktop: 32px
 $relevel-p-desktop: 16px
 $relevel-small-desktop: 10px
-
 
 @import "./Navbar/Navbar.sass"
 @import "./Hero/Hero.sass"
@@ -53,6 +42,8 @@ $relevel-small-desktop: 10px
 @import "./EditorialContent/EditorialContent.sass"
 @import "./FormMessage/FormMessage.sass"
 @import "./Terms/Terms.sass"
+@import "./Footer/Footer.sass"
+@import "~bulma"
 
 /* Tags Page Styles */
 
@@ -83,8 +74,8 @@ $relevel-small-desktop: 10px
 /* BlogPost Page Styles */
 
 .blogpost-header
-   font-size: 80px !important
-   color: $relevel-purple-dark !important
+  font-size: 80px !important
+  color: $relevel-purple-dark !important
 
 .blogpost-container
   h2
@@ -100,60 +91,98 @@ $relevel-small-desktop: 10px
 /* About Page Fixes */
 
 @media screen and (max-width: 1280px)
-    .about-container
-        .comingsoon-container
-            justify-content: space-between 
-        .comingsoon-text-container
-            width: 80%
+  .about-container
+    .comingsoon-container
+      justify-content: space-between
+      .comingsoon-text-container
+        width: 80%
         .comingsoon-form
-            &::before
-                display: none
+          &::before
+            display: none
         .section
           padding-left: 0
 
 @media screen and (max-width: 991px)
-    .about-container
-        .comingsoon-container
-            width: 100% !important
-        .comingsoon-form
-            flex-direction: row
-            input
-                width: 250px
-                margin-right: 20px
-                margin-bottom: 0
+  .about-container
+    .comingsoon-container
+      width: 100% !important
+      .comingsoon-form
+        flex-direction: row
+        input
+          width: 250px
+          margin-right: 20px
+          margin-bottom: 0
         .comingsoon-image
-            margin-right: 0
+          margin-right: 0
 
 @media screen and (max-width: 880px)
-    .about-container
-        .comingsoon-image
-            margin-right: -20%
+  .about-container
+    .comingsoon-image
+      margin-right: -20%
 
 @media screen and (max-width: 821px)
-    .about-container
-        .section
-            padding-left: 0
-            padding-right: 0
-        .comingsoon-container
-            flex-direction: column
-            margin-top: 0px !important
+  .about-container
+    .section
+      padding-left: 0
+      padding-right: 0
+      .comingsoon-container
+        flex-direction: column
+        margin-top: 0px !important
         .comingsoon-text-container
-            width: 100%
+          width: 100%
         .comingsoon-image
-            display: none
+          display: none
 
 @media screen and (max-width: 771px)
-    .about-container
-        .comingsoon-form
-            flex-direction: column
-            input
-                margin-bottom: 10px
+  .about-container
+    .comingsoon-form
+      flex-direction: column
+      input
+        margin-bottom: 10px
 
 @media screen and (max-width: 550px)
-    .about-container
-      .comingsoon-header, .comingsoon-description
-        width: 100%
-      
+  .about-container
+    .comingsoon-header, .comingsoon-description
+      width: 100%
+
+/* Cookies Bar Styles */
+.cookies-button
+  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  font-size: 11px !important
+  line-height: 0
+  margin-right: $spacing-s-desktop
+  padding-right: 12px
+  padding-left: 12px
+  padding-top: 12px
+  padding-bottom: 8px
+
+  @media screen and (max-width: 440px)
+    margin-bottom: $spacing-xs-desktop
+
+.cookies-content
+  flex: 1 0 300px
+  margin: $spacing-xs-desktop $spacing-s-desktop
+  font-size: 13px !important
+  a
+    &:hover
+      color: #ffffff
+      text-decoration: underline
+
+.cookies-container
+  align-items: baseline 
+  background: $relevel-dark-gray
+  color: white 
+  display: flex 
+  flex-wrap: wrap 
+  justify-content: space-between 
+  left: 0px
+  position: fixed 
+  width: 100% 
+  z-index: 999 
+  bottom: 0px
+
+  @media screen and (max-width: 440px)
+    justify-content: center
 
 
 /* Form Elements */
@@ -169,7 +198,6 @@ $relevel-small-desktop: 10px
   &::placeholder
     font-size: 16px
     color: $relevel-purple-light
-
 
 .content .taglist
   list-style: none
@@ -201,29 +229,13 @@ $relevel-small-desktop: 10px
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
-
-.btn
-    display: inline-block
-    padding: 14px 24px 12px
-    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-    font-size: 16px
-    line-height: 1.8
-    background: linear-gradient(75.65deg, #5252A5 4.74%, #C55B87 131.15%)
-    border-width: 0
-    border-radius: .25rem
-    text-decoration: none
-    color: #ffffff
-    text-align: center
-    z-index: 20
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  width: 100vw
+  height: 400px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
 
 .margin-top-0
   margin-top: 0 !important
@@ -238,62 +250,19 @@ $relevel-small-desktop: 10px
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 
-@import "./Footer/Footer.sass"
-
-//Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
-
-
-.menu-label
-  font-size: 1em !important
-  text-align: left
-.menu-list
-  list-style: none !important
-  text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
-
-// blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033;
-.blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
-.blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
-
-
-@import "~bulma"
-
 body
-  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  p 
+  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  p
     font-size: 19px
-h1 
-  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+h1
+  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
   font-size: 80px !important
   line-height: 80px
   letter-spacing: -1%
   font-weight: normal
 
 h2
-  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
   font-size: 69px !important
   line-height: 74px
   letter-spacing: -1%
@@ -315,8 +284,8 @@ h3
     margin-bottom: $spacing-xl-desktop !important
     font-size: $relevel-hero-desktop !important
     color: $relevel-purple-light !important
-.terms-content   
-  h2 
+.terms-content
+  h2
     margin-top: $spacing-m-desktop !important
     margin-bottom: $spacing-m-desktop !important
     font-size: $relevel-h2-desktop !important
@@ -326,7 +295,7 @@ h3
     font-size: $relevel-p-desktop !important
   p
     display: block
-    margin-bottom: $spacing-l-desktop  
+    margin-bottom: $spacing-l-desktop
   ul
     li
       list-style-type: disc
@@ -337,13 +306,13 @@ h3
 
 @media screen and (min-width: 1408px)
   .container
-    max-width: 1244px;
+    max-width: 1244px
 
 @media screen and (max-width: 1280px)
   h1
     font-size: 70px !important
     line-height: 72px
-  h2 
+  h2
     font-size: 56px !important
     line-height: 62px
   h3
@@ -354,19 +323,19 @@ h3
   h1
     font-size: 50px !important
     line-height: 52px
-  h2 
+  h2
     font-size: 40px !important
     line-height: 46px
 
 // responsiveness
-+tablet-only
+    +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
-+mobile
+    +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
