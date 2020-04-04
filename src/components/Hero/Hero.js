@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import addToMailchimp from "gatsby-plugin-mailchimp";
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import FormMessage from "../FormMessage/FormMessage";
@@ -85,7 +85,19 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
               placeholder="Your email address"
               onChangeFunction={handleEmailChange}
             />
-            <Button label="Get early Access" kind="purple" type="submit" />
+            <Button 
+              label="Get early Access" 
+              kind="purple" 
+              type="submit"
+              onClick={ e => {
+                e.preventDefault()
+                trackCustomEvent({
+                  category: "CTA",
+                  action: "Submit",
+                  label: "Homepage Hero CTA",
+                })
+              }} 
+            />
           </form>
           <Terms className="hero-terms" />
           {setValidationMsg()}
