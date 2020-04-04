@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import addToMailchimp from "gatsby-plugin-mailchimp";
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import Button from "../Button/Button";
 import Input from "../Input/Input";
 import FormMessage from "../FormMessage/FormMessage";
@@ -49,6 +50,13 @@ const ComingSoon = ({
         // Mailchimp always returns a 200
         console.log(error)
       });
+
+      trackCustomEvent({
+        category: "CTA",
+        action: "Submit",
+        label: "Form Coming Soon Hero CTA",
+        value: 100
+      })
   };
 
   const handleEmailChange = event => {

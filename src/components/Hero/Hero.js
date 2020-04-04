@@ -47,7 +47,8 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
     trackCustomEvent({
       category: "CTA",
       action: "Submit",
-      label: "Homepage Hero CTA",
+      label: "Form Homepage Hero CTA",
+      value: 100
     })
   };
 

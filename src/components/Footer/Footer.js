@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
 import addToMailchimp from "gatsby-plugin-mailchimp";
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import logo from "../../img/logo_white.svg";
@@ -53,6 +54,13 @@ const Footer = props => {
         // Mailchimp always returns a 200
         console.log(error);
       });
+
+      trackCustomEvent({
+        category: "CTA",
+        action: "Submit",
+        label: "Form Footer CTA",
+        value: 100
+      })
   };
 
   const handleEmailChange = event => {
