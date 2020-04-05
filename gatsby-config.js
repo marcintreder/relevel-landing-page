@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. ',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines, and fun exercises will take away the aches caused by sitting in front of the computer too much.',
     siteURL: 'https://relevelapp.com'
     },
   plugins: [

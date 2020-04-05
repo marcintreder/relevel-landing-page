@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
+import Helmet from "react-helmet";
 import Layout from "../../components/Layout";
 import PromoBlog from "../../components/PromoBlog/PromoBlog";
 import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
@@ -31,6 +32,13 @@ export class BlogIndexPage extends React.Component {
 
     return (
       <Layout>
+        <Helmet>
+          <title>Relevel Blog. Defeat lower back pain, shoulder pain, carpal tunnel and other injuries caused by desk jobs!</title>
+          <meta
+            name="description"
+            content="Professional advise and training tailored to defeat injuries caused by the sedentary lifestyle."
+          />
+        </Helmet>
         <PromoBlog
           title={promoPost.node.frontmatter.title}
           description={promoPost.node.excerpt}

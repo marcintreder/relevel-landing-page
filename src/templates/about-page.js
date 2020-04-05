@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import SimpleHero from "../components/SimpleHero/SimpleHero";
 import EditorialContent from "../components/EditorialContent/EditorialContent";
@@ -20,6 +21,16 @@ export const AboutPageTemplate = ({
 }) => {
   return (
     <section className="section section--gradient about-container">
+      <Helmet>
+        <title>
+          About Relevel App. The App to End Back Pain, Shoulder Pain and other
+          injuries of sedentary lifestyle.
+        </title>
+        <meta
+          name="description"
+          content="Relevel strives to improve your wellbeing in the workplace! Relevel app has over 200 exercises targeting the most common aches associated with desk jobs. The personalized 15-minute workouts help you fit a healthy movement into your busy workday. No need to change into fitness clothes!"
+        />
+      </Helmet>
       <SimpleHero
         image={image}
         imageAlt={imageAlt}
@@ -32,10 +43,7 @@ export const AboutPageTemplate = ({
         title={mission.title}
         direction="right"
         quote={mission.missionStatement}
-        description={[
-          mission.description1,
-          mission.description2,
-        ]}
+        description={[mission.description1, mission.description2]}
       />
       <EditorialContent
         title={aboutEmilia.title}
@@ -55,12 +63,9 @@ export const AboutPageTemplate = ({
         imageAlt={familyBusiness.imageAlt}
         imageTitle={familyBusiness.imageTitle}
         direction="right"
-        description={[
-          familyBusiness.description1,
-          familyBusiness.description2,
-        ]}
+        description={[familyBusiness.description1, familyBusiness.description2]}
       />
-      <ComingSoon 
+      <ComingSoon
         image={comingsoon.image}
         imageAlt={comingsoon.imageAlt}
         imageTitle={comingsoon.imageTitle}
