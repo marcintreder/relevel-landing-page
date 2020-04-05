@@ -10,6 +10,7 @@ $relevel-gray: #888
 $relevel-dark-gray: #353535
 
 // Spacing
+$spacing-xxxl-desktop: 96px
 $spacing-xxl-desktop: 64px
 $spacing-xl-desktop: 48px
 $spacing-l-desktop: 32px
@@ -19,7 +20,9 @@ $spacing-xs-desktop: 8px
 
 // Type
 $relevel-hero-desktop: 80px
+$relevel-h1-desktop: 48px
 $relevel-h2-desktop: 32px
+$relevel-h3-desktop: 24px
 $relevel-p-desktop: 16px
 $relevel-small-desktop: 10px
 
@@ -74,19 +77,71 @@ $relevel-small-desktop: 10px
 /* BlogPost Page Styles */
 
 .blogpost-header
-  font-size: 80px !important
-  color: $relevel-purple-dark !important
+  font-size: $spacing-xl-desktop !important
+  color: $relevel-purple-light !important
 
 .blogpost-container
+  display: flex
+  flex-direction: row
+  h1
+    font-size: $relevel-h1-desktop
   h2
-    color: $relevel-purple-dark !important
-    font-size: 32px !important
+    color: $relevel-purple-light !important
+    font-size: $relevel-h3-desktop !important
 
 .blogpost-content
-  width: 80%
+  width: 100%
 
 .blogpost-tags
-  margin-top: 80px
+  margin-top: $spacing-l-desktop
+
+.blogpost-taglist
+  margin-left: 0 !important
+  list-style: none !important
+  li
+    font-size: $relevel-p-desktop
+    padding: 0 !important
+    margin-top: 0 !important
+
+.blogpost-text
+  max-width: 1024px
+  h2
+    margin-top: $spacing-xl-desktop !important
+    margin-bottom: $spacing-s-desktop !important
+  p
+    font-size: $relevel-p-desktop !important
+    line-height: 1.8 !important
+  .gatsby-resp-image-wrapper
+    margin-bottom: $spacing-l-desktop !important
+
+.blogpost-aside
+  display: block
+  position: sticky
+  top: 0
+  right: 0
+  height: fit-content
+  min-width: 200px
+  margin-left: $spacing-xl-desktop
+  padding-top: 180px
+
+
+.blog-discussion
+  margin-top: $spacing-xxxl-desktop !important
+
+@media screen and (max-width: 980px)
+  .blogpost-aside
+    padding-top: 20px
+  
+@media screen and (max-width: 790px)
+  .blogpost-aside
+    min-width: 140px
+
+@media screen and (max-width: 700px)
+  .blogpost-container
+    flex-direction: column
+  .blogpost-aside
+    min-width: 100%
+    margin-left: 0
 
 /* About Page Fixes */
 
