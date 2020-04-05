@@ -17,7 +17,9 @@ import {
   WhatsappShareButton,
   WhatsappIcon,
   LinkedinShareButton,
-  LinkedinIcon
+  LinkedinIcon,
+  EmailShareButton,
+  EmailIcon
 } from "react-share";
 
 export const BlogPostTemplate = ({
@@ -54,18 +56,42 @@ export const BlogPostTemplate = ({
         <aside className="blogpost-aside">
           <h2>Share</h2>
           <div>
-            <FacebookShareButton url={pageURL}>
+            <FacebookShareButton 
+              url={pageURL}
+              quote={title}
+              hashtag="#relevel"
+            >
               <FacebookIcon size={32} />
             </FacebookShareButton>
-            <TwitterShareButton url={pageURL}>
+            <TwitterShareButton 
+              title={title}
+              url={pageURL}
+              via="relevelapp"
+              hashtags={["relevel", "health"]} 
+              related={["relevelapp"]} 
+            >
               <TwitterIcon size={32} />
             </TwitterShareButton>
-            <LinkedinShareButton url={pageURL}>
+            <LinkedinShareButton 
+              url={pageURL}
+              title={title}
+              summary={description}
+              source="http://relevelapp.com"
+            >
               <LinkedinIcon size={32} />
             </LinkedinShareButton>
-            <WhatsappShareButton url={pageURL}>
+            <WhatsappShareButton 
+              title={title}
+              url={pageURL}>
               <WhatsappIcon size={32} />
             </WhatsappShareButton>
+            <EmailShareButton
+              subject={title}
+              url={pageURL}
+              body={`Hi! I just found this awesome blog post. Check this out:`}
+            >
+              <EmailIcon size={32} />
+            </EmailShareButton>
           </div>
           {tags && tags.length ? (
             <div className="blogpost-tags">
