@@ -82,7 +82,7 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
           }}
         ></div>
         <div className="column hero-text">
-          <h1 className="hero-h1">{title}</h1>
+          <h1 className="hero-h1">Healthy Body in <br />the Desk-Bound World.</h1>
           <h3 className="hero-h3">{subheading}</h3>
           <form className="hero-form" onSubmit={handleSubmit}>
             <Input
