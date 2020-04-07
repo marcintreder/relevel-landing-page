@@ -2,10 +2,11 @@
 .prosection-container
   display: flex
   align-items: center
-  margin-top: 20px
+  margin-top: $spacing-xl-desktop !important
 
 .prosection-header
-  width: 50%
+  width: 40%
+  font-size: $relevel-h1-desktop
   color: $relevel-purple-light
 
 .prosection-paindadd
@@ -13,35 +14,35 @@
 
 .prosection-image
   display: block
-  height: 360px
-  width: 720px
-  margin-right: 40px
-  margin-left: -140px
+  height: 289px
+  width: 594px
+  margin-right: 144px
   background-size: contain
   background-repeat: no-repeat
 
-@media screen and (min-width: 1524px)
+
+/*@media screen and (min-width: 1524px)
   .prosection-image
     background-size: cover
     background-position-x: -100px
     width: 50%    
     margin-left: 0
 
-@media screen and (max-width: 1280px)
+/*@media screen and (max-width: 1280px)
   .prosection-image
     margin-left: -200px
   .prosection-header
     width: 60%
     margin-top: -20px
 
-@media screen and (max-width: 990px)
+/*@media screen and (max-width: 990px)
   .prosection-container
     margin-top: 40px !important
   .prosection-header
     width: 70%
     margin-top: -80px
 
-@media screen and (max-width: 550px)
+/*@media screen and (max-width: 550px)
   .prosection-image
     display: none
   .prosection-container
