@@ -181,7 +181,7 @@ footer:
       title: Keep your disc in place. 15 minute exercise routine for herniated disc
       url: 'https://getrelevel.com'
 createdBy:
-  title: Created by Professionals
+  title: Created by Professionals.
   description: >-
     Emilia Wysocka-Treder, founder and CEO at Relevel, is a certified Pilates
     teacher with nearly a decade of experience. She works in the heart of
