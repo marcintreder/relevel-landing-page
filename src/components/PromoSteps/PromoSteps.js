@@ -26,12 +26,15 @@ const PromoSteps = ({ title, list }) => (
                 backgroundRepeat: "no-repeat"
               }}
             >
+              
+            </div>
+            <div className="everything-list-description" key={"desc" + i}>
               <h3 className="everything-header-3" key={"header" + i}>
                 {item.feature.title}
               </h3>
-            </div>
-            <div className="everything-list-description" key={"desc" + i}>
+              <p>
               {item.feature.description}
+              </p>
             </div>
           </li>
         ))}
