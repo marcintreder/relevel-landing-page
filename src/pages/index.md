@@ -70,12 +70,9 @@ everything:
           Behind the desk training programs by Relevel help you thrive despite
           all the sitting.
 newLifeGrid:
-  title: Your New Life Starts Now.
+  title: Say Goodbye to Body Aches
   description: >-
-    Relevel is the fitness app on the mission to eliminate pain caused by the
-    sedentary lifestyle. Professional training plans, easy daily routines and
-    fun exercises, will take the away the aches caused by sitting in front of
-    the computer too much.
+    Nearly 35% of all work injuries are office ergonomics injuries. Why should you be in pain when in front of your desk? Our training programs will give you a daily dose of movement without changing into fitness clothes. You will become more aware of how to best position yourself in front of the computer to minimize the strain and avoid future injuries! You might not avoid being desk-bound, but with help from your personalized Relevel program, you can make it a better experience.
   list:
     - item:
         title: Lower Back Pain

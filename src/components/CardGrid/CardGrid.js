@@ -30,8 +30,8 @@ const CardGrid = ({ description, title, items }) => (
                 backgroundRepeat: "no-repeat"
               }}
             >
-              <h3 className="card-header">{x.item.title}</h3>
             </div>
+            <h3 className="card-header">{x.item.title}</h3>
             <span className="card-description">{x.item.description}</span>
           </li>
         ))}
