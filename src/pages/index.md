@@ -177,6 +177,24 @@ footer:
     - article: null
       title: Keep your disc in place. 15 minute exercise routine for herniated disc
       url: 'https://getrelevel.com'
+steps:
+  title: 5 Steps to Level Up Your Life!
+  list:
+    - item:
+        title: Tell us about yourself
+        description: First, we ask you questions about the areas of your body that currently feel achy, as well as any existing injuries that might affect your quality of movement. 
+    - item:
+        title: Get personal workout 
+        description: Based on the information you provide, our smart engine will personalize your workout, choosing exercises best fitted for what needs to be improved to make you feel great.
+    - item:
+        title: Choose the duration
+        description: Next, select the amount of time you want to spend working out. You can choose from anything between 15 minutes at a time to 1 hour.
+    - item:
+        title: Exercise daily! 
+        description: Relevel will advise you on the number of short workouts you should do weekly. Now add your workout plan to your calendar.
+    - item:
+        title: Set a reminder! 
+        description: Set a reminder to repeat your healthy movement and thrive!
 createdBy:
   title: Created by Professionals.
   description: >-

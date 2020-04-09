@@ -19,12 +19,13 @@
     margin: 0 auto
     color: $relevel-purple-dark
     line-height: 33px
+    margin-bottom: $spacing-l-desktop
 
 .cardgrid-list
     display: grid
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
     grid-gap: 80px
-    margin-top: 100px
+    margin-top: $spacing-m-desktop
 
 .card-item
     display: flex
@@ -42,11 +43,14 @@
 /*there's a name space conflict with css library */
 .card-header
     display: block !important
-    margin: $spacing-l-desktop 0 $spacing-m-desktop 
-    font-size: $relevel-h2-desktop
+    margin: $spacing-m-desktop 0 $spacing-s-desktop 
+    font-size: $relevel-h3-desktop
     color: $relevel-purple-light
-    text-align: center
+    text-align: left
     box-shadow: none !important
+
+.card-header--center
+    text-align: center
 
 .card-description
     color: $relevel-purple-dark

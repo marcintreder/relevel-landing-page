@@ -1,41 +1,51 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CardGrid = ({ description, title, items }) => (
+const CardGrid = ({ description, title, items, more, headerCentered }) => (
   <section className="section">
     <div className="container cardgrid-container">
       <div className="cardgrid-header">
         <h2 className="cardgrid-title">{title}</h2>
-        <span className="cardgrid-description">{description}</span>
+        {description ? (
+          <span className="cardgrid-description">{description}</span>
+        ) : (
+          ""
+        )}
       </div>
       <ul className="cardgrid-list">
         {items.map((x, i) => (
-          <li 
-            className="card-item"
-            key={`card${i}`}
-            >
-            <div
-              className="card-image"
-              role="img"
-              aria-label={x.item.imageAlt}
-              alt={x.item.imageAlt}
-              title={x.item.imageTitle}
-              style={{
-                backgroundImage: `url(${
-                  !!x.item.image.childImageSharp
-                    ? x.item.image.childImageSharp.fluid.src
-                    : x.item.image
-                })`,
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat"
-              }}
-            >
-            </div>
-            <h3 className="card-header">{x.item.title}</h3>
+          <li className="card-item" key={`card${i}`}>
+            {x.item.image ? (
+              <div
+                className="card-image"
+                role="img"
+                aria-label={x.item.imageAlt}
+                alt={x.item.imageAlt}
+                title={x.item.imageTitle}
+                style={{
+                  backgroundImage: `url(${
+                    !!x.item.image.childImageSharp
+                      ? x.item.image.childImageSharp.fluid.src
+                      : x.item.image
+                  })`,
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat"
+                }}
+              ></div>
+            ) : (
+              ""
+            )}
+            <h3 className={`card-header ${headerCentered ? 'card-header--center' : ''}`}>{x.item.title}</h3>
             <span className="card-description">{x.item.description}</span>
           </li>
         ))}
-        <li className="card-last-item"><div>& More</div></li>
+        {more ? (
+          <li className="card-last-item">
+            <div>& More</div>
+          </li>
+        ) : (
+          ""
+        )}
       </ul>
     </div>
   </section>
@@ -44,7 +54,9 @@ const CardGrid = ({ description, title, items }) => (
 CardGrid.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  items: PropTypes.array
+  items: PropTypes.array,
+  more: PropTypes.bool,
+  headerCentered: PropTypes.string
 };
 
 export default CardGrid;

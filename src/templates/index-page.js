@@ -21,14 +21,16 @@ export const IndexPageTemplate = ({
   everything,
   createdBy,
   newLifeGrid,
+  steps
 }) => (
   <div>
     <Hero image={image} imageAlt={imageAlt} imageTitle={imageTitle} title={title} subheading={subheading} />
     <PromoLooper image={prosection.image} imageAlt={prosection.imageAlt} imageTitle={prosection.imageTitle} title={prosection.title} add={prosection.painAddition} />
     <ComingSoon image={comingsoon.image} imageAlt={comingsoon.imageAlt} imageTitle={comingsoon.imageTitle} title={comingsoon.title} description={comingsoon.description} />
+    <CardGrid title={steps.title} items={steps.list} />
     <PromoSteps list={everything.list} title={everything.title} />
     <PromoHorizontal title={createdBy.title} text={createdBy.description} image={createdBy.image} imageAlt={createdBy.imageAlt} imageTitle={createdBy.imageTitle} />
-    <CardGrid title={newLifeGrid.title} description={newLifeGrid.description} items={newLifeGrid.list} />
+    <CardGrid title={newLifeGrid.title} description={newLifeGrid.description} items={newLifeGrid.list} more headerCentered />
   </div>
 );
 
@@ -43,6 +45,7 @@ IndexPageTemplate.propTypes = {
   everything: PropTypes.object,
   createdBy: PropTypes.object,
   newLifeGrid: PropTypes.object,
+  steps: PropTypes.object
 };
 
 const IndexPage = ({ data }) => {
@@ -60,6 +63,7 @@ const IndexPage = ({ data }) => {
         everything={frontmatter.everything}
         createdBy={frontmatter.createdBy}
         newLifeGrid={frontmatter.newLifeGrid}
+        steps={frontmatter.steps}
       />
     </Layout>
   );
@@ -165,6 +169,15 @@ export const pageQuery = graphql`
                   }
                 }
               }
+            }
+          }
+        }
+        steps {
+          title
+          list {
+            item {
+              title
+              description
             }
           }
         }
