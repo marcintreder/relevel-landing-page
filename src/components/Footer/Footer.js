@@ -11,10 +11,8 @@ import Terms from "../Terms/Terms";
 const Footer = props => {
   const {
     data: {
-      markdownRemark: {
-        frontmatter: {
-          footer: { latest: articles }
-        }
+      allMarkdownRemark: {
+        edges: articles
       }
     }
   } = props;
@@ -89,13 +87,13 @@ const Footer = props => {
                     className="footer-latest-list_item"
                     key={"latestitem" + i}
                   >
-                    <a
-                      href={item.url}
+                    <Link
+                      to={item.node.fields.slug}
                       className="footer-latest-item_link"
                       key={"latestlink" + i}
                     >
-                      {item.title}
-                    </a>
+                      {item.node.frontmatter.title}
+                    </Link>
                   </li>
                 );
               })}
@@ -189,12 +187,14 @@ export default () => (
   <StaticQuery
     query={graphql`
       query Footer {
-        markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-          frontmatter {
-            footer {
-              latest {
+        allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "blog-post"}}}, limit: 5) {
+          edges {
+            node {
+              frontmatter {
                 title
-                url
+              }
+              fields {
+                slug
               }
             }
           }

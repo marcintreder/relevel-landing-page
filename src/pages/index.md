@@ -158,25 +158,6 @@ newLifeGrid:
         imageTitle: Relevel training program can help you with sciatica
         imageAlt: Relevel exercises can help you alleviate sciatica
       description: '*'
-footer:
-  latest:
-    - article: null
-      title: What's causing Sciatica and how can you help yourself
-      url: 'https://getrelevel.com'
-    - article: null
-      title: 4 stretches to prevent and ease the pain caused by carpal tunnel
-      url: 'https://getrelevel.com'
-    - article: null
-      title: >-
-        5 Easy stretches to Help Relieve Sciatica and Lower Back Pain In 15
-        Minutes
-      url: 'https://getrelevel.com'
-    - article: null
-      title: How to use a tennis ball for lower back pain relief
-      url: 'https://getrelevel.com'
-    - article: null
-      title: Keep your disc in place. 15 minute exercise routine for herniated disc
-      url: 'https://getrelevel.com'
 steps:
   title: 5 Steps to Level Up Your Life!
   list:
