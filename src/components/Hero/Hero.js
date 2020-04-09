@@ -67,7 +67,7 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
   };
 
   return (
-    <div className="hero-modified">
+    <div className="section hero-modified">
       <div className="container hero-container">
         <div
           className="hero-image"

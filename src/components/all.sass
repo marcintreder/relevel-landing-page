@@ -26,6 +26,8 @@ $relevel-h3-desktop: 24px
 $relevel-p-desktop: 16px
 $relevel-small-desktop: 10px
 
+$relevel-hero-mobile: 40px
+
 @import "./Navbar/Navbar.sass"
 @import "./Hero/Hero.sass"
 @import "./PromoLooper/PromoLooper.sass"
@@ -47,6 +49,16 @@ $relevel-small-desktop: 10px
 @import "./Terms/Terms.sass"
 @import "./Footer/Footer.sass"
 @import "~bulma"
+
+.section
+  padding-right: $spacing-xxl-desktop !important
+  padding-left: $spacing-xxl-desktop !important
+
+@media screen and (max-width: 375px) 
+  .section
+    padding-top: $spacing-s-desktop !important
+    padding-right: $spacing-l-desktop !important
+    padding-left: $spacing-l-desktop !important
 
 /* Tags Page Styles */
 
@@ -307,23 +319,23 @@ $relevel-small-desktop: 10px
 
 body
   font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-  p
-    font-size: 19px
-h1
-  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-  font-size: $relevel-hero-desktop !important
-  line-height: 73px
   font-weight: normal
+  p
+    font-size: $relevel-p-desktop
+    line-height: $relevel-p-desktop * 2
 
+h1
+  font-size: $relevel-hero-desktop
+  font-weight: normal
+  line-height: 74px
+  letter-spacing: -1px
+  
 h2
-  font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
   font-size: $relevel-h1-desktop
-  line-height: 54px
   font-weight: normal
 
 h3
-  line-height: 33px
-  font-size: 16px
+  font-size: $relevel-h3-desktop
 
 .section
   padding-top: $spacing-xxl-desktop
@@ -354,31 +366,6 @@ h3
       list-style-type: disc
       margin-left: $spacing-xl-desktop
       margin-bottom: $spacing-s-desktop
-
-// responsiveness fixes
-
-@media screen and (min-width: 1408px)
-  .container
-    max-width: 1244px
-
-@media screen and (max-width: 1280px)
-  h1
-    font-size: 70px !important
-    line-height: 72px
-  h2
-    font-size: 56px !important
-    line-height: 62px
-  h3
-    font-size: 16px
-    line-height: 28px
-
-@media screen and (max-width: 990px)
-  h1
-    font-size: 50px !important
-    line-height: 52px
-  h2
-    font-size: 40px !important
-    line-height: 46px
 
 // responsiveness
     +tablet-only
