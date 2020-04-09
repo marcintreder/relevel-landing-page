@@ -4,7 +4,6 @@ import { IndexPageTemplate } from '../../templates/index-page'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
-  console.log(data)
   if (data) {
     return (
       <IndexPageTemplate
@@ -18,6 +17,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         everything={data.everything || {}}
         createdBy={data.createdBy || {}}
         newLifeGrid={data.newLifeGrid || {}}
+        steps={data.steps || {}}
       />
     )
   } else {
