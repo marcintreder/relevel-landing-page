@@ -24,8 +24,11 @@
 .cardgrid-list
     display: grid
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
-    grid-gap: 80px
+    grid-gap: $spacing-xxl-desktop
     margin-top: $spacing-m-desktop
+
+.cardgrid-list--dense
+    grid-gap: $spacing-l-desktop $spacing-xxl-desktop
 
 .card-item
     display: flex

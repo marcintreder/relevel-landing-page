@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CardGrid = ({ description, title, items, more, headerCentered }) => (
+const CardGrid = ({ description, title, items, more, headerCentered, dense }) => (
   <section className="section">
     <div className="container cardgrid-container">
       <div className="cardgrid-header">
@@ -12,7 +12,7 @@ const CardGrid = ({ description, title, items, more, headerCentered }) => (
           ""
         )}
       </div>
-      <ul className="cardgrid-list">
+      <ul className={`cardgrid-list ${dense ? 'cardgrid-list--dense' : ''}`}>
         {items.map((x, i) => (
           <li className="card-item" key={`card${i}`}>
             {x.item.image ? (
@@ -56,7 +56,8 @@ CardGrid.propTypes = {
   description: PropTypes.string,
   items: PropTypes.array,
   more: PropTypes.bool,
-  headerCentered: PropTypes.string
+  headerCentered: PropTypes.string,
+  dense: PropTypes.bool
 };
 
 export default CardGrid;
