@@ -1,13 +1,21 @@
 .terms
-  display: block
-  margin-top: $spacing-xs-desktop
-  font-size: $relevel-small-desktop
-  color: $relevel-purple-light
-  a
+    display: block
+    margin-top: $spacing-xs-desktop
+    font-size: $relevel-small-desktop
     color: $relevel-purple-light
-    &:hover
-      color: $relevel-purple-dark
-      text-decoration: underline
+    a
+        color: $relevel-purple-light
+        &:hover
+            color: $relevel-purple-dark
+            text-decoration: underline
+
+.terms--white
+    color: white
+    a
+        color: white
+        &:hover
+            color: white
+            text-decoration: underline
 
 @media screen and (max-width: 340px)
     .terms

@@ -124,7 +124,7 @@ const Footer = props => {
                 type="submit"
               />
             </form>
-            <Terms />
+            <Terms white />
             {setValidationMsg()}
           </div>
           <div className="footer-navigation-container">

@@ -93,7 +93,6 @@ collections:
                 {label: ImageAlt, name: imageAlt, widget: string},
                 ]
               }, 
-              {label: description, name: description, widget: text}
               ]} 
             ]}
           - {label: Steps, name: steps, widget: object, fields: [
@@ -104,7 +103,6 @@ collections:
                 {label: Description, name: description, widget: text}, 
                 ]
               }, 
-              {label: description, name: description, widget: text}
               ]} 
             ]}
       - file: "src/pages/about/index.md"
