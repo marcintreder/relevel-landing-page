@@ -56,7 +56,7 @@ CardGrid.propTypes = {
   description: PropTypes.string,
   items: PropTypes.array,
   more: PropTypes.bool,
-  headerCentered: PropTypes.string,
+  headerCentered: PropTypes.bool,
   dense: PropTypes.bool
 };
 
