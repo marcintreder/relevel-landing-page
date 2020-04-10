@@ -1,7 +1,6 @@
 .cardgrid-container
     margin-top: $spacing-xl-desktop !important
 
-
 .cardgrid-header
     display: flex
     justify-content: flex-start
@@ -18,7 +17,7 @@
     max-width: 840px
     margin: 0 auto
     color: $relevel-purple-dark
-    line-height: 33px
+    line-height: 30px
     margin-bottom: $spacing-l-desktop
 
 .cardgrid-list
@@ -46,7 +45,7 @@
 /*there's a name space conflict with css library */
 .card-header
     display: block !important
-    margin: $spacing-m-desktop 0 $spacing-s-desktop 
+    margin: $spacing-s-desktop 0 $spacing-xs-desktop 
     font-size: $relevel-h3-desktop
     color: $relevel-purple-light
     text-align: left
@@ -58,7 +57,7 @@
 .card-description
     color: $relevel-purple-dark
     font-size: 16px
-    line-height: 33px
+    line-height: 30px
 
 .card-last-item
     display: flex
@@ -69,14 +68,34 @@
     font-family: 'NeuePlak-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
     font-size: $relevel-h1-desktop
 
+@media screen and (max-width: 1215px)
+    .cardgrid-title
+        font-size: $relevel-h2-desktop
+        line-height: $relevel-h2-desktop * 1.2
+        margin-bottom: 0
+    .cardgrid-description
+        margin-top: $spacing-m-desktop
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 850px)
+    .card-item
+        width: 300px
+    .card-image
+        width: 100%
+
+@media screen and (max-width: 832px)
     .cardgrid-list
         justify-content: center
-        grid-gap: 80px 80px
     .card-item
+        width: 345px
         margin-right: auto
         margin-left: auto
     .card-last-item
         justify-content: center
         margin-top: -40px
+
+@media screen and (max-width: 380px)
+    .card-item
+        width: 300px
+    .card-image
+        width: 300px
+        height: 205px
