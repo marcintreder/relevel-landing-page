@@ -3,6 +3,7 @@
   display: flex
   align-items: center
   margin-top: $spacing-xl-desktop !important
+  justify-content: space-between
 
 .prosection-header
   width: 40%
@@ -16,36 +17,29 @@
   display: block
   height: 289px
   width: 594px
-  margin-right: 144px
   background-size: contain
   background-repeat: no-repeat
 
 
-/*@media screen and (min-width: 1524px)
-  .prosection-image
-    background-size: cover
-    background-position-x: -100px
-    width: 50%    
-    margin-left: 0
-
-/*@media screen and (max-width: 1280px)
-  .prosection-image
-    margin-left: -200px
+@media screen and (max-width: 1390px)
   .prosection-header
-    width: 60%
-    margin-top: -20px
+    margin-right: $spacing-m-desktop
 
-/*@media screen and (max-width: 990px)
-  .prosection-container
-    margin-top: 40px !important
+@media screen and (max-width: 1215px)
   .prosection-header
-    width: 70%
-    margin-top: -80px
+    font-size: $relevel-h2-desktop
+    line-height: $relevel-h2-desktop * 1.2
+    margin-right: 0
+  .prosection-image
+    width: 480px
+    height: 230px
+    margin-right: $spacing-m-desktop
 
-/*@media screen and (max-width: 550px)
+@media screen and (max-width: 775px)
   .prosection-image
     display: none
   .prosection-container
+    height: fit-content
     background: $relevel-purple-light
     margin: 10px auto 40px auto !important
     padding: 2rem 3.5rem 
@@ -53,5 +47,7 @@
     color: white
     width: 100%
     margin: 0 auto
-    font-size: 50px !important
-    line-height: 52px
+
+@media screen and (max-width: 375px)
+  .prosection-container
+    padding: 2rem 1.5rem 
