@@ -18,7 +18,7 @@
     display: block
     margin-top: $spacing-m-desktop
     color: $relevel-purple-dark
-    line-height: 33px
+    line-height: 30px
 
 .promohorizontal-image
   display: block
@@ -34,9 +34,13 @@
 @media screen and (min-width: 1524px)
   .promohorizontal-image
     background-size: cover !important
-    background-position-x: -100px
+    background-position-x: -40px
     width: 50%    
     margin-left: 0
+
+@media screen and (max-width: 1310px)
+    .promohorizontal-image
+        background-position-x: 0px
 
 @media screen and (max-width: 1280px)
     .promohorizontal-header
@@ -44,19 +48,25 @@
     .promohorizontal-image
         margin-left: -200px
 
-@media screen and (max-width: 990px)
-    .promohorizontal-container
-        margin-top: -40px !important
+@media screen and (max-width: 1215px)
     .promohorizontal-header
-        line-height: 46px
+        font-size: $relevel-h2-desktop
+        line-height: $relevel-h2-desktop * 1.2
+    .promohorizontal-image
+        background-position-x: 60px
+
+@media screen and (max-width: 1015px)
+    .promohorizontal-image
+        background-position-x: 130px
 
 @media screen and (max-width: 760px)
     .promohorizontal-image
         margin-left: -240px
 
-@media screen and (max-width: 580px)
+@media screen and (max-width: 700px)
     .promohorizontal-container
         flex-direction: column
+        margin-top: 0 !important
     .promohorizontal-image
         display: block
         width: 100%
@@ -65,8 +75,10 @@
         margin-bottom: 40px
         background-size: cover
         background-position-x: -60px
-        
+    .promohorizontal-header
+        max-width: 100%
+        text-align: center    
     .promohorizontal-text-container
-        width: 345px
+        width: 100%
         margin-left: auto
         margin-right: auto
