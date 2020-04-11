@@ -41,13 +41,22 @@
   .prosection-container
     height: fit-content
     background: $relevel-purple-light
-    margin: 10px auto 40px auto !important
+    margin: $spacing-l-desktop auto 0 auto !important
     padding: 2rem 3.5rem 
   .prosection-header
     color: white
     width: 100%
     margin: 0 auto
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 660px)
+  .prosection-container
+    margin-bottom: $spacing-xl-desktop !important
+
+@media screen and (max-width: 500px)
   .prosection-container
     padding: 2rem 1.5rem 
+    margin-top: $spacing-m-desktop !important
+
+@media screen and (max-width: 415px)
+  .prosection-container
+    margin-top: $spacing-s-desktop !important

@@ -93,7 +93,7 @@ const Hero = ({ image, title, subheading, imageAlt, imageTitle }) => {
               onChangeFunction={handleEmailChange}
             />
             <Button 
-              label="Get early Access" 
+              label="Get early access" 
               kind="purple" 
               type="submit"
             />
