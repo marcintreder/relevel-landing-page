@@ -7,7 +7,7 @@
   margin-top: $spacing-xl-desktop !important
 
 .everything-header
-  margin-bottom: 60px
+  margin-bottom: $spacing-xl-desktop 
   color: $relevel-purple-light
   text-align: center
 
@@ -29,8 +29,12 @@
       width: 360px
       height: 359px
       margin-left: -15px
+  &:nth-child(3) 
+    .everything-list-image
+      width: 345px
+      height: 363px
   &:nth-child(even)
-    left: 20%
+    left: 15%
     .everything-header-3
       color: $relevel-pink
 
@@ -41,25 +45,39 @@
   height: 345px
 
 .everything-header-3
-  margin-bottom: $spacing-s-desktop
-  margin-top: $spacing-xl-desktop
+  margin-bottom: $spacing-xs-desktop
   color: $relevel-purple-light
   font-size: $relevel-h2-desktop
 
 .everything-list-description
+  display: flex
+  flex-direction: column
+  justify-content: center
   max-width: 440px
   margin: 0 0 0 $spacing-l-desktop
   p
+    margin-right: 32px
     font-size: 16px
     line-height: 33px
     color: $relevel-purple-dark
 
 /* Everything You Need Component Responsive Fixes */
 
+@media screen and (max-width: 1215px)
+  .everything-header
+    font-size: $relevel-h2-desktop 
+    line-height: $relevel-h2-desktop * 1.2
+  .everything-header-3
+    font-size: $relevel-h3-desktop
+
 @media screen and (max-width: 1100px)
   .everything-list-item
+    margin-right: $spacing-m-desktop
     &:nth-child(even)
       left: 0
+  .everything-list-description
+    justify-content: flex-start
+    margin-top: $spacing-m-desktop
 
 @media screen and (max-width: 990px)
   .everything-list
@@ -70,21 +88,33 @@
   .everything-list-item
     flex-direction: column
     justify-content: space-between
-    margin: 0 auto 60px auto
+    align-items: center
+    flex: 0 0 33.3333%
     &:nth-child(1)  
       margin-bottom: auto
       .everything-list-image
         margin-left: 0px
         left: -15px
       .everything-list-description
+        align-items: center
         margin-top: 5px
-
+    &:nth-child(3) 
+      margin-top: $spacing-xl-desktop
+      .everything-list-description
+        margin-top: $spacing-xs-desktop
+  .everything-header-3
+    text-align: center
   .everything-list-description
     margin-left: 0
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 880px)
+  .everything-list
+    max-width: 345px
   .everything-list-item
-    margin-bottom: 60px
-    &:nth-child(1)  
-      margin-bottom: 60px
-
+    margin-bottom: $spacing-xl-desktop !important
+    .everything-list-description
+      width: 100%
+      p
+        margin-right: 0
+    &:nth-child(3)
+      margin-top: 0
