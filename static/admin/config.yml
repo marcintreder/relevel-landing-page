@@ -66,7 +66,7 @@ collections:
             {label: Description, name: description, widget: text}]}
           - {label: Everything, name: everything, widget: object, fields: [
               {label: List, name: list, widget: list, fields: [
-                {label: Feature, name: feature, widget: object, fields:[
+                {label: Feature, name: feature, widget: object, fields: [
                   {label: Title, name: title, widget: string},
                   {label: Image, name: image, widget: image}, 
                   {label: ImageTitle, name: imageTitle, widget: string},
@@ -84,7 +84,7 @@ collections:
           - {label: NewLifeGrid, name: newLifeGrid, widget: object, fields: [
             {label: Title, name: title, widget: string},
             {label: Description, name: description, widget: string},
-            {label: List, name: list, widget: list, fields:[
+            {label: List, name: list, widget: list, fields: [
               {label: Item, name: item, widget: object, fields: [
                 {label: Title, name: title, widget: string},
                 {label: Description, name: description, widget: text}, 
@@ -97,7 +97,7 @@ collections:
             ]}
           - {label: Steps, name: steps, widget: object, fields: [
             {label: Title, name: title, widget: string},
-            {label: List, name: list, widget: list, fields:[
+            {label: List, name: list, widget: list, fields: [
               {label: Item, name: item, widget: object, fields: [
                 {label: Title, name: title, widget: string},
                 {label: Description, name: description, widget: text}, 
