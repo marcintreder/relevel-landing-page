@@ -10,10 +10,10 @@ featuredpost: false
 featuredimage: /img/four_stretches.png
 featuredimageAlt: Relevel
 featuredimageTitle: Relevel
-cardimage: /img/four_stretches.png
+cardimage: /img/carpal-tunnel.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
-promoimage: /img/shoulder_pain.png
+promoimage: /img/carpal-tunnel.png
 promoimageAlt: Relevel
 promoimageTitle: Relevel
 tags:

@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import Layout from "../../components/Layout";
 import PromoBlog from "../../components/PromoBlog/PromoBlog";
 import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
+import Hero from "../../components/Hero/Hero";
 
 export class BlogIndexPage extends React.Component {
   render() {
@@ -29,6 +30,7 @@ export class BlogIndexPage extends React.Component {
         return item.node.frontmatter.tags.map(x => tagList.push(x));
       }
     });
+    console.log(promoPost.node.fields.slug)
 
     return (
       <Layout>
@@ -39,13 +41,14 @@ export class BlogIndexPage extends React.Component {
             content="Professional advise and training tailored to defeat injuries caused by the sedentary lifestyle."
           />
         </Helmet>
-        <PromoBlog
+        <Hero 
           title={promoPost.node.frontmatter.title}
-          description={promoPost.node.excerpt}
+          subheading={promoPost.node.excerpt}
           image={promoPost.node.frontmatter.featuredimage}
-          imageAlt={promoPost.node.frontmatter.featuredimageAlt}
-          imageTitle={promoPost.node.frontmatter.featuredimageTitle}
-          link={promoPost.node.fields.slug}
+          signupForm={false}
+          readOnLink={promoPost.node.fields.slug}
+          linkedHeader={promoPost.node.fields.slug}
+          eyeBrow="relevel blog"
         />
         <section className="section">
           <BlogIndexContent
@@ -117,3 +120,15 @@ export default () => (
     render={(data, count) => <BlogIndexPage data={data} count={count} />}
   />
 );
+
+/*
+<PromoBlog
+          title={promoPost.node.frontmatter.title}
+          description={promoPost.node.excerpt}
+          image={promoPost.node.frontmatter.featuredimage}
+          imageAlt={promoPost.node.frontmatter.featuredimageAlt}
+          imageTitle={promoPost.node.frontmatter.featuredimageTitle}
+          link={promoPost.node.fields.slug}
+        />
+
+*/

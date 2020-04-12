@@ -15,8 +15,9 @@ const BlogIndexContent = props => (
       <CategoryList taglist={props.tags} title={props.titleCat} />
     </div>
     <ComingSoon
-      title="Healthy Body in the Desk-Bound World"
+      title="Coming Soon–Relevel App!"
       image={props.comingSoon.markdownRemark.frontmatter.comingsoon.image}
+      contextualClass="coming-soon--blog"
       description={
         props.comingSoon.markdownRemark.frontmatter.comingsoon.description
       }

@@ -9,7 +9,7 @@ featuredimageTitle: Relevel
 promoimage: /img/lower-back-pain.png
 promoimageAlt: Relevel
 promoimageTitle: Relevel
-cardimage: /img/shoulder_pain.png
+cardimage: /img/shoulder-pain.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
 author: Emilia Wysocka-Treder

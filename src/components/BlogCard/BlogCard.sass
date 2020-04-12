@@ -2,20 +2,28 @@
     display: flex
     flex-direction: column
     justify-content: center
-    width: 400px
-    height: 400px
+    max-width: 345px
+
+.blogcard-image
+    display: block
     background-repeat: no-repeat
-    background-size: contain
-    padding: 20px 60px 0 60px
+    background-size: cover
+    width: 345px
+    height: 230px
 
 .blogcard-header
     display: block
+    margin: $spacing-s-desktop 0
     width: fit-content
-    margin-bottom: 0 !important
-    font-size: 32px !important
-    font-family: 'NeuePlak-Semibold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-    color: white !important
+    color: $relevel-purple-light
+    line-height: 30px
+    &:hover
+        text-decoration: underline
 
 .blogcard-author
-    color: white
+    color: $relevel-purple-dark
     font-style: normal
+
+@media screen and (max-width: 1240px)
+    .blogcard-header
+        margin: $spacing-s-desktop 0 $spacing-xs-desktop 0

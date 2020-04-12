@@ -13,6 +13,7 @@ const ComingSoon = ({
   description,
   imageAlt,
   imageTitle,
+  contextualClass,
   ...props
 }) => {
   const [email, setEmail] = useState("");
@@ -74,7 +75,7 @@ const ComingSoon = ({
   };
 
   return (
-    <section className="section">
+    <section className={`section ${contextualClass}`}>
       <div className="container comingsoon-container">
         <div className="comingsoon-text-container">
           <h2 className="comingsoon-header">{title}</h2>
@@ -116,7 +117,8 @@ ComingSoon.propTypes = {
   imageAlt: PropTypes.string,
   imageTitle: PropTypes.string,
   title: PropTypes.string,
-  description: PropTypes.string
+  description: PropTypes.string,
+  contextualClass: PropTypes.string
 };
 
 export default ComingSoon;

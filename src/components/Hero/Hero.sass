@@ -32,6 +32,25 @@
   input
     width: 400px
     margin-right: 20px
+
+.hero-h1-link
+  &:hover
+    color: $relevel-purple-light
+    text-decoration: underline
+
+.hero-read-link
+  margin-top: $spacing-m-desktop
+  color: $relevel-purple-light
+  text-decoration: underline
+  &:hover
+    color: $relevel-purple-dark
+
+  
+.hero-eyebrow
+  color: $relevel-purple-light
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: $relevel-small-desktop
     
 /* Hero Responsive Fixes */
 
@@ -88,6 +107,8 @@
       flex-grow: 1
   .hero-modified
     margin-top: -$spacing-m-desktop !important
+  .hero-read-link
+    margin-top: -$spacing-s-desktop
 
 @media screen and (max-width: 710px)
   .hero-h1, .hero-h3

@@ -13,7 +13,7 @@ featuredimageTitle: Relevel
 promoimage: /img/hero-lower-back.png
 promoimageAlt: Relevel
 promoimageTitle: Relevel
-cardimage: /img/lower-back-pain.png
+cardimage: /img/carpal-tunnel.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
 tags:
