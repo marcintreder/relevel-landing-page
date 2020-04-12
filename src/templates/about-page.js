@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import SimpleHero from "../components/SimpleHero/SimpleHero";
+import Hero from "../components/Hero/Hero";
 import EditorialContent from "../components/EditorialContent/EditorialContent";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
 
@@ -31,13 +32,12 @@ export const AboutPageTemplate = ({
           content="Relevel strives to improve your wellbeing in the workplace! Relevel app has over 200 exercises targeting the most common aches associated with desk jobs. The personalized 15-minute workouts help you fit a healthy movement into your busy workday. No need to change into fitness clothes!"
         />
       </Helmet>
-      <SimpleHero
+      <Hero
+        title={`${header1}\n${header2}`}
         image={image}
-        imageAlt={imageAlt}
-        imageTitle={imageTitle}
-        title1={header1}
-        title2={header2}
-        description={description}
+        subheading={description}
+        signupForm={false}
+        eyeBrow="about relevel"
       />
       <EditorialContent
         title={mission.title}

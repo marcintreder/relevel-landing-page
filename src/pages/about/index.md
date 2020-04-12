@@ -4,7 +4,7 @@ path: /about
 title: About Relevel–Exercise Program to End Back Pain, Shoulder Pain and other problems caused by the sedentary lifestyle
 header1: Welcome to 
 header2: The World of Relevel
-description: Relevel is more than an app. More than a company. Relevel is a path forward for the world harmed by the desk jobs. With Revel you will prepare your body for the challenges introduced by your daily job. With Relevel you will thrive.
+description: Relevel is more than an app. More than a company. Relevel is a path forward for the world harmed by the desk jobs. With Revel you will prepare your body for the challenges introduced by your daily job. With Relevel you will thrive. Relevel is more than an app. More than a company. Relevel is a path forward for the world harmed by the desk jobs. With Revel you will prepare your body for the challenges introduced by your daily job. With Relevel you will thrive. With Revel you will prepare your body for the challenges introduced by your daily job. With Relevel you will thrive.
 image: /img/about.png
 imageAlt: About Relevel
 imageTitle: About Relevel

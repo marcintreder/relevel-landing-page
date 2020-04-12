@@ -30,7 +30,6 @@ export class BlogIndexPage extends React.Component {
         return item.node.frontmatter.tags.map(x => tagList.push(x));
       }
     });
-    console.log(promoPost.node.fields.slug)
 
     return (
       <Layout>
