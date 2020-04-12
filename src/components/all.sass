@@ -73,19 +73,17 @@ $relevel-hero-mobile: 40px
 /* Tags Page Styles */
 
 .tags-header
-  margin-bottom: 20px
-  margin-top: -20px
-  color: $relevel-purple-dark
-  font-size: 80px
+  margin-bottom: $spacing-xs-desktop
+  color: $relevel-purple-light
   text-transform: capitalize
   overflow: hidden
 
 .tags-articles-header
-  font-size: 32px !important
-  color: $relevel-purple-dark
-  margin-bottom: 10px
+  color: $relevel-purple-light
+  font-size: $relevel-h2-desktop
 
 .tags-container
+  margin-top: $spacing-l-desktop
   .blogroll-container
     margin-right: 0
   .blogroll-posts
@@ -100,7 +98,9 @@ $relevel-hero-mobile: 40px
 
 .blogpost-header
   font-size: $spacing-xl-desktop !important
+  line-height: 74px
   color: $relevel-purple-light !important
+  font-weight: 300 !important
 
 .blogpost-container
   display: flex
@@ -110,12 +110,18 @@ $relevel-hero-mobile: 40px
   h2
     color: $relevel-purple-light !important
     font-size: $relevel-h3-desktop !important
+    font-weight: 300
 
 .blogpost-content
   width: 100%
 
 .blogpost-tags
   margin-top: $spacing-l-desktop
+  a
+    color: $relevel-purple-light !important
+    &:hover
+      color: $relevel-purple-dark !important
+      text-decoration: underline
 
 .blogpost-taglist
   margin-left: 0 !important
@@ -133,6 +139,7 @@ $relevel-hero-mobile: 40px
   p
     font-size: $relevel-p-desktop !important
     line-height: 1.8 !important
+    color: $relevel-purple-dark
   .gatsby-resp-image-wrapper
     margin-bottom: $spacing-l-desktop !important
 
@@ -336,7 +343,7 @@ body
 
 h1
   font-size: $relevel-hero-desktop
-  font-weight: normal
+  font-weight: 300 !important
   line-height: 74px
   letter-spacing: -1px
   

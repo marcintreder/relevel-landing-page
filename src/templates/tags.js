@@ -15,9 +15,8 @@ class TagRoute extends React.Component {
         <section className="section">
           <div className="container">
             <Helmet title={`${tag} | ${title}`} />
-            <Breadcrumb secondPage="blog" currentPage={this.props.pageContext.tag} />
             <h1 className="tags-header">{this.props.pageContext.tag}</h1>
-          
+            <Breadcrumb secondPage="blog" currentPage={this.props.pageContext.tag} />
             <div className="container tags-container">
               <h2 className="tags-articles-header">Articles & Resources</h2>
               <BlogRoll posts={this.props.data.allMarkdownRemark.edges} />
