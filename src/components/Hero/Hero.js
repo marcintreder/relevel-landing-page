@@ -18,7 +18,8 @@ const Hero = ({
   imageTitle,
   readOnLink,
   eyeBrow,
-  linkedHeader
+  linkedHeader,
+  titleSecondLine
 }) => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
@@ -27,6 +28,8 @@ const Hero = ({
 
   // Time set for visibility of validation messages
   const msgTime = 8000;
+
+  const lineBreak = <br />;
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -101,7 +104,13 @@ const Hero = ({
               the Desk-Bound World.
             </h1>
           ) : !linkedHeader ? (
-            <h1 className="hero-h1">{title}</h1>
+            <h1 className="hero-h1">{titleSecondLine ? (
+              <>
+              <>{title}</>
+              <br />
+              {titleSecondLine}
+              </>
+              ) : title}</h1>
           ) : (
             <Link to={linkedHeader} className="hero-h1-link">
               <h1 className="hero-h1">{title}</h1>
@@ -111,10 +120,12 @@ const Hero = ({
             <h3 className="hero-h3">{subheading}</h3>
           ) : (
             <>
-            <h3 className="hero-h3">
-              <p>{subheading}</p>
-            </h3>
-            <Link to={readOnLink} className="hero-read-link">Read more</Link>
+              <h3 className="hero-h3">
+                <p>{subheading}</p>
+              </h3>
+              <Link to={readOnLink} className="hero-read-link">
+                Read more
+              </Link>
             </>
           )}
           {signupForm ? (
@@ -146,6 +157,7 @@ Hero.propTypes = {
   imageTitle: PropTypes.string,
   imageAlt: PropTypes.string,
   title: PropTypes.string,
+  titleSecondLine: PropTypes.string,
   titleDefault: PropTypes.bool,
   subheading: PropTypes.string,
   signupForm: PropTypes.bool,
@@ -158,7 +170,7 @@ Hero.propTypes = {
 Hero.defaultProps = {
   signupForm: true,
   readOnDesc: false,
-  linkedHeader: false
+  linkedHeader: ''
 };
 
 export default Hero;

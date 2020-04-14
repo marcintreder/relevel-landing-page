@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({
   comingsoon
 }) => {
   return (
-    <section className="section section--gradient about-container">
+    <>
       <Helmet>
         <title>
           About Relevel App. The App to End Back Pain, Shoulder Pain and other
@@ -33,46 +33,52 @@ export const AboutPageTemplate = ({
         />
       </Helmet>
       <Hero
-        title={`${header1}\n${header2}`}
+        title={header1}
+        titleSecondLine={header2}
         image={image}
         subheading={description}
         signupForm={false}
         eyeBrow="about relevel"
       />
-      <EditorialContent
-        title={mission.title}
-        direction="right"
-        quote={mission.missionStatement}
-        description={[mission.description1, mission.description2]}
-      />
-      <EditorialContent
-        title={aboutEmilia.title}
-        image={aboutEmilia.image}
-        imageAlt={aboutEmilia.imageAlt}
-        imageTitle={aboutEmilia.imageTitle}
-        direction="left"
-        description={[
-          aboutEmilia.description1,
-          aboutEmilia.description2,
-          aboutEmilia.description3
-        ]}
-      />
-      <EditorialContent
-        title={familyBusiness.title}
-        image={familyBusiness.image}
-        imageAlt={familyBusiness.imageAlt}
-        imageTitle={familyBusiness.imageTitle}
-        direction="right"
-        description={[familyBusiness.description1, familyBusiness.description2]}
-      />
-      <ComingSoon
-        image={comingsoon.image}
-        imageAlt={comingsoon.imageAlt}
-        imageTitle={comingsoon.imageTitle}
-        title={comingsoon.title}
-        description={comingsoon.description}
-      />
-    </section>
+      <section className="section">
+        <EditorialContent
+          title={mission.title}
+          direction="right"
+          quote={mission.missionStatement}
+          description={[mission.description1, mission.description2]}
+        />
+        <EditorialContent
+          title={aboutEmilia.title}
+          image={aboutEmilia.image}
+          imageAlt={aboutEmilia.imageAlt}
+          imageTitle={aboutEmilia.imageTitle}
+          direction="left"
+          description={[
+            aboutEmilia.description1,
+            aboutEmilia.description2,
+            aboutEmilia.description3
+          ]}
+        />
+        <EditorialContent
+          title={familyBusiness.title}
+          image={familyBusiness.image}
+          imageAlt={familyBusiness.imageAlt}
+          imageTitle={familyBusiness.imageTitle}
+          direction="right"
+          description={[
+            familyBusiness.description1,
+            familyBusiness.description2
+          ]}
+        />
+        <ComingSoon
+          image={comingsoon.image}
+          imageAlt={comingsoon.imageAlt}
+          imageTitle={comingsoon.imageTitle}
+          title={comingsoon.title}
+          description={comingsoon.description}
+        />
+      </section>
+    </>
   );
 };
 
