@@ -41,13 +41,11 @@ export const BlogPostTemplate = ({
   /* disqus integration */
   const siteURL = "https://relevelapp.com"
   const pageURL = `${siteURL}${location.pathname}`;
-  console.log(location.pathname)
   let disqusConfig = {
     url: pageURL,
     identifier: `relevel-1${id}`,
     title: title
   };
-  console.log(promoimage)
 
   return (
     <section className="section">

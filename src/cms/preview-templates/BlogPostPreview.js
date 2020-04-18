@@ -4,14 +4,11 @@ import PropTypes from "prop-types";
 import { BlogPostTemplate } from "../../templates/blog-post";
 
 const BlogPostPreview = ({ entry, widgetFor }) => {
-  console.log(entry.getIn(["data", "promoimage"]))
   const tags = entry.getIn(["data", "tags"]);
   let locationFake={"pathname": "/blog/2020-04-17-home-office-ergonomics/"}
-  console.log(locationFake.pathname)
   return (
     <BlogPostTemplate
       content={widgetFor("body")}
-      contentComponent={widgetFor("body")}
       title={entry.getIn(["data", "title"])}
       location={locationFake}
       id={entry.getIn(["data", "id"])}
@@ -43,28 +40,3 @@ BlogPostPreview.propTypes = {
 };
 
 export default BlogPostPreview;
-
-/*
-<Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-
-       tags={tags && tags.toJS()}  
-       
-         content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
-  id: PropTypes.string,
-  location: PropTypes.object,
-  tags: PropTypes.any,
-  promoimage: PropTypes.object,
-  promoimageTitle: PropTypes.string,
-  promoimageAlt: PropTypes.string,
-  promoimageUrl: PropTypes.string,
-  promoimageAuthor: PropTypes.string
-*/
