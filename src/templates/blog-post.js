@@ -35,17 +35,19 @@ export const BlogPostTemplate = ({
   promoimageAlt,
   promoimageUrl,
   promoimageAuthor,
+  preview
 }) => {
-  
   const PostContent = contentComponent || Content;
   /* disqus integration */
-  const siteURL = "https://relevelapp.com"
-  const pageURL = `${siteURL}${location.pathname}`;
-  let disqusConfig = {
-    url: pageURL,
-    identifier: `relevel-1${id}`,
-    title: title
-  };
+
+ 
+    const siteURL = "https://relevelapp.com";
+    const pageURL = `${siteURL}${location.pathname}`;
+    let disqusConfig = {
+      url: pageURL,
+      identifier: `relevel-1${id}`,
+      title: title
+    };
 
   return (
     <section className="section">
@@ -67,7 +69,12 @@ export const BlogPostTemplate = ({
                   : promoimage
               })`
             }}
-          ><figcaption className="blogpost-promo-caption">Photo by {promoimageAuthor} on <a href={promoimageUrl}>Unsplash</a></figcaption></div>
+          >
+            <figcaption className="blogpost-promo-caption">
+              Photo by {promoimageAuthor} on{" "}
+              <a href={promoimageUrl}>Unsplash</a>
+            </figcaption>
+          </div>
           <PostContent content={content} className="blogpost-content" />
         </article>
         <aside className="blogpost-aside">
@@ -117,9 +124,11 @@ export const BlogPostTemplate = ({
           ) : null}
         </aside>
       </div>
-      <div className="container blog-discussion">
+      {!preview ? (
+        <div className="container blog-discussion">
         <DiscussionEmbed config={disqusConfig} shortname="relevel-1" />
       </div>
+      ) : ''}
     </section>
   );
 };
@@ -141,14 +150,14 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data, location }) => {
-  console.log(location)
+  console.log(location);
   const { markdownRemark: post } = data;
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        location={location ? location : {pathname: "/test"}}
+        location={location ? location : { pathname: "/test" }}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
