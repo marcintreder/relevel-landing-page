@@ -34,19 +34,21 @@ export const BlogPostTemplate = ({
   promoimageTitle,
   promoimageAlt,
   promoimageUrl,
-  promoimageAuthor
+  promoimageAuthor,
 }) => {
+  
   const PostContent = contentComponent || Content;
-
   /* disqus integration */
-  const { siteURL } = useSiteMetadata();
+  const siteURL = "https://relevelapp.com"
   const pageURL = `${siteURL}${location.pathname}`;
+  console.log(location.pathname)
   let disqusConfig = {
     url: pageURL,
     identifier: `relevel-1${id}`,
     title: title
   };
-  console.log(content);
+  console.log(promoimage)
+
   return (
     <section className="section">
       {helmet || ""}
@@ -128,17 +130,27 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  id: PropTypes.string,
+  location: PropTypes.object,
+  tags: PropTypes.any,
+  promoimage: PropTypes.object,
+  promoimageTitle: PropTypes.string,
+  promoimageAlt: PropTypes.string,
+  promoimageUrl: PropTypes.string,
+  promoimageAuthor: PropTypes.string,
+  preview: PropTypes.bool
 };
 
 const BlogPost = ({ data, location }) => {
+  console.log(location)
   const { markdownRemark: post } = data;
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        location={location}
+        location={location ? location : {pathname: "/test"}}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -156,6 +168,7 @@ const BlogPost = ({ data, location }) => {
         promoimageAlt={post.frontmatter.promoimageAlt}
         promoimageUrl={post.frontmatter.promoimageUrl}
         promoimageAuthor={post.frontmatter.promoimageAuthor}
+        preview={false}
       />
     </Layout>
   );
@@ -177,11 +190,8 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        description
         tags
-        promoimageAlt
-        promoimageTitle
-        promoimageUrl
-        promoimageAuthor
         promoimage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -189,6 +199,10 @@ export const pageQuery = graphql`
             }
           }
         }
+        promoimageAlt
+        promoimageTitle
+        promoimageUrl
+        promoimageAuthor
       }
     }
   }
