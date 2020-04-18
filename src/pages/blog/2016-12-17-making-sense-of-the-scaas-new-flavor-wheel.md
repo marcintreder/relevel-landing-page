@@ -15,6 +15,8 @@ promoimageTitle: Relevel
 cardimage: /img/lower-back-pain.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
 author: Emilia Wysocka-Treder
 tags:
   - lower back pain

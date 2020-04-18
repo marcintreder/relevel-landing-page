@@ -29,6 +29,8 @@ collections:
       - {label: "Promo Image", name: "promoimage", widget: image}
       - {label: "Promo Image Title", name: "promoimageTitle", widget: string}
       - {label: "Promo Image Alt", name: "promoimageAlt", widget: string}
+      - {label: "Promo Image Author", name: "promoimageAuthor", widget: string}
+      - {label: "Promo Image Url", name: "promoimageUrl", widget: string}
       - {label: "Card Image", name: "cardimage", widget: image}
       - {label: "Card Image Title", name: "cardimageTitle", widget: string}
       - {label: "Card Image Alt", name: "cardimageAlt", widget: string}

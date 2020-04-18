@@ -10,6 +10,8 @@ featuredimageAlt: Home Office Ergonomics. Desk set-up.
 promoimage: /img/home-office-ergonomics_promo.png
 promoimageTitle: Home Office Ergonomics. Desk set-up.
 promoimageAlt: Home Office Ergonomics. Desk set-up.
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
 cardimage: /img/home-office-ergonomics_card.png
 cardimageTitle: Home Office Ergonomics. Desk set-up.
 cardimageAlt: Home Office Ergonomics. Desk set-up.

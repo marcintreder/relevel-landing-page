@@ -16,6 +16,8 @@ promoimageTitle: Relevel
 cardimage: /img/carpal-tunnel.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
 tags:
   - stretches
   - carpal tunnel

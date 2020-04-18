@@ -12,6 +12,8 @@ promoimageTitle: Relevel
 cardimage: /img/shoulder-pain.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
 author: Emilia Wysocka-Treder
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue

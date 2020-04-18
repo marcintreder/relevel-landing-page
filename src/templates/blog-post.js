@@ -25,12 +25,16 @@ import {
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet,
   id,
-  location
+  location,
+  promoimage,
+  promoimageTitle,
+  promoimageAlt,
+  promoimageUrl,
+  promoimageAuthor
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -42,7 +46,7 @@ export const BlogPostTemplate = ({
     identifier: `relevel-1${id}`,
     title: title
   };
-
+  console.log(content);
   return (
     <section className="section">
       {helmet || ""}
@@ -50,39 +54,45 @@ export const BlogPostTemplate = ({
         <article className="container blogpost-text">
           <h1 className="blogpost-header">{title}</h1>
           <Breadcrumb secondPage="blog" currentPage={title} />
-          <p>{description}</p>
+          <div
+            className="blogpost-promo-image"
+            role="img"
+            aria-label={promoimageAlt}
+            alt={promoimageAlt}
+            title={promoimageTitle}
+            style={{
+              backgroundImage: `url(${
+                !!promoimage.childImageSharp
+                  ? promoimage.childImageSharp.fluid.src
+                  : promoimage
+              })`
+            }}
+          ><figcaption className="blogpost-promo-caption">Photo by {promoimageAuthor} on <a href={promoimageUrl}>Unsplash</a></figcaption></div>
           <PostContent content={content} className="blogpost-content" />
         </article>
         <aside className="blogpost-aside">
           <h2>Share</h2>
           <div>
-            <FacebookShareButton 
-              url={pageURL}
-              quote={title}
-              hashtag="#relevel"
-            >
+            <FacebookShareButton url={pageURL} quote={title} hashtag="#relevel">
               <FacebookIcon size={32} />
             </FacebookShareButton>
-            <TwitterShareButton 
+            <TwitterShareButton
               title={title}
               url={pageURL}
               via="relevelapp"
-              hashtags={["relevel", "health"]} 
-              related={["relevelapp"]} 
+              hashtags={["relevel", "health"]}
+              related={["relevelapp"]}
             >
               <TwitterIcon size={32} />
             </TwitterShareButton>
-            <LinkedinShareButton 
+            <LinkedinShareButton
               url={pageURL}
               title={title}
-              summary={description}
               source="http://relevelapp.com"
             >
               <LinkedinIcon size={32} />
             </LinkedinShareButton>
-            <WhatsappShareButton 
-              title={title}
-              url={pageURL}>
+            <WhatsappShareButton title={title} url={pageURL}>
               <WhatsappIcon size={32} />
             </WhatsappShareButton>
             <EmailShareButton
@@ -117,7 +127,6 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object
 };
@@ -129,7 +138,6 @@ const BlogPost = ({ data, location }) => {
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         location={location}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -143,6 +151,11 @@ const BlogPost = ({ data, location }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         id={post.id}
+        promoimage={post.frontmatter.promoimage}
+        promoimageTitle={post.frontmatter.promoimageTitle}
+        promoimageAlt={post.frontmatter.promoimageAlt}
+        promoimageUrl={post.frontmatter.promoimageUrl}
+        promoimageAuthor={post.frontmatter.promoimageAuthor}
       />
     </Layout>
   );
@@ -164,8 +177,18 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         tags
+        promoimageAlt
+        promoimageTitle
+        promoimageUrl
+        promoimageAuthor
+        promoimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

@@ -13,6 +13,8 @@ cardimage: /img/lower-back-pain.png
 cardimageAlt: Relevel
 cardimageTitle: Relevel
 author: Emilia Wysocka-Treder
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
 description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:
   - shoulder pain
