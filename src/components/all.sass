@@ -23,6 +23,7 @@ $relevel-hero-desktop: 64px
 $relevel-h1-desktop: 48px
 $relevel-h2-desktop: 32px
 $relevel-h3-desktop: 24px
+$relevel-h4-desktop: 20px
 $relevel-p-desktop: 16px
 $relevel-small-desktop: 10px
 
@@ -110,12 +111,25 @@ $relevel-hero-mobile: 40px
     font-size: $relevel-h1-desktop
   h2
     color: $relevel-purple-light !important
+    font-size: $relevel-h2-desktop !important
+    font-weight: 300 !important
+  h3
+    color: $relevel-purple-light !important
     font-size: $relevel-h3-desktop !important
-    font-weight: 300
+    font-weight: 300 !important
+  h4
+    color: $relevel-purple-light !important
+    font-size: $relevel-h4-desktop !important
+    font-weight: 300 !important
+  
+
 
 .blogpost-content
   width: 100%
-
+  li, p, ul, ol
+      font-size: $relevel-p-desktop
+      color: $relevel-purple-dark
+ 
 .blogpost-tags
   margin-top: $spacing-l-desktop
   a
@@ -135,8 +149,14 @@ $relevel-hero-mobile: 40px
 .blogpost-text
   max-width: 1024px
   h2
-    margin-top: $spacing-xl-desktop !important
+    margin-top: $spacing-l-desktop !important
     margin-bottom: $spacing-s-desktop !important
+  h3
+    margin-top: $spacing-l-desktop !important
+    margin-bottom: $spacing-s-desktop !important
+  h4
+    margin-top: $spacing-m-desktop !important
+    margin-bottom: $spacing-m-desktop !important
   p
     font-size: $relevel-p-desktop !important
     line-height: 1.8 !important
