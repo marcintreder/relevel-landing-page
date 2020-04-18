@@ -16,7 +16,7 @@ cardimageTitle: Home Office Ergonomics. Desk set-up.
 cardimageAlt: Home Office Ergonomics. Desk set-up.
 tags:
   - ergonomics
-description: .nan
+description: Home office ergonomics is crucial for healthy and comfortable work from home. Avoid pain and injuries with the correct set-up.
 ---
 If you, like many people, are stuck at home due to the recent coronavirus pandemic, you might notice that your home office doesn't quite resemble the ergonomic (hopefully) workstation that you use at work. 
 
