@@ -22,11 +22,11 @@ const CategoryList = ({ title, taglist }) => (
           </a>
         </li>
         <li className="categorylist-social--item">
-          <a href="https://twitter.com/relevelapp" className="categorylist-social--logo categorylist-social--logo_instagram">
+          <a href="https://instagram.com/relevelapp" className="categorylist-social--logo categorylist-social--logo_instagram">
           </a>
         </li>
         <li className="categorylist-social--item">
-          <a href="https://twitter.com/relevelapp" className="categorylist-social--logo categorylist-social--logo_pinterest">
+          <a href="https://pinterest.com/relevelapp" className="categorylist-social--logo categorylist-social--logo_pinterest">
           </a>
         </li>
       </ul>
