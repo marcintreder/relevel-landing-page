@@ -10,10 +10,10 @@ featuredimage: /img/carpal-tunnel-featured.png
 featuredimageTitle: Carpal tunnel syndrome- causes and cures
 featuredimageAlt: "Carpal tunnel syndrome "
 promoimage: /img/carpal-tunnel-promo.png
-promoimageTitle: Carpal tunnel syndrome- causes and cures
+promoimageTitle: Carpal tunnel syndrome–causes and cures
 promoimageAlt: "Carpal tunnel syndrome "
 promoimageAuthor: Relevel
-promoimageUrl: www.relevelapp.com
+promoimageUrl: http://www.relevelapp.com
 cardimage: /img/carpal-tunnel-card.png
 cardimageTitle: Carpal tunnel syndrome- causes and cures
 cardimageAlt: "Carpal tunnel syndrome "
