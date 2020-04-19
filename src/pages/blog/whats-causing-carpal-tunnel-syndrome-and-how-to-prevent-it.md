@@ -5,7 +5,7 @@ description: "Carpal tunnel syndrome is a very common condition that bothers
   many office workers. Hours spend typing put tension on our wrists and lead to
   inflammation and irritation in the nerves that run down your arm.  "
 date: 2020-04-19T19:36:37.162Z
-featuredpost: true
+featuredpost: false
 featuredimage: /img/carpal-tunnel-featured.png
 featuredimageTitle: Carpal tunnel syndrome- causes and cures
 featuredimageAlt: "Carpal tunnel syndrome "
