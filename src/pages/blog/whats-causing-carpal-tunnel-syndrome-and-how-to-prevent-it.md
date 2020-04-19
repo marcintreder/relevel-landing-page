@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: What's causing Carpal Tunnel Syndrome and how to prevent it.
+title: What's Causing Carpal Tunnel Syndrome and How to Prevent It.
 description: "Carpal tunnel syndrome is a very common condition that bothers
   many office workers. Hours spend typing put tension on our wrists and lead to
   inflammation and irritation in the nerves that run down your arm.  "
@@ -50,7 +50,7 @@ Just like every nerve in our body it helps you to sense and move the muscles. Th
    * wrist injuries
    * kyphotic posture
    * high blood pressure
-2. [Women](<1. https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Fact-Sheets/Carpal-Tunnel-Syndrome-Fact-Sheet>) are 3 times more likely than men to develop carpal tunnel syndrome.
+2. [Women](https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Fact-Sheets/Carpal-Tunnel-Syndrome-Fact-Sheet) are 3 times more likely than men to develop carpal tunnel syndrome.
 3. Repetitive wrist movement at your job:
 
    * desk jobs
@@ -87,9 +87,9 @@ The sooner you notice and react to the symptoms in your body, the more likely ar
 
 If you’re experiencing the symptoms mentioned above, it is best to go to your doctor who can perform appropriate tests. The commonly performed tests are:
 
-* Tinel test (<https://www.healthline.com/health/tinels-sign#test>)
-* Phalen test (https://www.physio-pedia.com/Phalen%E2%80%99s_Test)
-* Electrodiagnostics (https://www.hss.edu/conditions_emg-testing-a-patient-guide.asp)
+* [Tinel test](https://www.healthline.com/health/tinels-sign#test)
+* [Phalen test](https://www.physio-pedia.com/Phalen%E2%80%99s_Test)
+* [Electrodiagnostics](https://www.hss.edu/conditions_emg-testing-a-patient-guide.asp)
 
 For the recovery period, doctors often recommend immobilization. Resting your wrist and wearing a brace are some of the strategies to help you ease the inflammation in the carpal tunnel. In some cases, mild anti-inflammatory medications are prescribed, and in some more unpleasant steroid injections.
 
@@ -99,7 +99,7 @@ While you still can: move it and improve it! It applies to all of us spending ti
 
 Here are a few steps to take for self-care to prevent the carpal tunnel syndrome:
 
-1. Stretch it
+1. **Stretch it**
 
    Stretching and opening your chest is a very important practice to avoid carpal tunnel syndrome.
 
@@ -108,9 +108,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    (gif telescope arms)
 
    Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
-
-
-2. Floss the nerves
+2. **Floss the nerves**
 
    Flossing your median nerve can alleviate the tension caused by compression on its pathway. Nerve flossing, if done correctly and regularly, can help you reduce the existing pain, as well as regain the lost mobility in the affected area. 
 
@@ -119,23 +117,17 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    (gif nerve floss)
 
    Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
-
-
-3. Improve your posture
+3. **Improve your posture**
 
    Your posture is a significant factor contributing to the health of your carpal tunnel. Make sure your shoulders are back, and your head sits on top of your spine. Craning your neck puts tremendous tension on the upper back structure and can lead to nerve compression and inflammation.
 
    Here is an article to read if you want to find out more about the correct head position when in front of the screens (Where is your head at? Quick posture fix for neck pain and headache.)
-
-
-4. Optimize your workstation
+4. **Optimize your workstation**
 
    An ergonomic workstation is key if you spend hours in front of the desk.
 
    Learn how to adjust your desk set up to improve your posture and prevent the aches (How to set up your workstation to prevent the aches)
-
-
-5. Take breaks
+5. **Take breaks**
 
    Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve your wellbeing at the workplace.
 
