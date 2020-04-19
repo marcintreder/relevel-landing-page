@@ -19,7 +19,6 @@ cardimageAlt: Home Office Ergonomics. Desk set-up.
 tags:
   - ergonomics
   - work from home
-  - ""
 ---
 If you, like many people, are stuck at home due to the recent coronavirus pandemic, you might notice that your home office doesn't quite resemble the ergonomic (hopefully) workstation that you use at work. 
 
@@ -79,7 +78,9 @@ Here is another shot of the improved workstation using whatever I have available
 
    For less strain, sit on top of your sit bones. Try this simple exercise to find out where these bones are and how to maintain a neutral posture.
 
-![Pelvic rock exercise](/img/home_ergonomics_2.gif "Pelvic rock exercise")
+  <p style="text-align: center;">
+    <img src="/img/home_ergonomics_2.gif" alt="Pelvic rock exercise" />
+  </p>
 
    Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place.
 
@@ -117,8 +118,10 @@ Here is another shot of the improved workstation using whatever I have available
 
    To assure you are moving your head from a correct place and not creating too much tension in the nearby muscles, try this simple test
 
-![Head nod exercise](/img/home_ergonomics_1.gif "Head nod exercise")
-
+  <p style="text-align: center;">
+    <img src="/img/home_ergonomics_1.gif" alt="Head nod exercise" />
+  </p>
+  
    This hinging motion will help you understand how to move your head without putting strain on your neck. And how to self correct your posture during the day.
 
    Check out my blog post about head positioning and the unpleasant consequences of the wrong posture (Where is your head at? Quick posture fix for neck pain and headache)
