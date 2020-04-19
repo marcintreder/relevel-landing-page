@@ -9,6 +9,7 @@ import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
 export const TermsTemplate = ({
   content,
   contentComponent,
+  description,
   title,
   helmet
 }) => {
@@ -35,6 +36,7 @@ TermsTemplate.propTypes = {
 };
 
 const Terms = ({ data, location }) => {
+  console.log(data);
   const { markdownRemark: post } = data;
   return (
     <Layout>
