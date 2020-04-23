@@ -29,8 +29,6 @@ const Hero = ({
   // Time set for visibility of validation messages
   const msgTime = 8000;
 
-  const lineBreak = <br />;
-
   const handleSubmit = e => {
     e.preventDefault();
     addToMailchimp(email)
@@ -85,7 +83,7 @@ const Hero = ({
     <div className="section hero-modified">
       <div className="container hero-container">
         <div
-          className="hero-image"
+          className={`hero-image ${eyeBrow ? 'hero-image__eyebrow' : ''}`}
           role="img"
           aria-label={imageAlt}
           alt={imageAlt}

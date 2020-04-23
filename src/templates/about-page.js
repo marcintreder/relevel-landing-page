@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import SimpleHero from "../components/SimpleHero/SimpleHero";
 import Hero from "../components/Hero/Hero";
 import EditorialContent from "../components/EditorialContent/EditorialContent";
 import ComingSoon from "../components/ComingSoon/ComingSoon";

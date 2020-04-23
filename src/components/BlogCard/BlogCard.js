@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby"
 
-const BlogCard = ({ image, imageTitle, imageAlt, title, author, link, ...props }) => (
+const BlogCard = ({ image, imageTitle, imageAlt, title, link, ...props }) => (
     <Link 
         to={link}
         className={`blogcard-cointainer ${props.className}`}
@@ -21,7 +21,7 @@ const BlogCard = ({ image, imageTitle, imageAlt, title, author, link, ...props }
         >
         </div>
         <h3 className="blogcard-header">{title}</h3>
-        <address className="blogcard-author">by {author}</address>
+        <address className="blogcard-author">by Emilia Wysocka-Treder</address>
     </Link>
 );
 
@@ -30,7 +30,6 @@ BlogCard.propTypes = {
   imageTitle: PropTypes.string,
   imageAlt: PropTypes.string,
   title: PropTypes.string,
-  author: PropTypes.string,
   link: PropTypes.string
 };
 

@@ -2,7 +2,6 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../../components/Layout";
-import PromoBlog from "../../components/PromoBlog/PromoBlog";
 import BlogIndexContent from "../../components/BlogIndexContent/BlogIndexContent";
 import Hero from "../../components/Hero/Hero";
 

@@ -51,6 +51,13 @@ $relevel-hero-mobile: 40px
 @import "./Footer/Footer.sass"
 @import "~bulma"
 
+body
+  p
+    font-size: $relevel-p-desktop
+    color: $relevel-purple-dark
+  h4
+    color: $relevel-purple-dark !important
+
 .section
   padding-right: $spacing-xxl-desktop !important
   padding-left: $spacing-xxl-desktop !important
@@ -126,11 +133,26 @@ $relevel-hero-mobile: 40px
 
 .blogpost-content
   width: 100%
-  li, p, ul, ol
-      font-size: $relevel-p-desktop
-      color: $relevel-purple-dark
+  li, ul, ol
+    margin-bottom: $spacing-xs-desktop
+    font-size: $relevel-p-desktop
+    color: $relevel-purple-dark
+  p
+    margin-bottom: $spacing-s-desktop !important
+    font-size: $relevel-p-desktop
+    color: $relevel-purple-dark
   [alt="Pelvic rock exercise"] &
     text-align: center !important
+    margin-bottom: 0 !important
+  li > p:last-of-type
+    margin-bottom: $spacing-l-desktop !important
+  li > p:first-of-type
+    margin-bottom: $spacing-xs-desktop !important
+  blockquote
+    margin-top: $spacing-m-desktop
+    margin-bottom: $spacing-m-desktop !important
+    p
+      margin-bottom: 0 !important
  
 .blogpost-tags
   margin-top: $spacing-l-desktop
@@ -147,6 +169,8 @@ $relevel-hero-mobile: 40px
     font-size: $relevel-p-desktop
     padding: 0 !important
     margin-top: 0 !important
+    margin-bottom: $spacing-xs-desktop
+    text-transform: capitalize
 
 .blogpost-text
   max-width: 1024px
@@ -442,3 +466,6 @@ h3
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+.content p:not(:last-child), .content ul:not(:last-child), .content blockquote:not(:last-child)
+  margin-bottom: $spacing-xs-desktop

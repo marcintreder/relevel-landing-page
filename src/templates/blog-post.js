@@ -7,7 +7,6 @@ import { DiscussionEmbed } from "disqus-react";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
-import useSiteMetadata from "../hooks/siteMetedata";
 
 import {
   FacebookShareButton,
@@ -70,10 +69,13 @@ export const BlogPostTemplate = ({
               })`
             }}
           >
-            <figcaption className="blogpost-promo-caption">
+            {promoimageAuthor ? 
+            (<figcaption className="blogpost-promo-caption">
               Photo by {promoimageAuthor} on{" "}
               <a href={promoimageUrl}>Unsplash</a>
-            </figcaption>
+            </figcaption>) :
+            ''
+            }
           </div>
           <PostContent content={content} className="blogpost-content" />
         </article>

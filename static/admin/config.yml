@@ -10,6 +10,8 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+show_preview_links: true
 
 collections:
   - name: "blog"
@@ -17,25 +19,27 @@ collections:
     folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
+    summary: "{{title}} - {{commit_date}}"
+    sortableFields: ['commit_date', 'title']
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Title", name: "title", widget: "string", default: "New Blog Post", hint: "Replace with a real title in title case."}
+      - {label: "Description", name: "description", widget: "text", required: false, hint: "Please fill in for SEO reasons"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Featured Image Title", name: "featuredimageTitle", widget: string}
-      - {label: "Featured Image Alt", name: "featuredimageAlt", widget: string}
-      - {label: "Promo Image", name: "promoimage", widget: image}
-      - {label: "Promo Image Title", name: "promoimageTitle", widget: string}
-      - {label: "Promo Image Alt", name: "promoimageAlt", widget: string}
-      - {label: "Promo Image Author", name: "promoimageAuthor", widget: string}
-      - {label: "Promo Image Url", name: "promoimageUrl", widget: string}
-      - {label: "Card Image", name: "cardimage", widget: image}
-      - {label: "Card Image Title", name: "cardimageTitle", widget: string}
-      - {label: "Card Image Alt", name: "cardimageAlt", widget: string}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false}
+      - {label: "Featured Image", name: "featuredimage", widget: image, default: "/img/featured_placeholder.png", hint: "Please change the placeholder image."}
+      - {label: "Featured Image Title", name: "featuredimageTitle", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then alt."}
+      - {label: "Featured Image Alt", name: "featuredimageAlt", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then title."}
+      - {label: "Promo Image", name: "promoimage", widget: image, default: "/img/promo_placeholder.png", hint: "Please change the placeholder image."}
+      - {label: "Promo Image Title", name: "promoimageTitle", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then alt."}
+      - {label: "Promo Image Alt", name: "promoimageAlt", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then title."}
+      - {label: "Promo Image Author", name: "promoimageAuthor", widget: string, required: false}
+      - {label: "Promo Image Url", name: "promoimageUrl", widget: string, required: false}
+      - {label: "Card Image", name: "cardimage", widget: image, default: "/img/card_placeholder.png", hint: "Please change the placeholder image."}
+      - {label: "Card Image Title", name: "cardimageTitle", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then alt."}
+      - {label: "Card Image Alt", name: "cardimageAlt", widget: string, required: false, hint: "Please remember to fill it in for accessibility and SEO. Make it different then title."}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["Stretches"], hint: "Don't add too many and seek consistency with other blogposts"}
 
   - name: "pages"
     label: "Pages"
