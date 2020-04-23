@@ -12,8 +12,8 @@ featuredimageAlt: "Carpal tunnel syndrome "
 promoimage: /img/carpal-tunnel-promo.png
 promoimageTitle: Carpal tunnel syndrome–causes and cures
 promoimageAlt: "Carpal tunnel syndrome "
-promoimageAuthor: Relevel
-promoimageUrl: http://www.relevelapp.com
+promoimageAuthor: ""
+promoimageUrl: ""
 cardimage: /img/carpal-tunnel-card.png
 cardimageTitle: Carpal tunnel syndrome- causes and cures
 cardimageAlt: "Carpal tunnel syndrome "
