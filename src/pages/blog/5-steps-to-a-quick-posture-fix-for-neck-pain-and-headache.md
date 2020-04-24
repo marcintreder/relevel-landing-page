@@ -1,11 +1,22 @@
 ---
 templateKey: blog-post
 title: 5 Steps to a Quick Posture Fix for Neck Pain and Headache
+description: Neck pain and headaches can be an aftereffect of a bad posture. A
+  sedentary lifestyle is a huge contributor to that problem. Learn how to fix
+  your posture and relieve neck pain and headaches.
 date: 2020-04-24T20:30:04.126Z
 featuredpost: false
 featuredimage: /img/featured_placeholder.png
+featuredimageTitle: Fix the posture to relieve neck pain and headaches
+featuredimageAlt: Neck pain and headache
 promoimage: /img/promo_placeholder.png
+promoimageTitle: Fix the posture to relieve neck pain and headaches
+promoimageAlt: Neck pain and headache
+promoimageAuthor: Fix the posture to relieve neck pain and headaches
+promoimageUrl: Neck pain and headache
 cardimage: /img/card_placeholder.png
+cardimageTitle: Fix the posture to relieve neck pain and headaches
+cardimageAlt: Neck pain and headache
 tags:
   - Stretches
 ---
