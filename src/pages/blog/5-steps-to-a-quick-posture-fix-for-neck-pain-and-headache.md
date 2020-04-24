@@ -6,15 +6,15 @@ description: Neck pain and headaches can be an aftereffect of a bad posture. A
   your posture and relieve neck pain and headaches.
 date: 2020-04-24T20:30:04.126Z
 featuredpost: false
-featuredimage: /img/featured_placeholder.png
+featuredimage: /img/featured-image-2-.png
 featuredimageTitle: Fix the posture to relieve neck pain and headaches
 featuredimageAlt: Neck pain and headache
-promoimage: /img/promo_placeholder.png
+promoimage: /img/promo.png
 promoimageTitle: Fix the posture to relieve neck pain and headaches
 promoimageAlt: Neck pain and headache
-promoimageAuthor: Fix the posture to relieve neck pain and headaches
-promoimageUrl: Neck pain and headache
-cardimage: /img/card_placeholder.png
+promoimageAuthor: Photo by Element5 Digital on Unsplash
+promoimageUrl: unsplash.com
+cardimage: /img/card.png
 cardimageTitle: Fix the posture to relieve neck pain and headaches
 cardimageAlt: Neck pain and headache
 tags:
@@ -62,7 +62,7 @@ Now that we have an overview of different types of headaches and neck pains let'
 
 Your head position in space hugely impacts your posture. In the ideal scenario, your head should sit vertically on top of the spine with the ear lobes on top of your shoulders.
 
-(correct head position pic)
+![correct head position](/img/head-position-correct.jpg "Looking at smartphone correct head position")
 
 ##### **Why Is Your Head Position Important?**
 
