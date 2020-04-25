@@ -219,7 +219,7 @@ And an improved set up keeping in mind the adjustments mentioned above.
 
 ![Correct position while working on a kitchen table](/img/group-72.png "Save your body with a correct posture while working from home!")
 
-#### Items to add to improve your dining room workstation
+#### Items to Add to Improve Your Dining Room Workstation
 
 1. Lumbar support
 2. Footrest
@@ -245,23 +245,23 @@ This is improved couch-potato me.
 
 ![Correct position while working from your coach at home](/img/group-75.png "Correct position on your coach while working from home can save your back")
 
-#### Tips for making your couch more ergonomic
+#### Tips for Making Your Couch More Ergonomic
 
-1. **Lumbar support**
+1. **Lumbar Support**
 
    Just like in previous scenarios, here on a couch, a lumbar support pad can be your best friend. The pillow placed at the level of your lower back helps you to keep the neutral curves of your spine as well as minimizes the strain put on the intervertebral discs.
-2. **Recline on the couch**
+2. **Recline on the Couch**
 
    By all means, it is okay to be reclined. The 90-degree angle at your hips and sitting upright for hours at a time can lead to chronic back pain, as suggested by [WebMD](https://www.webmd.com/back-pain/news/20061129/back-pain-eased-by-sitting-back).
 
     Reclining your chair or, for that matter, your position on the sofa to 110-135 degrees was found to be best in relieving the stress put against the spine.
-3. **Tilt the screen**
+3. **Tilt the Screen**
 
     Here on the couch, laptop stands make less sense compared to working from a desk or dining table. Tilting your laptop screen to meet the eye level and ensure a 40-45 degree angle will decrease the strain put on the eyes and neck.
 
    To look at the screen, try tilting the head rather than dropping it and hanging at the last cervical vertebrae, which puts massive stress on the musculature of your neck and upper back.
 
-## Make sure your workstation works for you!
+## Make Sure Your Workstation Works for You!
 
 I hope you find these tips useful and you can imply them to your temporary home offices and maybe even back to your regular workplaces. 
 
@@ -272,7 +272,7 @@ Remember, you should always listen to your body, and if the set up doesn't work 
 
 > No matter how ergonomic your office space is, if you are not mindful of your posture, you are still going to be in pain!
 
-### Postural tips for your home office
+### Postural Tips for Your Home Office
 
 * Sit on top of your sit bones
 * Keep your back neutral
