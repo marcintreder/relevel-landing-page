@@ -12,8 +12,8 @@ featuredimageAlt: "Carpal tunnel syndrome "
 promoimage: /img/carpal-tunnel-promo.png
 promoimageTitle: Carpal tunnel syndrome–causes and cures
 promoimageAlt: "Carpal tunnel syndrome "
-promoimageAuthor: Relevel
-promoimageUrl: http://www.relevelapp.com
+promoimageAuthor: ""
+promoimageUrl: ""
 cardimage: /img/carpal-tunnel-card.png
 cardimageTitle: Carpal tunnel syndrome- causes and cures
 cardimageAlt: "Carpal tunnel syndrome "
@@ -28,62 +28,62 @@ These could be the first signs of carpal tunnel syndrome.
 
 In this article, I want to explain to you what is carpal tunnel syndrome, how and why does it start, and show you how to deal with it before it is too late.
 
-## What is a carpal tunnel syndrome?
+## What Is a Carpal Tunnel Syndrome?
 
 Carpal tunnel syndrome is a condition when a narrowing of your carpal tunnel that leads to compression of the median nerve. One thing to know about this tunnel is that it is a rigid and narrow one. Any inflammation or swelling can put stress on your median nerve that runs through this passage.
 
 (carpal tunnel/median nerve graphic stock photo)
 
-## What is the median nerve, and why is it important?
+## What Is the Median Nerve, and Why Is It Important?
 
 Just like every nerve in our body it helps you to sense and move the muscles. This nerve is the main nerve of the front of your forearm. It provides sensation to the thumb, index finger, middle finger as well as part of your ring finger.
 
 (median nerve stock photo)
 
-## Who is in the risk group for carpal tunnel syndrome?
+## Who Is in the Risk Group for Carpal Tunnel Syndrome?
 
 1. Certain pre existing conditions can attribute to carpal tunnel syndrome, e.g.:
 
-   * diabetes
-   * pregnancy
-   * arthritis
-   * wrist injuries
-   * kyphotic posture
-   * high blood pressure
+   * Diabetes
+   * Pregnancy
+   * Arthritis
+   * Wrist injuries
+   * Kyphotic posture
+   * High blood pressure
 2. [Women](https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Fact-Sheets/Carpal-Tunnel-Syndrome-Fact-Sheet) are 3 times more likely than men to develop carpal tunnel syndrome.
 3. Repetitive wrist movement at your job:
 
-   * desk jobs
-   * manufacturing
-   * construction work
-   * assembly line
-   * massage therapists
-   * hairdressers and beauticians
+   * Desk jobs
+   * Manufacturing
+   * Construction work
+   * Assembly line
+   * Massage therapists
+   * Hairdressers and beauticians
 
-## What are the symptoms of carpal tunnel syndrome
+## What Are the Symptoms of Carpal Tunnel Syndrome
 
 Carpal tunnel syndrome likes to sneak up on you slowly. The earlier you detect it the higher the chances of recovery and avoiding unpleasant and painful consequences.
 
-### The first symptoms
+### The First Symptoms
 
-* tingling sensations in your arm in the middle of the night or upon awakening
-* pain in your arm, especially while holding things
+* Tingling sensations in your arm in the middle of the night or upon awakening
+* Pain in your arm, especially while holding things
 
-### More advanced stages
+### More Advanced Stages
 
-* weakness in your thumb and 1st two fingers
-* sensation problems- troubles distinguishing hot/cold temperatures
+* Weakness in your thumb and 1st two fingers
+* Sensation problems- troubles distinguishing hot/cold temperatures
 
-### When it’s too late
+### When It’s Too Late
 
-* constant pain radiating up the arm
-* muscle atrophy (thenar muscles) on the thumbs side that looks like a little dimple (not as innocent as it sounds)
+* Constant pain radiating up the arm
+* Muscle atrophy (thenar muscles) on the thumbs side that looks like a little dimple (not as innocent as it sounds)
 
-### Stop it before it’s too late!
+### Stop It Before It’s Too Late!
 
 The sooner you notice and react to the symptoms in your body, the more likely are to prevent the quite unpleasant surgery and, in some cases, irreversible strength and sensation loss.
 
-**Doctor warning!**
+**Doctor Warning!**
 
 If you’re experiencing the symptoms mentioned above, it is best to go to your doctor who can perform appropriate tests. The commonly performed tests are:
 
@@ -93,7 +93,7 @@ If you’re experiencing the symptoms mentioned above, it is best to go to your 
 
 For the recovery period, doctors often recommend immobilization. Resting your wrist and wearing a brace are some of the strategies to help you ease the inflammation in the carpal tunnel. In some cases, mild anti-inflammatory medications are prescribed, and in some more unpleasant steroid injections.
 
-## How to prevent carpal tunnel syndrome
+## How to Prevent Carpal Tunnel Syndrome
 
 While you still can: move it and improve it! It applies to all of us spending time in front of keyboards or straining the wrists in other ways.
 
@@ -108,7 +108,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    (gif telescope arms)
 
    Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
-2. **Floss the nerves**
+2. **Floss the Nerves**
 
    Flossing your median nerve can alleviate the tension caused by compression on its pathway. Nerve flossing, if done correctly and regularly, can help you reduce the existing pain, as well as regain the lost mobility in the affected area. 
 
@@ -117,17 +117,17 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    (gif nerve floss)
 
    Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
-3. **Improve your posture**
+3. **Improve Your Posture**
 
    Your posture is a significant factor contributing to the health of your carpal tunnel. Make sure your shoulders are back, and your head sits on top of your spine. Craning your neck puts tremendous tension on the upper back structure and can lead to nerve compression and inflammation.
 
-   Here is an article to read if you want to find out more about the correct head position when in front of the screens (Where is your head at? Quick posture fix for neck pain and headache.)
-4. **Optimize your workstation**
+   Here is an article to read if you want to find out more about the correct head position when in front of the screens: [5 Steps to a Quick Posture Fix for Neck Pain and Headache](https://www.relevelapp.com/blog/5-steps-to-a-quick-posture-fix-for-neck-pain-and-headache/)
+4. **Optimize Your Workstation**
 
    An ergonomic workstation is key if you spend hours in front of the desk.
 
    Learn how to adjust your desk set up to improve your posture and prevent the aches (How to set up your workstation to prevent the aches)
-5. **Take breaks**
+5. **Take Breaks**
 
    Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve your wellbeing at the workplace.
 
