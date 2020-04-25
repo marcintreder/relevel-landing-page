@@ -82,7 +82,7 @@ Here is another shot of the improved workstation using whatever I have available
     <img src="/img/home_ergonomics_2.gif" alt="Pelvic rock exercise" />
   </p>
 
-   Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place.
+   Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place.</p>
 
    You can improvise and create home-made support with a blanket or a pillow.
 
