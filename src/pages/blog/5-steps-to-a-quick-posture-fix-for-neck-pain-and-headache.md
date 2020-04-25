@@ -45,6 +45,7 @@ The three [most common types of headaches ](https://www.bodyorganics.com.au/head
    This is a [neurological condition](https://www.healthline.com/health/migraine) that can cause multiple symptoms. Migraines are identified by throbbing headaches often followed by nausea, vomiting, or sensitivity to light and sound. Migraine headaches are often hereditary and [affect women more frequently than men](1.https://migraineresearchfoundation.org/about-migraine/migraine-in-women/). 
 
    According to [Spine-Health](https://www.spine-health.com/conditions/neck-pain/neck-pain-and-migraine-headache), nearly half of the population experiencing migraines headaches complains about neck pain before and/ or during the episode of migraine. 
+
 2. **Cervicogenic Headaches**
 
    They are secondary headaches. Secondary means that they are caused by underlying conditions. According to [Medical News Today](https://www.medicalnewstoday.com/articles/324108) conditions include neck injuries, structural problems in the neck, or constant strain on the neck due to the nature of one's job, for example, office workers, hairstylists, or manual labor. 
@@ -147,7 +148,10 @@ To enhance the positive effects of the quick fix techniques listed above, try im
 
    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
 
-   (pic/gif yoga tune up neck massage)
+   <iframe id="ytplayer" type="text/html" width="640" height="360"
+    src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&origin=http://relevelapp.com"
+  frameborder="0"></iframe>
+
 5. **Optimize your work station**
 
    Lastly, if your workstation isn’t ergonomic, you are going to be straining your body to adjust to an incorrect setup desk, chair, and monitor.
