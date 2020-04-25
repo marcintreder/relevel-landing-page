@@ -147,10 +147,11 @@ To enhance the positive effects of the quick fix techniques listed above, try im
    This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
 
    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
-
+    
+   <div style="display: flex; width: 100%;">
    <iframe id="ytplayer" type="text/html" width="640" height="360"
     src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=feP3u-dTgXQ&origin=http://relevelapp.com"
-  frameborder="0"></iframe>
+  frameborder="0" style="margin: 0 auto"></iframe></div>
 
 5. **Optimize your work station**
 
