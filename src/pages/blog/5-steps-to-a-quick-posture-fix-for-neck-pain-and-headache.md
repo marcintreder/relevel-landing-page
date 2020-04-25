@@ -12,13 +12,14 @@ featuredimageAlt: Neck pain and headache
 promoimage: /img/promo.png
 promoimageTitle: Fix the posture to relieve neck pain and headaches
 promoimageAlt: Neck pain and headache
-promoimageAuthor: Photo by Element5 Digital on Unsplash
+promoimageAuthor: Element5 Digital
 promoimageUrl: unsplash.com
 cardimage: /img/card.png
 cardimageTitle: Fix the posture to relieve neck pain and headaches
 cardimageAlt: Neck pain and headache
 tags:
-  - Stretches
+  - Neck Pain
+  - Headache
 ---
 Fact: bad posture can cause headaches. Fact 2: neck pain and headache are often married- meaning one can trigger another.
 
@@ -45,7 +46,6 @@ The three [most common types of headaches ](https://www.bodyorganics.com.au/head
    This is a [neurological condition](https://www.healthline.com/health/migraine) that can cause multiple symptoms. Migraines are identified by throbbing headaches often followed by nausea, vomiting, or sensitivity to light and sound. Migraine headaches are often hereditary and [affect women more frequently than men](1.https://migraineresearchfoundation.org/about-migraine/migraine-in-women/). 
 
    According to [Spine-Health](https://www.spine-health.com/conditions/neck-pain/neck-pain-and-migraine-headache), nearly half of the population experiencing migraines headaches complains about neck pain before and/ or during the episode of migraine. 
-
 2. **Cervicogenic Headaches**
 
    They are secondary headaches. Secondary means that they are caused by underlying conditions. According to [Medical News Today](https://www.medicalnewstoday.com/articles/324108) conditions include neck injuries, structural problems in the neck, or constant strain on the neck due to the nature of one's job, for example, office workers, hairstylists, or manual labor. 
@@ -63,13 +63,13 @@ Now that we have an overview of different types of headaches and neck pains let'
 
 Your head position in space hugely impacts your posture. In the ideal scenario, your head should sit vertically on top of the spine with the ear lobes on top of your shoulders.
 
-![correct head position](/img/head-position-correct.jpg "Looking at smartphone correct head position")
+![correct head position](/img/group-77.png "Looking at smartphone correct head position")
 
 ##### **Why Is Your Head Position Important?**
 
 Do you know that your head weighs about 12 pounds (5.4kg)? That doesn’t sound too heavy, BUT do you know that the more forward it leans, the heavier it is? With every inch, it moves out if its neutral alignment the weight increases by about 10 pounds (4.5kg). When misaligned, your head weight can even feel like 60 pounds (27kg). It is about five times as much as optimal!
 
-(pic head craning few steps)
+![Forward head posture](/img/heads.png "Forward head posture can cause headaches")
 
 ##### How Can Forward Head Posture Cause Neck Pains
 
@@ -144,14 +144,9 @@ To enhance the positive effects of the quick fix techniques listed above, try im
    Show this list to your massage therapist, and they can work wonders in releasing the tension headaches.
 4. **Self- massage the base of your skull**
 
-   This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
+    This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
 
-   Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
-
-   <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=feP3u-dTgXQ&origin=http://relevelapp.com"
-  frameborder="0"></iframe>
-
+    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
 5. **Optimize your work station**
 
    Lastly, if your workstation isn’t ergonomic, you are going to be straining your body to adjust to an incorrect setup desk, chair, and monitor.
