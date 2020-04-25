@@ -149,7 +149,7 @@ To enhance the positive effects of the quick fix techniques listed above, try im
    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
 
    <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&origin=http://relevelapp.com"
+    src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=feP3u-dTgXQ&origin=http://relevelapp.com"
   frameborder="0"></iframe>
 
 5. **Optimize your work station**
