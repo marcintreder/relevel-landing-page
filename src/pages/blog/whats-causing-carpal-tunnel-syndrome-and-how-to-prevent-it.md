@@ -32,13 +32,13 @@ In this article, I want to explain to you what is carpal tunnel syndrome, how an
 
 Carpal tunnel syndrome is a condition when a narrowing of your carpal tunnel that leads to compression of the median nerve. One thing to know about this tunnel is that it is a rigid and narrow one. Any inflammation or swelling can put stress on your median nerve that runs through this passage.
 
-(carpal tunnel/median nerve graphic stock photo)
+![Carpal tunnel syndrome](/img/group-85.png "Carpal tunnel syndrome and median nerve")
 
 ## What Is the Median Nerve, and Why Is It Important?
 
 Just like every nerve in our body it helps you to sense and move the muscles. This nerve is the main nerve of the front of your forearm. It provides sensation to the thumb, index finger, middle finger as well as part of your ring finger.
 
-(median nerve stock photo)
+![Median nerve](/img/group-84-1-.png "Median nerve in the palm of the hand")
 
 ## Who Is in the Risk Group for Carpal Tunnel Syndrome?
 
