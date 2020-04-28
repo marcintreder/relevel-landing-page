@@ -117,7 +117,11 @@ So here is a quick fix of our seated posture that you can start applying right a
 
    Okay, the screens are ever-present, and we won’t get rid of them, but for once, we can set them at the eye level to ease your neck and shoulders.
 
-   (gif screen eye level)
+<div style=”display: flex; width: 100%”
+   <iframe id="ytplayer" type="text/html" width="640" height="360"
+   src=“https://www.youtube.com/embed/shqDMmxeLrw?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=shqDMmxeLrw&origin=http://relevelapp.com” frameborder="0" style="margin: 0 auto">
+  </iframe>
+</div>
 
 ## How to Maintain the Good Posture
 
@@ -144,9 +148,9 @@ To enhance the positive effects of the quick fix techniques listed above, try im
    Show this list to your massage therapist, and they can work wonders in releasing the tension headaches.
 4. **Self- massage the base of your skull**
 
-    This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
+   This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
 
-    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
+   Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
 5. **Optimize your work station**
 
    Lastly, if your workstation isn’t ergonomic, you are going to be straining your body to adjust to an incorrect setup desk, chair, and monitor.
