@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. ',
+    title: 'Get rid of pain caused by the sedentary lifestyle with Relevel Mobile fitness app. ',
     description:
       'Relevel is the mobile fitness app on the mission to eliminate pain caused by the sedentary lifestyle. Professional training plans, easy daily routines, and fun exercises will take away the aches caused by sitting in front of the computer too much.',
     siteURL: 'https://relevelapp.com'
