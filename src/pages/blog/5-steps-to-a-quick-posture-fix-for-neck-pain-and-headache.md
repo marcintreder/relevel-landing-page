@@ -95,31 +95,47 @@ So here is a quick fix of our seated posture that you can start applying right a
 
    Look at your posture globally. Start at the base of your spine. The moment you tuck your tail under, you are causing your back to round. It is harder to keep your head in its neutral alignment when your spine is in the „C shape.” So you want your head to stay more easily in the correct alignment? Untuck your tail and sit pretty.
 
-   (pic sitting on top of the sit bones)
+   
+   <div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
 
-   (pic sitting with tail tucked)
 2. **Find a neutral head position**
 
    Experience your extremes. How does it feel to move your head too far forward? How does it feel to tuck it far back? Find your neutral in between these extremes.
 
-   (pic/gif chin tucks)
+   <div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/3zAZC0UzYp4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=3zAZC0UzYp4&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
+
 3. **Practice chin nods**
 
    One of the best exercises to help you stretch the neck and at the same time, find a correct head position. Your chin nods are not only good exercises to relieve the neck and head tension but could be used as a safe practice to look down and up without over engaging your neck muscles. Need to look up or down? Hinge!
 
-   (gif chin nods)
+   <div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/5Jn7hZ5Nv0o?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=5Jn7hZ5Nv0o&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
+
 4. **Take your shoulders back and down**
 
    Your shoulders tend to round forward following the pattern of your head. Fix their position by taking them back and down away from the ears. On top of that, try this side-lying rotation to open up the chest.
 
-   (pic/gif telescope arms)
+   
+<div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
+
 5. **Keep things at the eye level**
 
-   Okay, the screens are ever-present, and we won’t get rid of them, but for once, we can set them at the eye level to ease your neck and shoulders.
+      Okay, the screens are ever-present, and we won’t get rid of them, but for once, we can set them at the eye level to ease your neck and shoulders.
 
-   <div style='display: flex; width: 100%'>
-<iframe id="ytplayer" type="text/html" width="640" height="360" src='https://www.youtube.com/embed/shqDMmxeLrw?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=shqDMmxeLrw&origin=http://relevelapp.com' frameborder="0" style="margin: 0 auto'>
-  </iframe>
+<div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/shqDMmxeLrw?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=shqDMmxeLrw&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
 </div>
 
 ## How to Maintain the Good Posture
@@ -150,6 +166,11 @@ To enhance the positive effects of the quick fix techniques listed above, try im
    This is one of the areas in our body that gets very tight. Tightness in the area may cause tension headaches. If you feel thumping pain in your temples or front or top of the head, give yourself a 2-3 minute massage. Use yoga tune-up balls, or stick two tennis balls in a sock and lie down on them.
 
    Move your head side to side, up and down, or simply melt into the balls to alleviate the pain.
+<div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/feP3u-dTgXQ?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=feP3u-dTgXQ&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
+
 5. **Optimize your work station**
 
    Lastly, if your workstation isn’t ergonomic, you are going to be straining your body to adjust to an incorrect setup desk, chair, and monitor.
