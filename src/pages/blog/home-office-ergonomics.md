@@ -78,9 +78,10 @@ Here is another shot of the improved workstation using whatever I have available
 
    For less strain, sit on top of your sit bones. Try this simple exercise to find out where these bones are and how to maintain a neutral posture.
 
-  <p style="text-align: center;">
-    <img src="/img/home_ergonomics_2.gif" alt="Pelvic rock exercise" />
-  </p>
+  <div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
 
    Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place.</p>
 
@@ -118,13 +119,14 @@ Here is another shot of the improved workstation using whatever I have available
 
    To assure you are moving your head from a correct place and not creating too much tension in the nearby muscles, try this simple test
 
-  <p style="text-align: center;">
-    <img src="/img/home_ergonomics_1.gif" alt="Head nod exercise" />
-  </p>
+  <div style="display: flex; width: 100%; height: fit-content;">
+<iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/5Jn7hZ5Nv0o?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=5Jn7hZ5Nv0o&origin=http://relevelapp.com" frameborder="0">
+ </iframe>
+</div>
   
    This hinging motion will help you understand how to move your head without putting strain on your neck. And how to self correct your posture during the day.
 
-   Check out my blog post about head positioning and the unpleasant consequences of the wrong posture (Where is your head at? Quick posture fix for neck pain and headache)
+   Check out [my blog post](https://www.relevelapp.com/blog/5-steps-to-a-quick-posture-fix-for-neck-pain-and-headache/) about head positioning and the unpleasant consequences of the wrong posture.
 
    Again, you can be creative with what you already have at home. Most popular are big stacks of books or boxes.
 
@@ -148,7 +150,7 @@ Here is another shot of the improved workstation using whatever I have available
    Check out the [best keyboards according to Tech Radar](https://www.techradar.com/news/computing-components/peripherals/what-keyboard-10-best-keyboards-compared-1028011).
 3. **Wrist Pads**
 
-      These cushiony, jelly pads can be excellent support for your wrists when typing. Do your hands ever get tingly, numb, or painful when typing—ever heard of carpal tunnel? If our wrists are kept incorrectly, there is a risk of potential nerve damage leading to carpal tunnel syndrome. Read more in my blog post (Carpal tunnel syndrome- causes and cures before it's too late?).
+      These cushiony, jelly pads can be excellent support for your wrists when typing. Do your hands ever get tingly, numb, or painful when typing—ever heard of carpal tunnel? If our wrists are kept incorrectly, there is a risk of potential nerve damage leading to carpal tunnel syndrome. Read more in [my blog post](https://www.relevelapp.com/blog/whats-causing-carpal-tunnel-syndrome-and-how-to-prevent-it/) to find out more about carpal tunnel syndrome. 
 
       The wrist pads could be a great ergonomic addition to your home office. However, they need to be kept in the right place! The name can be misleading because what you really want to rest on these pads are NOT your wrists but the palms.  Pressing your wrist into the pads can actually cause more trouble because you could be cutting off the blood flow to your palms and putting pressure on your nerves.  You want to make sure that your wrist is in a neutral position (in line with the forearm), and it is slightly higher than your fingers. \
    \
