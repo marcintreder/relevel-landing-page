@@ -101,22 +101,18 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
 1. **Stretch it**
 
-   Stretching and opening your chest is a very important practice to avoid carpal tunnel syndrome.
+      Stretching and opening your chest is a very important practice to avoid carpal tunnel syndrome.
 
-   If your shoulders are rounded forward your pectoralis muscles are sitting tight, which could lead to impingement of the median nerve. Here is a recommend stretch for the tight pecs.
+      If your shoulders are rounded forward your pectoralis muscles are sitting tight, which could lead to impingement of the median nerve. Here is a recommend stretch for the tight pecs.
 
-   (gif telescope arms)
-
-   Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
+      Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
 2. **Floss the Nerves**
 
-   Flossing your median nerve can alleviate the tension caused by compression on its pathway. Nerve flossing, if done correctly and regularly, can help you reduce the existing pain, as well as regain the lost mobility in the affected area. 
+      Flossing your median nerve can alleviate the tension caused by compression on its pathway. Nerve flossing, if done correctly and regularly, can help you reduce the existing pain, as well as regain the lost mobility in the affected area. 
 
-   This is a simple median nerve floss to do daily. Make sure you move dynamically through the movement, don’t hold one position for too long (no more than 1 second) and don’t overdo it (no more than 5-8 reps)!
+      This is a simple median nerve floss to do daily. Make sure you move dynamically through the movement, don’t hold one position for too long (no more than 1 second) and don’t overdo it (no more than 5-8 reps)!
 
-   (gif nerve floss)
-
-   Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
+      Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
 3. **Improve Your Posture**
 
    Your posture is a significant factor contributing to the health of your carpal tunnel. Make sure your shoulders are back, and your head sits on top of your spine. Craning your neck puts tremendous tension on the upper back structure and can lead to nerve compression and inflammation.
@@ -126,7 +122,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
    An ergonomic workstation is key if you spend hours in front of the desk.
 
-   Learn how to adjust your desk set up to improve your posture and prevent the aches (How to set up your workstation to prevent the aches)
+   Learn how to adjust your desk set up to [improve your posture](https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/) and prevent the aches.
 5. **Take Breaks**
 
    Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve your wellbeing at the workplace.
