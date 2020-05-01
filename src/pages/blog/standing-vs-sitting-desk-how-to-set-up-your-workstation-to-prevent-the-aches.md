@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Standing vs sitting desk. How to set up your workstation to prevent the aches.
+title: Standing vs Sitting Desk. How to Set up Your Workstation to Prevent the Aches.
 description: "An ergonomic workstation is essential to "
 date: 2020-04-24T20:30:04.126Z
 featuredpost: false
@@ -16,7 +16,7 @@ cardimage: /img/home-office-ergonomics_card.png
 cardimageTitle: Ergonomic Workstation to prevent aches associated with desk jobs
 cardimageAlt: Ergonomic Workstation
 tags:
-  - Stretches
+  - Ergonomics
 ---
 Are you complaining about aches in your lower or upper back? Maybe your neck and shoulders are tensed up, and the arms and wrists are in pain from all the typing? Chances are your work station isn't set up correctly, and your body is straining itself to maintain in this uncomfortable position for many hours.
 
@@ -26,9 +26,9 @@ Since we spend a big chunk of our days in front of computers, don't you think it
 
 In this article, I'm going to talk about sitting and standing workstations. The differences between them, and how to set them up ergonomically to prevent the aches associated with desk jobs.
 
-## Why is it important to set up an ergonomic workstation
+## Why Is It Important to Set up an Ergonomic Workstation
 
-The advantages of the ergonomically set up desk are:
+**The advantages of the ergonomically set up desk are:**
 
 * better posture
 * healthier body
@@ -42,7 +42,7 @@ Incorrectly set up workstation forces you to adopt a bad posture that puts a str
 
 Read my article: [How to improve your posture at work and relieve the aches](https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/). to find more about office ergonomic injuries and what to do to ease them.
 
-## Where to start?
+## Where to Start?
 
 First, check if your company hires ergonomic consultations. Wouldn't it be nice to have your workstation set up by a professional?
 
@@ -62,7 +62,7 @@ With different solutions offered to office workers nowadays, you can sit, stand,
 
 In this article, I want to focus on sitting and standing desks, as they are the most popular solutions. Let's see how you can adjust your workstation and your posture to alleviate the discomfort.
 
-## Workstation ergonomics for sitting and standing desk
+## Workstation Ergonomics for Sitting and Standing Desk
 
 In this section, I will write about the ergonomic setups that are shared for both standing and sitting desks.
 
@@ -75,7 +75,7 @@ In this section, I will write about the ergonomic setups that are shared for bot
 1. **Arm Length Distance**
 
    Place your monitor about an arm length away from your head, about 20”-30”. Keeping it at this distance will prevent craning your neck (screen positioned too far) or straining your eyes (screen positioned too close). Apply the same strategy if you are working with two screens, ideally set them to the middle and side by side.
-2. **Correct viewing angle**
+2. **Correct Viewing Angle**
 
    Have the screen tilted between 15-20 degrees.
 
@@ -89,16 +89,16 @@ Keyboarding can put a huge strain on the muscles and nerves of your arms. The co
 
 **Here are 4 tips for a correctly set up keyboard:**
 
-1. **Place the keyboard flat on your desk**
+1. **Place the Keyboard Flat on Your Desk**
 
-   A keyboard should be placed flat on your desk or with a negative tilt (<http://ergonomictrends.com/proper-ergonomic-typing-posture-at-computer/>) to avoid overextension in the wrist joint.
-2. **Avoid resting your wrists on the desk**
+   A keyboard should be placed flat on your desk or [with a negative tilt](http://ergonomictrends.com/proper-ergonomic-typing-posture-at-computer/) to avoid overextension in the wrist joint.
+2. **Avoid Resting Your Wrists on the Desk**
 
    Your wrists, when typing, should be kept neutral and floating in the air—resting the wrists on the desk when typing cuts of blood circulation and can irritate the nerves in your palm.
-3. **Keep the keyboard in a correct distance from yourself**
+3. **Keep the Keyboard in a Correct Distance from Yourself**
 
    Your keyboard shouldn’t be too close or far from you. Make sure your elbow is at about 90-100 bend, with the wrists slightly lower to ensure the correct blood flow.
-4. **Center the keyboard**
+4. **Center the Keyboard**
 
    Centering the keyboard in front of you and your screen will eliminate any unnecessary twisting or tilting to look up and down.
 
@@ -110,37 +110,32 @@ If you use a mouse or a trackpad, you are in the group prone to repetitive stres
 
 **When using a mouse or a trackpad, be aware of these 2 things:**
 
-1. **Don’t grip your mouse too hard**
+1. **Don’t Grip Your Mouse Too Hard**
 
    Be gentle with your mouse. Treat it like a real mouse animal. Kidding, but really no squeezing, pushing, or gripping too hard. Keep your palm relatively relaxed. A tight grip can lead to tightening of the arm muscles and irritation of the nerves.
-2. **Avoid overextending at your wrists**
+2. **Avoid Overextending at Your Wrists**
 
    If needed, invest in a neutral support pad. These wrist pads should be put under your palms, not under the wrists, as the name suggests. Extra padding can help you keep a straight line between the forearm and palm.
 
    (pic)
 
-## Seated desk ergonomics
+## Seated Desk Ergonomics
 
 What is unique to a traditional seated desk is, of course, a chair. In this section, I’m going to help you choose the most ergonomic and posture-friendly chairs for your office.
 
-#### Ergonomic chair
+#### Ergonomic Chair
 
 There are tons of choices of chairs out here on the internet. It might be overwhelming if you don’t exactly know what is important when choosing an ergonomic chair.
 
 **Here are the 4 essential features to search for when buying an ergonomic chair:**
 
-* Lumbar support
-* Depth of the chair
-* Height of the chair
-* Footrest
-
-1. **Lumbar support**
+1. **Lumbar Support**
 
    Find yourself a perfect ergonomic chair that offers lumbar support to enhance the neutral curves of your spine. Sufficient lumbar support is vital to minimize the strain put on the intervertebral discs.
-2. **Depth of the chair**
+2. **Depth of the Chair**
 
    Your chair should be deep enough to support your thighs, but at the same time, allow the space behind your knees to be free. Ideally, about a fist away from the edge of the chair. That will help you cultivate the neutral curvature of your back as well as prevent putting excessive strain on the back of the thighs.
-3. **Height of the chair**
+3. **Height of the Chair**
 
    The height of the chair is significant when looking at the workstation ergonomics. You should be able to match it with the height of your desk so that when you are seated, your elbows are slightly higher than your wrists, and you keep a 90-100 degree bend at the elbow joint. This position will guarantee a better blood flow and less strain for the tendons and muscles of your upper back and arm.
 4. **Footrest**
@@ -153,7 +148,7 @@ There are tons of choices of chairs out here on the internet. It might be overwh
 
    Look at the list of[ best footrests ](https://www.thebalancesmb.com/best-footrests-4171276)to match your needs.
 
-## Standing desk ergonomics
+## Standing Desk Ergonomics
 
 Standing desks are becoming widely accessible. There are still debates on whether or not the standing desks are genuinely so good for us. According to Alan Hedge, director of [Human Factors and Ergonomics research at Cornell University](http://healthland.time.com/2011/04/13/the-dangers-of-sitting-at-work%E2%80%94and-standing/): 
 
@@ -165,7 +160,7 @@ Remember, alternating between body positions is still the best solution for your
 
 When choosing a standing desk, it is important to take under considerations these 3 aspects:
 
-1. **Depth of the desk**
+1. **Depth of the Desk**
 
    The depth of the desk should let you accommodate your monitor, keyboard, mouse, and whatever else you place in front of you while maintaining the 90-100 degree bend in the elbow. The recommended depth is 30”.
 2. **Adjustment Mechanisms**
@@ -179,7 +174,7 @@ When choosing a standing desk, it is important to take under considerations thes
 
    Check out [the recommended standing desk anti-fatigue mats](https://nymag.com/strategist/article/best-standing-desk-mats-anti-fatigue.html).
 
-## How to position your body to avoid the aches
+## How to Position Your Body to Avoid the Aches
 
 Just as the seated, the standing position can be full of body compensation patterns. I work with many people who recently switched to standing desks and believe that it will magically heal their body. Nothing more wrong.
 
@@ -191,63 +186,63 @@ It’s important to note your posture when standing and keep reminding yourself 
 
 Below are recommended ways of keeping your body both in front of the sitting and standing desks.
 
-## Ergonomic body position for seated desk
+## Ergonomic Body Position for Seated Desk
 
 **These are the body positions recommended by [ergonomic specialists](https://www.startstanding.org/proper-workplace-ergonomics/):**
 
-1. **180 degrees from palm to a forearm**
+1. **180 Degrees from Palm to a Forearm**
 
    Keep a straight line from your elbow to the wrist. Extension in the wrist joint can lead to inflammation in the carpal tunnel and nerve damage.
-2. **90-100 degree bend in your elbow**
+2. **90-100 Degree Bend in Your Elbow**
 
    Adjust the height of your chair and desk to reach the optimal 90-100 degree bend at your elbow joint.
-3. **Shoulders back**
+3. **Shoulders Back**
 
    Keep your shoulders back to prevent your upper back from rounding.
-4. **Head over your shoulders**
+4. **Head Over Your Shoulders**
 
    Your head should sit on top of your spine with the tips of the ears in line with your shoulders. Don’t crane your neck, which puts a lot of strain on your upper body.
-5. **Neutral spine**
+5. **Neutral Spine**
 
    Rock your pelvis a few times to find the neutral. Leave your tail behind, but watch out tail too far back might cause your ribs to stick out, which will put stress on your mid-back. The best is to sit on top of your sit bones. That will help to set the spine in the most optimal position where the vertebrae are stuck on top of each other, cultivating its neutral alignment.
-6. **110-130 degree in the hips**
+6. **110-130 Degree in the Hips**
 
    Reclining yourself on the chair to keep an open 110-130 degree angle between your torso and thighs. This position is proved to put less strain on your spine.
-7. **90-degree bend in your knee**
+7. **90-Degree Bend in Your Knee**
 
    Adjust the height of your chair and desk to get the 90-degree angle between your thighs and calves.
-8. **Feet on the floor**
+8. **Feet on the Floor**
 
    Keep your heels under your knees with feet flat on the ground. If they cannot reach there easily, keeping in mind prior adjustments, use a footstool or yoga block to rest them down comfortably.
 
    (pic for all 4 points)
 
-## Ergonomic body position for standing desk
+## Ergonomic Body Position for Standing Desk
 
 Similar to seated desks, the standing workstation needs to have an appropriate height to create less strain in the body. 
 
 **These are the [guidelines on body position](https://www.startstanding.org/proper-workplace-ergonomics/) when considering a standing desk:**
 
-1. **180 degrees from palm to a forearm**
+1. **180 Degrees from Palm to a Forearm**
 
    Keep a straight line from your elbow to the wrist. Extension in the wrist joint can lead to inflammation in the carpal tunnel and nerve damage.
-2. **90-100 degree bend in your elbow**
+2. **90-100 Degree Bend in Your Elbow**
 
    Adjust the height of your chair and desk to reach the optimal 90-100 degree bend at your elbow joint.
-3. **Shoulders back**
+3. **Shoulders Back**
 
    Keep your shoulders back to prevent your upper back from rounding.
-4. **Head over your shoulders**
+4. **Head Over Your Shoulders**
 
    Your head should sit on top of your spine with the tips of the ears in line with your shoulders. Don’t crane your neck, which puts a lot of strain on your upper body.
-5. **Neutral spine**
+5. **Neutral Spine**
 
    Watch out for your pelvis to rib cage relationship when standing. Similar to sitting, you can do a standing pelvic rock to find the optimal position of your hips. Make sure you are not swaying your back (pushing your hips forward) or tucking your tail under, which could create a strain on your back.
-6. **Feet hip-width apart**
+6. **Feet Hip-Width Apart**
 
    Keep your feet under your sit bones. Your feet should be equally weighted on their three corners- a big ball of your foot, a small ball of your foot, and the center of the heel. Watch out for compensations such as rolling to outer edges of the feet or putting too much weight on its inner part.
 
-## Remember about daily dose of movement
+## Remember About Daily Dose of Movement
 
 Now that you have your station set up ergonomically, don't forget about your exercises!
 
@@ -255,7 +250,7 @@ Now that you have your station set up ergonomically, don't forget about your exe
 
 Stretch preferably every 1 to 2 hours. You can spend 5 minutes at a time or serve yourself with a 15-minute break now and then to relevel your body.
 
-Follow these easy stretches for the best results:
+#### Follow These Easy Stretches for the Best Results:
 
 (3 stretches to relax your sciatic nerve. Do them at your desk!)
 
