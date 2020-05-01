@@ -5,15 +5,15 @@ description: Home office ergonomics is crucial for healthy and comfortable work
   from home. Avoid pain and injuries with the correct set-up.
 date: 2020-04-17T01:48:56.997Z
 featuredpost: true
-featuredimage: /img/home-office-ergonomics.png
+featuredimage: /img/featured-image-5-.png
 featuredimageTitle: Home Office Ergonomics. Pain-free desk set-up.
 featuredimageAlt: Computer desk with ergonomic setup
-promoimage: /img/home-office-ergonomics_promo.png
+promoimage: /img/group-84-2-.png
 promoimageTitle: Home Office Ergonomics. Pain-free desk set-up.
 promoimageAlt: Computer desk with ergonomic setup
 promoimageAuthor: Jeff Sheldon
 promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
-cardimage: /img/home-office-ergonomics_card.png
+cardimage: /img/card-image-6-.png
 cardimageTitle: Home Office Ergonomics. Desk set-up.
 cardimageAlt: Home Office Ergonomics. Desk set-up.
 tags:
