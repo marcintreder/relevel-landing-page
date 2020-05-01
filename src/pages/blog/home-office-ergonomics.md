@@ -11,8 +11,8 @@ featuredimageAlt: Computer desk with ergonomic setup
 promoimage: /img/group-84-2-.png
 promoimageTitle: Home Office Ergonomics. Pain-free desk set-up.
 promoimageAlt: Computer desk with ergonomic setup
-promoimageAuthor: Jeff Sheldon
-promoimageUrl: https://unsplash.com/photos/a8K-puaPyVk
+promoimageAuthor: Daria Shevtsov
+promoimageUrl: unsplash.com
 cardimage: /img/card-image-6-.png
 cardimageTitle: Home Office Ergonomics. Desk set-up.
 cardimageAlt: Home Office Ergonomics. Desk set-up.
