@@ -1,11 +1,20 @@
 ---
 templateKey: blog-post
 title: Standing vs sitting desk. How to set up your workstation to prevent the aches.
+description: "An ergonomic workstation is essential to "
 date: 2020-04-24T20:30:04.126Z
 featuredpost: false
-featuredimage: /img/featured_placeholder.png
-promoimage: /img/promo_placeholder.png
-cardimage: /img/card_placeholder.png
+featuredimage: /img/home-office-ergonomics.png
+featuredimageTitle: Ergonomic Workstation to prevent aches associated with desk jobs
+featuredimageAlt: Ergonomic Workstation
+promoimage: /img/home-office-ergonomics_promo.png
+promoimageTitle: Ergonomic Workstation to prevent aches associated with desk jobs
+promoimageAlt: Ergonomic Workstation
+promoimageAuthor: Jeff Sheldon
+promoimageUrl: unsplash.com
+cardimage: /img/home-office-ergonomics_card.png
+cardimageTitle: Ergonomic Workstation to prevent aches associated with desk jobs
+cardimageAlt: Ergonomic Workstation
 tags:
   - Stretches
 ---
