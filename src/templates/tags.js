@@ -50,7 +50,6 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
-            author
             cardimage {
               childImageSharp {
                 fluid(maxWidth: 360, quality: 100) {
