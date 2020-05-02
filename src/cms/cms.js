@@ -21,7 +21,7 @@ CMS.registerEditorComponent({
   // Fields the user need to fill out when adding an instance of the component
   fields: [{ name: "id", label: "Youtube Video ID", widget: "string" }],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^<div class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/${obj.id}?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=${obj.id}&origin=http://relevelapp.com" frameborder="0"></iframe></div>/,
+  pattern: /^<div class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text\/html" src="\/\/www.youtube.com\/embed\/(.*)" frameborder="0"><\/iframe><\/div>/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
