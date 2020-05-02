@@ -16,7 +16,6 @@ export default class BlogRoll extends React.Component {
                 imageTitle={post.frontmatter.cardimageTitle}
                 imageAlt={post.frontmatter.cardimageAlt}
                 title={post.frontmatter.title}
-                author={post.frontmatter.author}
                 link={post.fields.slug}
               />
           ))}
