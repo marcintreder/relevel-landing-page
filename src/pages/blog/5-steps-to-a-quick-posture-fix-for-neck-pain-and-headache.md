@@ -102,7 +102,7 @@ So here is a quick fix of our seated posture that you can start applying right a
       One of the best exercises to help you stretch the neck and at the same time, find a correct head position. Your chin nods are not only good exercises to relieve the neck and head tension but could be used as a safe practice to look down and up without over engaging your neck muscles. Need to look up or down? Hinge!
 4. **Take your shoulders back and down**
 
-   Your shoulders tend to round forward following the pattern of your head. Fix their position by taking them back and down away from the ears. On top of that, try this side-lying rotation to open up the chest.
+   Your shoulders tend to round forward following the pattern of your head. Fix their position by taking them back and down away from the ears. On top of that, try this side-lying rotation to open up the chest. 
 
 <div style="display: flex; width: 100%; height: fit-content;">
 <iframe id="ytplayer" type="text/html" style="width: 100%; max-width: 640px; height: 100%; min-height: 360px; margin: 0 auto" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com" frameborder="0">
