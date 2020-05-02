@@ -79,7 +79,6 @@ export default () => (
                 tags
                 title
                 templateKey
-                author
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
