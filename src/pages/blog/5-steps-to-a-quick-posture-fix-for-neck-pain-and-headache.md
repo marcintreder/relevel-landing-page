@@ -110,8 +110,9 @@ So here is a quick fix of our seated posture that you can start applying right a
 
    Okay, the screens are ever-present, and we won’t get rid of them, but for once, we can set them at the eye level to ease your neck and shoulders.
 
-<div class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ld2yYuRl2qY?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=ld2yYuRl2qY&origin=http://relevelapp.com" frameborder="0"></iframe></div>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ld2yYuRl2qY?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=ld2yYuRl2qY&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
+\
 How to Maintain the Good Posture
 
 Taking little steps to fix your posture at the workstation is essential and has an excellent long term effect on your body. Make sure you maintain a good posture outside your desk.
