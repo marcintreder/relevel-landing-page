@@ -30,9 +30,9 @@ In this article, I'm going to talk about sitting and standing workstations. The 
 
 **The advantages of the ergonomically set up desk are:**
 
-* better posture
-* healthier body
-* increased productivity
+* Better posture
+* Healthier body
+* Increased productivity
 
 The effects of bad ergonomics aren't only aches that come and go. They can lead to more severe muscle strains and nerve damages. Such can be [carpal tunnel syndrome](https://www.relevelapp.com/blog/whats-causing-carpal-tunnel-syndrome-and-how-to-prevent-it/) in your wrists, or sciatic nerve damage in your lower back often going down the leg (What's causing Sciatica and how can you help yourself).
 
@@ -65,6 +65,8 @@ In this article, I want to focus on sitting and standing desks, as they are the 
 ## Workstation Ergonomics for Sitting and Standing Desk
 
 In this section, I will write about the ergonomic setups that are shared for both standing and sitting desks.
+
+![](/img/sitting-desk-4-.png)
 
 #### Screen
 
@@ -149,6 +151,10 @@ There are tons of choices of chairs out here on the internet. It might be overwh
    Look at the list of[ best footrests ](https://www.thebalancesmb.com/best-footrests-4171276)to match your needs.
 
 ## Standing Desk Ergonomics
+
+
+
+![](/img/standing-desk.png)
 
 Standing desks are becoming widely accessible. There are still debates on whether or not the standing desks are genuinely so good for us. According to Alan Hedge, director of [Human Factors and Ergonomics research at Cornell University](http://healthland.time.com/2011/04/13/the-dangers-of-sitting-at-work%E2%80%94and-standing/): 
 
