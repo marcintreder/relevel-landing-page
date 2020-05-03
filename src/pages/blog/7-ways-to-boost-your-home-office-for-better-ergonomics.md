@@ -52,49 +52,83 @@ In this section, I’m going to talk about what 7 items to add to enhance your h
 
 Whatever home space, you are temporarily calling an office, there are always ways to improve it!
 
-1. **Lumbar Support Pillow**
+#### **Lumbar Support Pillow**
+
+![Lumbar support pillow](/img/lumbar-support.png "A chair with a pillow for lumbar support")
+
+<small style="display: block; text-align: right">Photo by Kunle Atekoja on <a href="https://unsplash.com/photos/cSeCb6D_V4w">Unsplash</a> </small>
 
    If unsupported, your lumbar spine (lower back) could be exposed to a lot of tension. Do you find yourself tucking your tail and sitting back at your chair, almost falling off the seat? That position puts massive stress on your spinal column and the surrounding muscles.
 
    When talking about the good seated posture, you need to know that it starts at the base of your spine and goes all the way to the top of the head. In other words, the way we position our pelvises impacts the rest of the spine- lower back, upper back, and neck.
 
    Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place. You can improvise and create home-made support with a blanket or a pillow. Alternatively, search for [professional lumbar supports online](https://www.thebalancesmb.com/best-lumbar-support-pillows-4156985).
-2. **Footrest**
+
+#### **Footrest**
+
+![Footrest from books](/img/footrest.png "Stack of books used for footrest")
+
+<small style="display: block; text-align: right">Photo by Gaelle Marcel on <a href="https://unsplash.com/photos/L8SNwGUNqbU">Unsplash</a> </small>
 
    Your feet, ideally, should effortlessly rest on the floor. That position relieves the tension put on your lower back while sitting.
 
    In the dream scenario, you can adjust the height of the chair and your desk to match the 90-110 degree bend in the knees, and 90-110 degree bend in the elbow. This position is the most optimal for long hours of work and the best one to avoid the aches.
 
    Let's say your chair and/ or desk have only one fixed position, and your feet don't reach the floor. Instead of climbing them on to the legs of the chair, try to use a footrest to bring the ground closer to you. Use a stack of books or boxes to elevate the ground. If you want to be more pro, [check out the best-rated footrests](https://www.thebalancesmb.com/best-footrests-4171276).
-3. **Seat Cushions**
+
+#### **Seat Cushions**
+
+![Seat cushion](/img/seat-cushion.png "A chair with a seat cushion ")
+
+<small style="display: block; text-align: right">Photo by Alexandru Acea on <a href="https://unsplash.com/photos/XEB8y0nRRP4">Unsplash</a> </small>
 
    If you sit too close to the ground and your knees are higher than your hips, the seat cushions might be the right choice for you. Keeping your knees more elevated than the hips when sitting tenses up the hip flexors, which can cause further problems and discomforts such as lower back pain.
 
    Ergonomic seat cushion is an inexpensive way of boosting your chair. On top of helping to maintain a better posture, the cushion reduces the pressure put on the hips and spine.
 
    So to help yourself solve this imbalance, improvise with home props to create elevation. You can use a pillow or a blanket. There are also many [professional seat cushions ](https://www.thebalancesmb.com/best-seat-cushions-4159175)on the market that can support your posture.
-4. **Laptop or Screen Stand**
+
+#### **Laptop or Screen Stand**
+
+![Laptop Stand](/img/laptop-stand.png "Laptop stand for better ergonomics")
+
+<small style="display: block; text-align: right">Photo by Grovemade on <a href="https://unsplash.com/photos/RvPDe41lYBA">Unsplash</a> </small>
 
    Laptop stands are a vital piece of home office equipment! Your screen should be set up to the height where your head will neither need to drop to look down or lift to look up. Both of which are bad for your neck. The ideal set up of the screen is when the top of your monitor is forehead height and arm-distance away from you.
 
    Not having your screen adjusted to the proper height and distance puts tremendous stress on the muscles surrounding your head, neck, shoulders, and the upper back. They are getting beat up, simply because your head isn't sitting on top of your spine correctly. The neutral neck position is the key!
 
    The screen stand will help you adjust the monitor height to a correct position. Again, you can be creative with what you already have at home. Most popular are large stacks of books or boxes. Or, look and see what the internet has to offer in [the laptop stand department](https://www.gearhungry.com/best-laptop-stand/).
-5. **External Monitor**
+
+#### **External Monitor**
+
+![External monitor](/img/external-monitor.png "External monitor for better ergonomics")
+
+<small style="display: block; text-align: right">Photo by Gabriel Beaudry on <a href="https://unsplash.com/photos/70rHtD11NNk">Unsplash</a> </small>
 
    While writing this article, I had a conversation with my husband, a designer. He cannot imagine working from home without an external monitor. Why? The reasons are comfort and better work experience. External screens, assuming they are set up correctly, help you position your head to avoid tensing the upper body. Some of the external monitors are also designed to minimize eye strain.
 
    Your external monitor, similar to your laptop, should be set up to minimize the neck strain. Keep it straight in front of you 20-30 inches away from your head (approximately the arm length distance).
 
    If you want to treat yourself with an external monitor here is a list of highest rated products by [Popular Mechanics](https://www.popularmechanics.com/technology/gadgets/g18923089/best-monitors/).
-6. **External Keyboard**
+
+#### **External Keyboard**
+
+![External keyboard](/img/external-keyboard.png "External keyboard for better ergonomics ")
+
+<small style="display: block; text-align: right">Photo by Aleksandra Wantuch on <a href="https://unsplash.com/photos/ZqKYkwSfsJQ">Unsplash</a> </small>
 
    An external keyboard is a great addition to boost the ergonomics of your home office. Especially if you prefer to work on the laptop screen, it is difficult to position your arms correctly with the elevated laptop. The external keyboard is there to serve you!
 
    Incorrect way of typing creates tension in the surrounding muscles and nerves and can cause [carpal tunnel syndrome](https://www.relevelapp.com/blog/whats-causing-carpal-tunnel-syndrome-and-how-to-prevent-it/). External keyboard in your home office will help you achieve the optimal arm position, which is with the keyboard slightly below the elbow level, and the elbows bend at 90-100 degrees.
 
    Check out the best keyboards according to [Tech Radar](https://www.techradar.com/news/computing-components/peripherals/what-keyboard-10-best-keyboards-compared-1028011).
-7. **Good Lighting**
+
+#### **Good Lighting**
+
+![Desk lamp](/img/lamp.png "Good lighting for the home office")
+
+<small style="display: block; text-align: right">Photo by Daan Stevens on <a href="https://unsplash.com/photos/0kjNpxQ6dPQ">Unsplash</a> </small>
 
    Ensure that your home office has plenty of good, preferably natural light. If you are going to spend hours looking at the screen, you want to make sure that your surroundings aren't dark so that you are not fixing your gaze at one lit up space, which could cause eye strain and headaches.
 
@@ -105,6 +139,8 @@ Whatever home space, you are temporarily calling an office, there are always way
 ## Postural Tips for Your Home Office
 
 The 7 tips to improve your home office experience will help you to achieve a more balanced posture. However, be mindful of your body position, whether or not you decided to use all of them. Here are a few tips on how to maintain a good posture at work.
+
+![home office postural tips](/img/sitting-desk-home-1-.png "Correct posture for home office")
 
 * Sit on top of your sit bones with the knee is 90-100 degree bend
 * Keep your back neutral, reclining in your chair to achieve 100-110 degree is most recommended by ergonomic specialists (<http://ergonomictrends.com/proper-sitting-posture-computer-experts/>)
