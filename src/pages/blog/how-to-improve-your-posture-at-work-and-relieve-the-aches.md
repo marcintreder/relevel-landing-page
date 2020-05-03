@@ -60,7 +60,10 @@ As comfortable as slouching might be for a short time, adopting this posture all
 
 1. **Rock the Hips**
 
-      Rocking your pelvis will help you relieve discomfort building up in the lower back. This movement will also teach you where your sit bones are, and how to be on top of them, which is the ideal sitting situation. In essence, this will immediately put your torso in a better, more spine-friendly position.
+   Rocking your pelvis will help you relieve discomfort building up in the lower back. This movement will also teach you where your sit bones are, and how to be on top of them, which is the ideal sitting situation. In essence, this will immediately put your torso in a better, more spine-friendly position.
+
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=KJBXKOxGc4A&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+
 2. **Sit on a Fitness Ball**
 
    Because the ball is more wobbly, it challenges your core muscles to kick in to stabilize your torso. It also encourages you to sit up straight (on top of the sit bones!) and be more aware of your posture. And yes, you can still sit slumped, but it is less likely.
@@ -105,9 +108,12 @@ Weak, overused wrists kept in a wrong position can lead to tingling and numbness
 
 1. **Keep your shoulders back and stretch your chest**
 
-      Even though the problem is down in your wrist, it can start higher up. As [Foot Hills Rehab](https://foothillsrehab.com/blog-how-better-posture-could-actually-improve-carpal-tunnel-syndrome/) explains, the modern-day head forward, rounded shoulder posture tightens arm and upper back muscles. The muscle tension can, as a result, put pressure on the median nerve before it even reaches the carpal tunnel leading to its inflammation.
+   Even though the problem is down in your wrist, it can start higher up. As [Foot Hills Rehab](https://foothillsrehab.com/blog-how-better-posture-could-actually-improve-carpal-tunnel-syndrome/) explains, the modern-day head forward, rounded shoulder posture tightens arm and upper back muscles. The muscle tension can, as a result, put pressure on the median nerve before it even reaches the carpal tunnel leading to its inflammation.
 
-      So, open your chest to give your nerves a break! Here is a Pilates chest stretch that I always recommend to my clients with rounded shoulders and definitely to those that suffers from the carpal tunnel:
+   So, open your chest to give your nerves a break! Here is a Pilates chest stretch that I always recommend to my clients with rounded shoulders and definitely to those that suffers from the carpal tunnel.
+
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+
 2. **Stay neutral in your wrists**
 
    Do your best to avoid bending (extending or flexing) your wrists while using a computer, which puts extra pressure on the fragile carpal tunnel. Try to keep a straight line from your elbow to knuckles. To reduce the tension in your hands, keep your elbows slightly higher than the wrists. Aim for 90-110 degree bend in the elbows, which will improve the blood circulation.
@@ -146,9 +152,12 @@ When adapting this infamous head position, your head weight feels like 60 pounds
 
 1. **Nod Your Chin**
 
-      Learn where your head sits on top of the spine and try to move it up and down from its hinge point. That action will reduce the tension put on your spine and teach you to hold the head in the correct position.
+   Learn where your head sits on top of the spine and try to move it up and down from its hinge point. That action will reduce the tension put on your spine and teach you to hold the head in the correct position.
 
-      Put your fingers behind the ears and find the most prominent bone (called the mastoid process) in that area. That is where your head is located on top of the spine. Move your head up and down without changing the lower neck position.
+   Put your fingers behind the ears and find the most prominent bone (called the mastoid process) in that area. That is where your head is located on top of the spine. Move your head up and down without changing the lower neck position.
+
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/5Jn7hZ5Nv0o?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=5Jn7hZ5Nv0o&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=5Jn7hZ5Nv0o?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=5Jn7hZ5Nv0o&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+
 2. **Move Your Eyes**
 
    You don't necessarily need to move your head to look up or down. Rolling your eyes to look up, down, and side to side while keeping your torso and head stable could be a healthy and less neck-straining alternative. Also, a great exercise to relieve tired-from staring at the screen eyes.
@@ -156,10 +165,7 @@ When adapting this infamous head position, your head weight feels like 60 pounds
 
    And I mean all the screens, your smartphones are contributing to that pain as well!
 
-   Make sure that the top of your stationary screen at your desk is at the height of your forehead. You can check out your monitor set up with the ergonomics specialist, if there is one around or look at this article, where I write how to set up the workstation on your own. (link to blog post)
-
-![Correct screen set up](/img/group-71.png "Best positioning for laptop screen")
-
+   Make sure that the top of your stationary screen at your desk is at the height of your forehead. You can check out your monitor set up with the ergonomics specialist, if there is one around or look at [this article](https://www.relevelapp.com/blog/standing-vs-sitting-desk-how-to-set-up-your-workstation-to-prevent-the-aches/), where I write how to set up the workstation on your own.
 4. **Do Neck and Shoulder Stretches**
 
    Your neck and shoulders need to be moved, stretched, and strengthen throughout the day. [A 2012 study](https://annals.org/aim/fullarticle/1033256/spinal-manipulation-medication-home-exercise-advice-acute-subacute-neck-pain) shows that daily stretches for your neck and shoulders can do you better than a visit at the chiropractic.
@@ -184,9 +190,11 @@ This is not only about looking good in yoga class. We use these pressure hip fle
 
 1. **Stretch the Hip Flexors**
 
-      Let those tight muscles lengthen. Did you know that activating the antagonist muscles, in this case, your glutes, helps you stretch better without overloading the joint?
+   Let those tight muscles lengthen. Did you know that activating the antagonist muscles, in this case, your glutes, helps you stretch better without overloading the joint?
 
-      Keep your butt active while stretching the hip flexors, and try my favorite stretch targeting tight hips and quads.
+   Keep your butt active while stretching the hip flexors, and try my favorite stretch targeting tight hips and quads.
+
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ld2yYuRl2qY?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=ld2yYuRl2qY&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 2. **Strengthen the Hip Flexors**
 
    Yes, strengthening- a tight muscle is not necessarily a strong muscle but often time, as is a case of our hip flexors, a weak one.
