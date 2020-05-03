@@ -28,6 +28,8 @@ In this article, I'm going to talk about sitting and standing workstations. The 
 
 ## Why Is It Important to Set up an Ergonomic Workstation
 
+Ergonomics is the science that focuses on improving the design of everyday objects, such as chairs, or desks to optimize them for our use. (<https://whatis.techtarget.com/definition/ergonomics>). The goal of an ergonomic workstation is to keep you comfortable and healthy and, at the same time, increase your productivity.
+
 **The advantages of the ergonomically set up desk are:**
 
 * Better posture
@@ -151,8 +153,6 @@ There are tons of choices of chairs out here on the internet. It might be overwh
    Look at the list of[ best footrests ](https://www.thebalancesmb.com/best-footrests-4171276)to match your needs.
 
 ## Standing Desk Ergonomics
-
-
 
 ![](/img/standing-desk.png)
 
