@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Home Office Ergonomics. How to Set up a Pain-Free Workstation.
-description: Home office ergonomics is crucial for healthy and comfortable work
-  from home. Avoid pain and injuries with the correct set-up.
+description: An ergonomic set up for your home office is crucial for your health
+  and comfort. Avoid pain and injuries with the correct set-up.
 date: 2020-04-17T01:48:56.997Z
 featuredpost: true
 featuredimage: /img/featured-image-5-.png
