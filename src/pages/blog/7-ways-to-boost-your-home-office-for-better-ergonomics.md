@@ -7,7 +7,7 @@ description: Your home office could be far from being ergonomically set up. Bad
   workstation at home in 7 easy steps to prevent the aches and increase your
   productivity.
 date: 2020-04-24T20:30:04.126Z
-featuredpost: false
+featuredpost: true
 featuredimage: /img/featured-image-5-.png
 featuredimageTitle: Home office ergonomics in 7 easy steps
 featuredimageAlt: Home office ergonomics
