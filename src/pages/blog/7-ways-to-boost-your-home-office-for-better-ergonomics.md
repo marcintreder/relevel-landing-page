@@ -52,7 +52,7 @@ In this section, I’m going to talk about what 7 items to add to enhance your h
 
 Whatever home space, you are temporarily calling an office, there are always ways to improve it!
 
-#### **Lumbar Support Pillow**
+### **Lumbar Support Pillow**
 
 ![Lumbar support pillow](/img/lumbar-support.png "A chair with a pillow for lumbar support")
 
@@ -64,7 +64,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    Lumbar support pillows allow you to keep more contact with the back of the chair, which will help you put your pelvis in a better, more posture-friendly place. You can improvise and create home-made support with a blanket or a pillow. Alternatively, search for [professional lumbar supports online](https://www.thebalancesmb.com/best-lumbar-support-pillows-4156985).
 
-#### **Footrest**
+### **Footrest**
 
 ![Footrest from books](/img/footrest.png "Stack of books used for footrest")
 
@@ -76,7 +76,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    Let's say your chair and/ or desk have only one fixed position, and your feet don't reach the floor. Instead of climbing them on to the legs of the chair, try to use a footrest to bring the ground closer to you. Use a stack of books or boxes to elevate the ground. If you want to be more pro, [check out the best-rated footrests](https://www.thebalancesmb.com/best-footrests-4171276).
 
-#### **Seat Cushions**
+### **Seat Cushions**
 
 ![Seat cushion](/img/seat-cushion.png "A chair with a seat cushion ")
 
@@ -88,7 +88,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    So to help yourself solve this imbalance, improvise with home props to create elevation. You can use a pillow or a blanket. There are also many [professional seat cushions ](https://www.thebalancesmb.com/best-seat-cushions-4159175)on the market that can support your posture.
 
-#### **Laptop or Screen Stand**
+### **Laptop or Screen Stand**
 
 ![Laptop Stand](/img/laptop-stand.png "Laptop stand for better ergonomics")
 
@@ -100,7 +100,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    The screen stand will help you adjust the monitor height to a correct position. Again, you can be creative with what you already have at home. Most popular are large stacks of books or boxes. Or, look and see what the internet has to offer in [the laptop stand department](https://www.gearhungry.com/best-laptop-stand/).
 
-#### **External Monitor**
+### **External Monitor**
 
 ![External monitor](/img/external-monitor.png "External monitor for better ergonomics")
 
@@ -112,7 +112,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    If you want to treat yourself with an external monitor here is a list of highest rated products by [Popular Mechanics](https://www.popularmechanics.com/technology/gadgets/g18923089/best-monitors/).
 
-#### **External Keyboard**
+### **External Keyboard**
 
 ![External keyboard](/img/external-keyboard.png "External keyboard for better ergonomics ")
 
@@ -124,7 +124,7 @@ Whatever home space, you are temporarily calling an office, there are always way
 
    Check out the best keyboards according to [Tech Radar](https://www.techradar.com/news/computing-components/peripherals/what-keyboard-10-best-keyboards-compared-1028011).
 
-#### **Good Lighting**
+### **Good Lighting**
 
 ![Desk lamp](/img/lamp.png "Good lighting for the home office")
 
