@@ -63,6 +63,8 @@ So one might wonder what to do? The key to a healthier body in a desk-bound to t
 
 ![Two women at workstation](/img/desk.png "Sit to Stand Desk")
 
+<small style="display: block; text-align: right">Photo by Jud Mackrill on <a href="https://unsplash.com/photos/drLKC_gGwE4">Unsplash</a> </small>
+
 To effectively alternate between sitting and standing at your workstation, you need to choose a desk that compliments both work styles. 
 
 Here are the three main features to look for when selecting an ergonomic desk.
@@ -90,6 +92,8 @@ Check out [the recommended standing desk anti-fatigue mats](https://nymag.com/st
 ## Ergonomic Chair
 
 ![Ergonomic chair](/img/chair.png "Ergonomic chair features")
+
+<small style="display: block; text-align: right">Photo by James McDonald on <a href="https://unsplash.com/photos/3d4sSUChunA">Unsplash</a> </small>
 
 There are tons of choices of chairs out here on the internet. It might be overwhelming if you don’t exactly know what is important when choosing an ergonomic chair. 
 
@@ -121,6 +125,8 @@ Look at the list of [best footrests](https://www.thebalancesmb.com/best-footrest
 
 ![External Monitor](/img/external-monitor.png "Ergonomic screen setup")
 
+<small style="display: block; text-align: right">Photo by Gabriel Beaudry on <a href="https://unsplash.com/photos/70rHtD11NNk">Unsplash</a> </small>
+
 The screen is one of the key ingredients to a well-set-up workstation. Incorrect placement of the screen can cause your neck to crane, causing tension on your neck, shoulders, upper back, etc.
 
 These are the three things to keep in mind when setting a monitor.
@@ -141,6 +147,8 @@ Your monitor should be centered so that you don’t need to strain your neck to 
 
 ![Keyboard](/img/keyboard.png "Ergonomic keyboard setup")
 
+<small style="display: block; text-align: right">Photo by Larisa Birta on <a href="https://unsplash.com/photos/7PVdw4uXnjE">Unsplash</a> </small>
+
 Keyboarding can put a huge strain on the muscles and nerves of your arms. The correct position of the keyboard will help you to prevent troublesome future conditions such as carpal tunnel syndrome.
 
 Here are three tips for a correctly set up keyboard.
@@ -160,6 +168,8 @@ Centering the keyboard in front of you and your screen will eliminate any unnece
 ## Ergonomic Mouse or Trackpad Setup for Sitting and Standing Desk
 
 ![Computer mouse](/img/mouse.png "Ergonomic mouse")
+
+<small style="display: block; text-align: right">Photo by AJ Gallagher on <a href="https://unsplash.com/photos/XB3Lbqz52pA">Unsplash</a> </small>
 
 If you use a mouse or a trackpad, you are in the group prone to repetitive stress injuries (RSI). Moreover, similar to keyboarding, overextension in the wrist can lead to nerve damage.
 
