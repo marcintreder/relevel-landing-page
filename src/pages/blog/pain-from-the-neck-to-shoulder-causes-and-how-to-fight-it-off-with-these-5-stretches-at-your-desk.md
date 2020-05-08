@@ -15,7 +15,7 @@ promoimageTitle: Neck to shoulder pain causes and stretches
 promoimageAlt: "Neck to shoulder pain "
 promoimageAuthor: Jesper Aggergaard
 promoimageUrl: https://unsplash.com/photos/CEM52sAHR80
-cardimage: /img/card-image-7-.png
+cardimage: /img/card-image-8-.png
 cardimageTitle: Neck to shoulder pain causes and stretches
 cardimageAlt: Neck to shoulder pain
 tags:
