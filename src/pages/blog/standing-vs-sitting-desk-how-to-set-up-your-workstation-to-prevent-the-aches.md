@@ -191,7 +191,7 @@ If you spent years sitting in front of your desk and one day you decide to switc
 
 It’s important to note your posture when standing and keep reminding yourself how to keep your body in the correct place, the same as with sitting. Below are recommended ways of keeping your body both in front of the sitting and standing desks.
 
-#### Ergonomic Body Position for Seated Desk
+## Ergonomic Body Position for Seated Desk
 
 ![Seated Desk ergonomics](/img/sitting-desk-4-.png "Ergonomic Body Position for Seated Desk")
 
@@ -222,7 +222,7 @@ These are the body positions recommended by [ergonomic specialists](https://www.
    \
    Keep your heels under your knees with feet flat on the ground. If they cannot reach there easily, keeping in mind prior adjustments, use a footstool or yoga block to rest them down comfortably.
 
-#### Ergonomic Body Position for Standing Desk
+## Ergonomic Body Position for Standing Desk
 
 ![Standing desk ergonomics](/img/standing-desk.png "Ergonomic Body Position for Standing Desk")
 
