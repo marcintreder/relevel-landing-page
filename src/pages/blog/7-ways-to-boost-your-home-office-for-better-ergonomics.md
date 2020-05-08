@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 7 Ways to Boost Your Home Office for Better Ergonomics
+title: 7 Ways to Boost Your Home Office for Better Ergonomics.
 description: Your home office could be far from being ergonomically set up. Bad
   ergonomics can cause various body aches, such as lower back pain, neck, and
   shoulder tightness or numbness in the wrists. Learn how to adjust your
