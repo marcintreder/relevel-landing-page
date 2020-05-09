@@ -7,17 +7,17 @@ description: Sciatica is a condition that often affects those with a sedentary
   stretches to do at your desk to relieve sciatica pain today.
 date: 2020-04-24T20:30:04.126Z
 featuredpost: false
-featuredimage: /img/featured-image-5-.png
-featuredimageTitle: Home office ergonomics in 7 easy steps
-featuredimageAlt: Home office ergonomics
-promoimage: /img/group-84-3-.png
-promoimageTitle: Home office ergonomics in 7 easy steps
-promoimageAlt: Home office ergonomics
-promoimageAuthor: Daria Shevtsova
-promoimageUrl: https://unsplash.com/photos/zbWFT4eVopE
-cardimage: /img/card-image-6-.png
-cardimageTitle: Home office ergonomics in 7 easy steps
-cardimageAlt: Home office ergonomics
+featuredimage: /img/group-88-1-.png
+featuredimageTitle: Relieve sciatica pain with three stretches at your desk
+featuredimageAlt: "Relieve sciatica pain "
+promoimage: /img/group-86.png
+promoimageTitle: Relieve sciatica pain with 3 stretches at your desk
+promoimageAlt: Relieve sciatica pain
+promoimageAuthor: "Aiony Haust "
+promoimageUrl: https://unsplash.com/photos/gtkvIGeHAn4
+cardimage: /img/group-87.png
+cardimageTitle: Relieve sciatica pain with 3 stretches at your desk
+cardimageAlt: "Relieve sciatica pain "
 tags:
   - Stretches
   - Sciatica
