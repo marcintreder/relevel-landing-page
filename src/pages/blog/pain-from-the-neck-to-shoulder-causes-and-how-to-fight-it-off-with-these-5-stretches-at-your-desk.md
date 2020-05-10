@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-title: Pain from the Neck to Shoulder. Causes and 5 Helpful Stretches to Do at
-  Your Desk
+title: Pain from the Neck to Shoulder. Causes and 5 Helpful Stretches.
 description: Pain from the neck to shoulder is very common if you spent hours in
   front of a computer. Learn how where does it come from and how you can
   minimize it with helpful stretches at your desk.
