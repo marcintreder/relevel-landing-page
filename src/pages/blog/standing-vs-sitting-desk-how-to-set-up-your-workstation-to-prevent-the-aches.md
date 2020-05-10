@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Standing vs Sitting Desk. How to Set up Your Workstation to Prevent the Aches.
+title: Sit to Stand Desk. How to Set it up to Prevent the Body Aches.
 description: An ergonomic workstation is essential to prevent body aches such as
   the lower back, wrist discomfort, or neck and shoulder pain. Whether you are
   standing or sitting at your desk learn how to correctly adjust your
