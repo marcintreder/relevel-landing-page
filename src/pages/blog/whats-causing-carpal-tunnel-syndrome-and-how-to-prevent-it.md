@@ -26,7 +26,7 @@ Do you wake up in the middle of the night to find out your arm is sound asleep, 
 
 These could be the first signs of carpal tunnel syndrome.
 
-In this article, I want to explain to you what is carpal tunnel syndrome, how and why does it start, and show you how to deal with it before it is too late.
+IIn this article, I want to explain what carpal tunnel syndrome is, how and why it starts, and how to deal with it before it is too late.
 
 ## What Is a Carpal Tunnel Syndrome?
 
@@ -36,13 +36,13 @@ Carpal tunnel syndrome is a condition when a narrowing of your carpal tunnel tha
 
 ## What Is the Median Nerve, and Why Is It Important?
 
-Just like every nerve in our body it helps you to sense and move the muscles. This nerve is the main nerve of the front of your forearm. It provides sensation to the thumb, index finger, middle finger as well as part of your ring finger.
+Just like every nerve in our body, it helps you to sense and move the muscles. This nerve is the main nerve of the front of your forearm. It provides sensation to the thumb, index finger, middle finger as well as part of your ring finger.
 
 ![Median nerve](/img/group-84-1-.png "Median nerve in the palm of the hand")
 
 ## Who Is in the Risk Group for Carpal Tunnel Syndrome?
 
-1. Certain pre existing conditions can attribute to carpal tunnel syndrome, e.g.:
+1. Certain pre-existing conditions can attribute to carpal tunnel syndrome, e.g.:
 
    * Diabetes
    * Pregnancy
@@ -62,7 +62,7 @@ Just like every nerve in our body it helps you to sense and move the muscles. Th
 
 ## What Are the Symptoms of Carpal Tunnel Syndrome
 
-Carpal tunnel syndrome likes to sneak up on you slowly. The earlier you detect it the higher the chances of recovery and avoiding unpleasant and painful consequences.
+Carpal tunnel syndrome likes to sneak up on you slowly. The earlier you detect it, the higher the chances of recovery and avoiding unpleasant and painful consequences.
 
 ### The First Symptoms
 
@@ -91,7 +91,7 @@ If you’re experiencing the symptoms mentioned above, it is best to go to your 
 * [Phalen test](https://www.physio-pedia.com/Phalen%E2%80%99s_Test)
 * [Electrodiagnostics](https://www.hss.edu/conditions_emg-testing-a-patient-guide.asp)
 
-For the recovery period, doctors often recommend immobilization. Resting your wrist and wearing a brace are some of the strategies to help you ease the inflammation in the carpal tunnel. In some cases, mild anti-inflammatory medications are prescribed, and in some more unpleasant steroid injections.
+For the recovery period, doctors often recommend immobilization. Resting your wrist and wearing a brace are some of the strategies to help ease the inflammation in the carpal tunnel. In some cases, mild anti-inflammatory medications are prescribed, and in some more unpleasant steroid injections.
 
 ## How to Prevent Carpal Tunnel Syndrome
 
@@ -103,11 +103,11 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
    Stretching and opening your chest is a very important practice to avoid carpal tunnel syndrome.
 
-   If your shoulders are rounded forward your pectoralis muscles are sitting tight, which could lead to impingement of the median nerve. Here is a recommend stretch for the tight pecs.
+   If your shoulders are rounded forward, your pectoralis muscles are sitting tight, which could lead to median nerve' impingement. Here is a recommend stretch for the tight pecs.
 
    Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 2. **Floss the Nerves**
 
@@ -117,7 +117,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
    Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 3. **Improve Your Posture**
 
@@ -131,6 +131,10 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    Learn how to adjust your desk set up to improve your posture and prevent the aches: [How to Improve Your Posture at Work and Relieve the Aches](<3. https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/>)
 5. **Take Breaks**
 
-   Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve your wellbeing at the workplace.
+   Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve workplace wellbeing.
+
+
 
 Happy healing!
+
+![Carpal tunnel syndrome infographic](/img/carpal-tunnel-info.png "Carpal tunnel syndrome- causes, symptoms and prevention")
