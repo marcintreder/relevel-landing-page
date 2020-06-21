@@ -20,7 +20,8 @@ cardimage: /img/card-image-6-.png
 cardimageTitle: Home office ergonomics in 7 easy steps
 cardimageAlt: Home office ergonomics
 tags:
-  - Stretches
+  - Home office
+  - Ergonomics
 ---
 If you, like many people, are stuck at home due to the recent coronavirus pandemic, you might notice that your home office doesn't quite resemble the ergonomic (hopefully) workstation that you are used to.
 
@@ -51,6 +52,8 @@ Let's not allow your temporary workstation to affect your health and posture! Ke
 In this section, I’m going to talk about what 7 items to add to enhance your home office to help you withstand the long hours you spend there.
 
 Whatever home space, you are temporarily calling an office, there are always ways to improve it!
+
+![Home office ergonomics inforgraphic](/img/7-ways-to-boost-info.png "How to boost your home office")
 
 ### **Lumbar Support Pillow**
 
@@ -165,3 +168,7 @@ Remember, you should always listen to your body, and if the set up doesn't work 
 Subscribe today to receive more tips on the home office ergonomics and how to deal with any aches you might be experiencing when working in front of your computer.
 
 Leave me a comment if you found any of these tips helpful and perhaps share the picture of your improved home office!
+
+Before you go, take a look at the home office checklist to see what other essential items can fill in your workstation. Feel free to print it out! Enjoy!
+
+![Home office checklist](/img/checklist-home-office.png "Checklist for an ergonomic home office ")
