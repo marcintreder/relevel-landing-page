@@ -73,13 +73,9 @@ Check out the safe exercise to ease the discomfort for bulging discs:
 
 #### Mouse Shoulder
 
-"Mouse shoulder" or "trackpad shoulder" is a condition that develops when you adapt a slouched seated posture while holding your arm outstretched gripping a mouse or trackpad for many hours a day.
+"Mouse shoulder" or "trackpad shoulder" is a condition that develops when you adapt a slouched seated posture while holding your arm outstretched, gripping a mouse or trackpad for many hours a day.
 
 [This condition](https://leamington-osteopaths.co.uk/portfolio/mouse-shoulder/) usually affects the dominant side of the neck, shoulder, and arm[](https://leamington-osteopaths.co.uk/portfolio/mouse-shoulder/). Muscles and tendons from the neck down to your wrist are contracted continuously to support this outstretched position. The shortened muscles start to pull on your shoulder and neck. Moreover, holding your arm in this static position can lead to an impingement in various nerves in your arms.
-
-Read more about mouse shoulder here:
-
-(Take the load off your shoulders- shoulder pain causes associated with desk job and how to make them disappear)
 
 **Doctor Warning:**
 
@@ -97,7 +93,7 @@ For a quick fix for those tight shoulders and neck, try stretching the appropria
 
 Your median nerve delivers sensations to your thumb, first two fingers, and part of your third finger. When the nerve gets compressed somewhere on its pathway, it can lead to carpal tunnel syndrome. The carpal tunnel syndrome doesn’t always start in your wrist. Forward head and rounded shoulders tighten the arm and upper back muscles with can [compress the median nerve](https://foothillsrehab.com/blog-how-better-posture-could-actually-improve-carpal-tunnel-syndrome/). 
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=jj6WaLOWmLg&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 **Movement:**
 
@@ -107,7 +103,7 @@ Hold your left arm outstretched and bend your head to the right. Hold for 3 seco
 
 The ulnar nerve delivers sensations to part of your 3rd finger (ring finger) and your 4th finger (pinkie). The ulnar nerve originates in your neck and passes the pecs (chest muscles) on its way down to your fingers. [Bad posture with rounded shoulders](http://blog.handcare.org/blog/2015/07/24/advice-from-a-certified-hand-therapist-on-cubital-tunnel-syndrome/) and forward head makes these areas tight and leads to nerve compression. 
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 **Movement:**
 
@@ -117,7 +113,7 @@ Hold your left arm down with the wrists flexed, fingers curled. Bend your head t
 
 The group of muscles at the base of your skull tends to get very tight when we hold our head forward for a prolonged time. It is essential to stretch them through the day to release the tension as well as remind ourselves about the correct position of your head on top of the spine.
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 **Movement:**
 
@@ -127,23 +123,19 @@ Interlace your fingers behind your head. Push your head back into your palms, an
 
 Tight chest muscles can lead to an impingement in the nerves that run underneath them. With our ever-present rounded shoulders and forward head, we create tension in the upper chest area. Stretching the pecs and connecting to the back of shoulders will help you to release the neck and shoulder pain.
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/brDOkN05DzI?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=brDOkN05DzI&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/brDOkN05DzI?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=brDOkN05DzI&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=brDOkN05DzI?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=brDOkN05DzI&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 **Movement:**
 
 Bend your elbows by your side. Start externally rotating from the top of your arm bone. Keep your collarbones and shoulder blades broad. Hold for 5 seconds. Return to starting position. Repeat ten times.
 
-
-
 #### Chest Stretch + Arm Reach
 
 Extending the chest through the workday will help you release the tension gathering in front of the body. This movement will also help you to maintain the correct body position in front of your workstation.
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 From the previous stretch position, start reaching your breast bone up. Lean against the back support of your chair and reach your arms out to the side, thumbs facing back. Hold for 3 seconds. Return to starting position. Repeat five times.
-
-
 
 ## Strengthen Your Upper Back
 
@@ -156,3 +148,5 @@ To bring it up to the next level, try this shoulder and upper back strength and 
 (Shoulder pain– 10 minute routine for office workers and weekend warriors to alleviate the discomfort)
 
 The daily dose of exercises is essential to stay healthy, mobile, strong, and pain-free. Subscribe to Relevel App today to improve your quality of life behind the desk and beyond.
+
+![](/img/necktoshoulderpain-info.png)
