@@ -23,9 +23,9 @@ tags:
 ---
 Are you complaining about aches in your lower or upper back? Maybe your neck and shoulders are tensed up, and the arms and wrists are in pain from all the typing? Chances are your sitting or standing workstation isn't set up correctly, and your body is straining itself to maintain in this uncomfortable position for many hours.
 
-Why should you be in pain when in front of your desk. Since we spend a big chunk of our days in front of computers, don't you think it is essential to do it in a way that will be more easeful on the body?
+Why should you be in pain when in front of your desk? Since we spend a big chunk of our days in front of computers, don't you think it is essential to do it in a way that will be more easeful on the body?
 
-In this article, I'm going to talk about sitting and standing workstations. The differences between them, and how to set them up ergonomically to prevent the aches associated with desk jobs.
+In this article, I'm going to talk about sitting and standing workstations and their differences. You will also find out how to set them up ergonomically to prevent the aches associated with desk jobs.
 
 ## Why is Ergonomics Important?
 
@@ -39,7 +39,7 @@ The effects of bad ergonomics aren't only aches that come and go. They can lead 
 
 #### The Advantages of the Ergonomic Setup
 
-Better posture is an obvious advantage when working in front of ergonomically set up sitting or standing desk. Correct height and distance from your workstation can prevent postural compensations that can lead to more serious problems. Correct seated or standing posture contributes to a better health and function of your internal organs such as intestines or lungs. Another advantage that comes with better ergonomics is an increased productivity. Who doesn’t want to get the things done quickly and effectively?
+Better posture is an obvious advantage when working in front of ergonomically set up sitting or standing desk. Correct height and distance from your workstation can prevent postural compensations that can lead to more serious problems. Correct seated or standing posture contributes to better health and function of your internal organs such as intestines or lungs. Another advantage that comes with better ergonomics is increased productivity. Who doesn’t want to get things done quickly and effectively?
 
 > Correct posture has a positive impact on your health and productivity.
 
@@ -49,7 +49,7 @@ Check if your company hires ergonomic consultations. Wouldn't it be nice to have
 
 In case there aren't any of these luxuries around, keep reading, and I'll give you a few tips on how you can make some changes yourself. It really isn't that complicated, and in a few minutes, you can feel so much better! Seriously, I tried it on myself writing this article.
 
-## Standing vs Sitting Workstation
+## Standing vs. Sitting Workstation
 
 I won't be original, saying that sitting is the new smoking. Everybody heard from doctors, physical therapists, or ergonomic specialists that a sedentary lifestyle has a harmful impact on our health. With that in mind standing desks are becoming widely accessible.
 
@@ -71,7 +71,7 @@ Here are the three main features to look for when selecting an ergonomic desk.
 
 #### Adjustable Height
 
-You want to be able to move from sitting to standing. We are designed to be moving through the day, and spending time in one position isn't suitable for your body. According to the [University of British Columbia](http://www.hr.ubc.ca/wellbeing-benefits/files/Working-From-Home.-Temporary-Set-up.-March-2020.pdf), "Positional change is the key." Try rotating the portions regularly, e.g., every 2-3 hours. If you are unsure to which height to adjust your desk, try this [smart calculator](http://ergonomictrends.com/the-best-ergonomic-computer-desks/), which can help you choose the perfect height for your desk for both sitting and standing.[](http://ergonomictrends.com/the-best-ergonomic-computer-desks/)
+You want to be able to move from sitting to standing. We are designed to be moving through the day, and spending time in one position isn't suitable for your body. According to the [University of British Columbia](http://www.hr.ubc.ca/wellbeing-benefits/files/Working-From-Home.-Temporary-Set-up.-March-2020.pdf), "Positional change is the key." Try rotating the portions regularly, e.g., every 2-3 hours. Are you not sure to which height to adjust your desk? Try this [smart calculator](http://ergonomictrends.com/the-best-ergonomic-computer-desks/), which can help you choose the perfect height for your desk for both sitting and standing.[](http://ergonomictrends.com/the-best-ergonomic-computer-desks/)
 
 #### Appropriate Depth
 
@@ -81,7 +81,7 @@ Extend your arm and touch the screen. This is how far you want to place your mon
 
 You can choose between electric, pneumatic, and crank adjustments. Electric or pneumatic height adjustments are the most recommended because of the ease of use. [The Australian study](https://www.standdesk.co/buying-a-stand-up-computer-desk-4-things-to-look-for/) shows that office workers were discouraged from using the manually adjusted sit to stand desks because they found them time-consuming.\
 \
-Keep these tips in mind when choosing your future ergonomic sit to stand desk. Here is a list of recommended desks according to [Btod](https://www.btod.com/blog/best-standing-desk).[](https://www.btod.com/blog/best-standing-desk)
+Keep these tips in mind when choosing your future ergonomic sit to stand desk. Here is a list of recommended desks, according to [Btod](https://www.btod.com/blog/best-standing-desk).[](https://www.btod.com/blog/best-standing-desk)
 
 #### Additional buy: Standing Mat
 
@@ -111,7 +111,7 @@ Your chair should be deep enough to support your thighs, but at the same time, a
 
 The height of the chair is significant when looking at the workstation ergonomics. You should be able to match it with the height of your desk so that when you are seated, your elbows are slightly higher than your wrists, and you keep a 90-100 degree bend at the elbow joint. This position will guarantee a better blood flow and less strain for the tendons and muscles of your upper back and arm.
 
-Now that you know what to look for check out the list of the ergonomic chairs by [Republic Lab](https://www.republiclab.com/ergonomic-office-chairs-guide/).[](https://www.republiclab.com/ergonomic-office-chairs-guide/)
+Now that you know what to look for, check out the list of the ergonomic chairs by [Republic Lab](https://www.republiclab.com/ergonomic-office-chairs-guide/).[](https://www.republiclab.com/ergonomic-office-chairs-guide/)
 
 #### Additional buy: Footrest
 
@@ -155,7 +155,7 @@ Here are three tips for a correctly set up keyboard.
 
 #### Place the Keyboard Flat on Your Desk
 
-A keyboard should be placed flat on your desk or [with a negative tilt](http://ergonomictrends.com/proper-ergonomic-typing-posture-at-computer/) to avoid overextension in the wrist joint.
+A keyboard should be placed flat on your desk or [with negative tilt](http://ergonomictrends.com/proper-ergonomic-typing-posture-at-computer/) to avoid overextension in the wrist joint.
 
 #### Correct Distance from Yourself
 
@@ -185,7 +185,7 @@ If needed, invest in a neutral support pad. These wrist pads should be put under
 
 ## How to Position Your Body to Avoid the Aches
 
-Just as the seated, the standing position can be full of body compensation patterns. I work with many people who recently switched to standing desks and believe that it will magically heal their body. Nothing more wrong.
+Just as the seated, the standing position can be full of body compensation patterns. I work with many people who recently switched to standing desks and believe that it will magically heal their bodies. Nothing more wrong.
 
 If you spent years sitting in front of your desk and one day you decide to switch to a standing desk, it won’t solve all your problems. Your hips and lower back are still tight. Yes, maybe you no longer bend at your hips, but do you ever catch yourself swaying your back? That can be equally bad for your lower back.
 
@@ -251,10 +251,12 @@ These are the [guidelines on body position](https://www.startstanding.org/proper
 
 ## Remember About Daily Dose of Movement
 
-Now that you have your station set up ergonomically, don't forget about your exercises!
+Now that you have your station set up ergonomically don't forget about your exercises!
 
 > There is no magical set up that can work on its own without you taking good care of your body outside your desk.
 
 Stretch preferably every 1 to 2 hours. You can spend 5 minutes at a time or serve yourself with a 15-minute break now and then to relevel your body. Set reminders for daily relevel. Taking breaks to walk and stretch frequently is essential to support your health.
 
-Read my article:[How to improve your posture at work and relieve the aches](https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/). to find more about office ergonomic injuries and what to do to ease them.
+Read my article: [How to improve your posture at work and relieve the aches](https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/). to find more about office ergonomic injuries and what to do to ease them.
+
+![Standing vs. Sitting desk infographic](/img/standingvssitting-info.png "Standing vs. Sitting and how to best adjust your workstation")
