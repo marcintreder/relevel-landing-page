@@ -113,7 +113,7 @@ For a quick fix for those tight shoulders and neck, try stretching the appropria
 
 ![Ulnar nerve floss and neck stretch](/img/ulnar-nerve-floss.png "Ulnar nerve floss and neck stretch to do in front of your computer")
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/_14erddxqVA?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=_14erddxqVA&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 3. ##### Back of the Neck Stretch
 
@@ -125,7 +125,7 @@ For a quick fix for those tight shoulders and neck, try stretching the appropria
 
 ![Back of the neck stretch](/img/back-neck-stretch.png "Back of the neck stretch to do in front of your computer")
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/uYTSMzn-Oro?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=uYTSMzn-Oro&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 4. ##### Chest Stretch
 
@@ -149,7 +149,7 @@ For a quick fix for those tight shoulders and neck, try stretching the appropria
 
 ![Chest opening](/img/chest-stretch-arm.png "Stretch for a tight chest in front of a computer")
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/8O2QTXJZov4?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=8O2QTXJZov4&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 ## Strengthen Your Upper Back
 
