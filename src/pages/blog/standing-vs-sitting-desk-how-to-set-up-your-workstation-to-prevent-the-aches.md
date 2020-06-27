@@ -57,7 +57,7 @@ There are still debates on whether or not the standing desks are genuinely so go
 
 > Standing all day long can put additional load on the circulatory system and increase the risks of varicose veins.
 
-So one might wonder what to do? The key to a healthier body in a desk-bound to the world is the alternate between sitting and standing. Studies in the University of Waterloo's Kinesiology department found that the ideal stand-to-sat ratio in your workday lies between 1:1 and 1:3. That means your total standing time shouldn't exceed 80% of your workday. Now, let's see how you can adjust your workstation and your posture to alleviate the discomfort.
+So one might wonder what to do? The key to a healthier body in a desk-bound to the world is the alternate between sitting and standing. Studies in the [University of Waterloo's Kinesiology](https://uwaterloo.ca/kinesiology/how-long-should-you-stand-rather-sit-your-work-station) department found that the ideal stand-to-sat ratio in your workday lies between 1:1 and 1:3. That means your total standing time shouldn't exceed 80% of your workday. Now, let's see how you can adjust your workstation and your posture to alleviate the discomfort.
 
 ![Stand to sit ratio](/img/standingdesk-statistics.png "How much time of your workday you should spend standing")
 
