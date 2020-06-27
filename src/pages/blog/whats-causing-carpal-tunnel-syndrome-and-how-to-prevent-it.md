@@ -107,7 +107,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
    Read more about helpful stretches to relieve your carpal tunnel. (Carpal tunnel relief. Stretches to set you free.)
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/hSUNbVj9ylE?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=hSUNbVj9ylE&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 2. **Floss the Nerves**
 
@@ -117,7 +117,7 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
 
    Curious about nerve flossing? Read more in my article: (What is nerve flossing and how to ease carpal tunnel, cubital tunnel, or radial tunnel in a 10-minute routine.)
 
-<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com&origin=http://relevelapp.com&origin=http://relevelapp.com" frameborder="0"></iframe></span>
+<span class="youtube-embed__container"><iframe class="youtube-embed__player" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/zmFY51KFyQ0?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&fs=0&playsinline=1&showinfo=0&playlist=zmFY51KFyQ0&origin=http://relevelapp.com" frameborder="0"></iframe></span>
 
 3. **Improve Your Posture**
 
@@ -126,14 +126,17 @@ Here are a few steps to take for self-care to prevent the carpal tunnel syndrome
    Here is an article to read if you want to find out more about the correct head position when in front of the screens: [5 Steps to a Quick Posture Fix for Neck Pain and Headache](https://www.relevelapp.com/blog/5-steps-to-a-quick-posture-fix-for-neck-pain-and-headache/)
 4. **Optimize Your Workstation**
 
-   An ergonomic workstation is key if you spend hours in front of the desk.
+   An ergonomic workstation is key if you spend hours in front of the desk. Adjust your wrist on the keyboard or mouse for the most optimal position to prevent carpal tunnel syndrome.
 
-   Learn how to adjust your desk set up to improve your posture and prevent the aches: [How to Improve Your Posture at Work and Relieve the Aches](<3. https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/>)
+   Learn how to adjust your desk set up to improve your posture and prevent the aches: [How to Improve Your Posture at Work and Relieve the Aches](<3. https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/>).
+
+![Correct vs Incorrect wrist postion at work](/img/correct-hand-postion.png "Prevent carpal tunnel syndrom with correct wrist postion at work")
+
+
+
 5. **Take Breaks**
 
    Most importantly, remember to take breaks for your wrists. Set up a reminder to do a short daily workout with Relevel App to improve workplace wellbeing.
-
-
 
 Happy healing!
 
