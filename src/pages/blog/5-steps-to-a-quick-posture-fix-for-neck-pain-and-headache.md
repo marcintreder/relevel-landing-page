@@ -63,7 +63,7 @@ The three [most common types of headaches ](https://www.bodyorganics.com.au/head
 
    The cervicogenic headaches originate in the neck and radiate towards the head. These headaches are often associated with pain on one side of the head and stiffness in the neck.
 
-![Cervicogenic headache statistics](/img/cervicogenic.png "Cervicogenic headache statistics and symptoms")
+![Cervicogenic headache statistics](/img/group-289.png "Cervicogenic headache statistics and symptoms")
 
 Now that we have an overview of different types of headaches and neck pains, let's further explore those associated with an abnormal head posture.
 
@@ -174,4 +174,4 @@ If your headaches are persistent, check with your doctors are they could be a si
 
 Stay healthy and remember just 15 minutes a day Relevel can help you keep your body ache-free!
 
-![3 common types of headaches](/img/3-common-types-of-headaches-info.png "Headache and neck pain- 3 common types")
+![3 common types of headaches](/img/3-common-types.png "Headache and neck pain- 3 common types")
