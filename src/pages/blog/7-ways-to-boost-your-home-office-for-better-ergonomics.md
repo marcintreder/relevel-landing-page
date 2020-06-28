@@ -35,11 +35,13 @@ Whether your home office is moved to your guest bedroom, dining room, couch, or 
 
 [Ergonomics](https://whatis.techtarget.com/definition/ergonomics) is the science that focuses on improving the design of everyday objects, such as chairs, or desks to optimize them for our use. 
 
-The goal of an ergonomic workstation is to keep you comfortable and healthy and, at the same time, increase your productivity. An ergonomic workstation will help you avoid unpleasant aches such as lower back, neck, or shoulder pain.
+The goal of an ergonomic workstation is to keep you comfortable and healthy and, at the same time, increase your productivity. An ergonomic workstation will help you avoid unpleasant aches such as lower back, neck, or shoulder pain. [49%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5618737/) of people don't feel comfortable with their current office setup and [74%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5618737/) complain about feeling exhausted at work!
+
+![Office worker statistics](/img/group-292.png "Bad office ergonomics statistics")
 
 ## The Importance of an Ergonomic Workstation at Home
 
-As much as this work from home situation might seem temporary, it's important to create the most ergonomic environment for your office hours. Whatever postural habits you develop during this time will be with you in a longer run. Bad ergonomics affect not only the obvious areas of your body, such as your lower back, neck, or wrists. Adapting a bad posture can compress your internal organs, eg.your lungs.
+Nearly [43%](https://www.business2community.com/human-resources/25-key-remote-work-statistics-for-2020-02299342) of Americans work from home at least part of their workweek. As much as this work from home situation might seem temporary for some of you, it's important to create the most ergonomic environment for your office hours. Whatever postural habits you develop during this time will be with you in a longer run. Bad ergonomics affect not only the obvious areas of your body, such as your lower back, neck, or wrists. Adapting a bad posture can compress your internal organs, eg.your lungs.
 
 > Slouching will not only cause numerous muscle aches but also affect your ability to breathe correctly!
 
@@ -47,13 +49,13 @@ According to [ACE](https://www.acefitness.org/education-and-resources/lifestyle/
 
 Let's not allow your temporary workstation to affect your health and posture! Keep reading to find out how to set up an ergonomic home office for a pain-free experience.
 
+![](/img/group-291.png)
+
 ## 7 Items to Add to Your Home Office to Improve the Ergonomics
 
 In this section, I’m going to talk about what 7 items to add to enhance your home office to help you withstand the long hours you spend there.
 
 Whatever home space, you are temporarily calling an office, there are always ways to improve it!
-
-![Home office ergonomics inforgraphic](/img/7-ways-to-boost-info.png "How to boost your home office")
 
 ### **Lumbar Support Pillow**
 
@@ -172,3 +174,5 @@ Leave me a comment if you found any of these tips helpful and perhaps share the 
 Before you go, take a look at the home office checklist to see what other essential items can fill in your workstation. Feel free to print it out! Enjoy!
 
 ![Home office checklist](/img/checklist-home-office.png "Checklist for an ergonomic home office ")
+
+![Home office ergonomics inforgraphic](/img/homeoffice2.png "How to boost your home office")
