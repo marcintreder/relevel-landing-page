@@ -47,7 +47,7 @@ The three [most common types of headaches ](https://www.bodyorganics.com.au/head
 
    According to [Spine-Health](https://www.spine-health.com/conditions/neck-pain/neck-pain-and-migraine-headache), out of the 12% of the population experiencing migraines headaches, nearly half complain about neck pain before and/ or during the episode of migraine.
 
-![Migrene headache statistics](/img/migrene.png "Migrene headache statistics and symptoms")
+![Migraine headache statistics](/img/group-287.png "Migraine headache statistics and symptoms")
 
 2. **Tension Headaches**
 
@@ -174,4 +174,4 @@ If your headaches are persistent, check with your doctors are they could be a si
 
 Stay healthy and remember just 15 minutes a day Relevel can help you keep your body ache-free!
 
-![3 common types of headaches](/img/3-common-types.png "Headache and neck pain- 3 common types")
+![3 common types of headaches](/img/group-293.png "Headache and neck pain- 3 common types")
