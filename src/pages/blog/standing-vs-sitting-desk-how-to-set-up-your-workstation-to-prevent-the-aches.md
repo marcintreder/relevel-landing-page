@@ -261,4 +261,4 @@ Stretch preferably every 1 to 2 hours. You can spend 5 minutes at a time or serv
 
 Read my article: [How to improve your posture at work and relieve the aches](https://www.relevelapp.com/blog/how-to-improve-your-posture-at-work-and-relieve-the-aches/). to find more about office ergonomic injuries and what to do to ease them.
 
-![Standing vs. Sitting desk infographic](/img/standingvssitting-info.png "Standing vs. Sitting and how to best adjust your workstation")
+![Standing vs. Sitting desk infographic](/img/group-283.png "Standing vs. Sitting and how to best adjust your workstation")
